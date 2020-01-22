@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<title>Page Title</title>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-2">
+					<form>
+						<div class="form-group">
+							<label for="adopterName">Adopter Name</label>
+							<input type="email" class="form-control" id="adopterName" aria-describedby="emailHelp" placeholder="TJ McReed">
+						</div>
+						<div class="form-group">
+							<label for="FormControlSelect2">Gender</label>
+							<select class="form-control" id="FormControlSelect2">
+								<option>Female</option>
+								<option>Male</option>
+								<option>Other</option>
+							</select>
+						</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+				<div class="col-2">
+					<form>
+						<div class="form-group">
+							<label for="dogName">Dog's Name</label>
+							<input type="password" class="form-control" id="dogName" placeholder="Benjammin">
+						</div>
+						<div class="form-group">
+							<label for="FormControlSelect1">Select Dog Gender</label>
+							<select class="form-control" id="FormControlSelect1">
+								<option>Female</option>
+								<option>Male</option>
+								<option>Unknown</option>
+							</select>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-2"> Behavior Issue </div>
+					<div class="panel-group" id="accordion">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapse1"> Collapsible Group 1</a>
+								</h4>
+							</div>
+							<div id="collapse1" class="panel-collapse collapse in">
+								<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+								minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+								commodo consequat.</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+								</h4>
+							</div>
+							<div id="collapse2" class="panel-collapse collapse">
+								<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+								minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+								commodo consequat.</div>
+							</div>
+						</div>
+					</div>
+				<div class="col-4"> Select Text </div>
+				<div class="col"> Email </div>
+			</div>
+		</div>
+	</body>
+</html>
