@@ -1,0 +1,35 @@
+.TopPane {
+	height: 100vh;
+}
+
+.LeftPane {
+	height: 90vh;
+	overflow: scroll;
+}
+
+.TopicSelection {
+	height: 90vh;
+}
+
+.RightPane {
+	height: 90vh;
+}
+
+.RequirementSelection {
+	height: 60vh;
+	overflow: scroll;
+}
+
+.ButtonInteraction {
+	height: 20vh;
+	margin-top: 10vh;
+}
+
+.BottomPane {
+	height: 100vh;
+}
+
+.EmailEditor textarea {
+	height: 100vh;
+}
+

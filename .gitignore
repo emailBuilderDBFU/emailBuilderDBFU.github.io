@@ -9,7 +9,7 @@ yarn-error.log*
 node_modules/
 
 # Distribution directories
-public/
+# public/
 
 # Optional npm cache directory
 .npm

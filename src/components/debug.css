@@ -1,0 +1,3 @@
+div:not(.row):not(.col) {
+	border: 1px solid black;
+}
