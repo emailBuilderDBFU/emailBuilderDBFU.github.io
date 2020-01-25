@@ -10,8 +10,8 @@ export class RightPane extends React.Component {
 			<div className="RightPane">
 				<Row><Col>
 					<Requirements
-						topicSelection={this.props.topicSelection}
-						updateTopicSelection={this.props.updateTopicSelection}
+						emailCriteria={this.props.emailCriteria}
+						updateEmailCriteria={this.props.updateEmailCriteria}
 					/>
 				</Col></Row>
 				<Row><Col>

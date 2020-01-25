@@ -1,7 +1,8 @@
 export class TempTopic {
-	constructor(name, requirements) {
+	constructor(name, requirements, children) {
 		this.name = name;
-		this.requirements = requirements;
+		this.requirements = requirements || [];
+		this.children = children || [];
 	}
 
 	getRequirements() {
@@ -14,7 +15,7 @@ export class TempTopic {
 }
 
 export class TempRequirement {
-	constructor(name) {
+	constructor(name, children) {
 		this.name = name;
 	}
 
@@ -23,23 +24,63 @@ export class TempRequirement {
 	}
 }
 
-export class TempTopicSelection {
-	constructor(topics, requirementSelections) {
-		this.topics = topics;
-		this.requirementSelections = requirementSelections;
+export class TempEmailCriteria {
+	constructor(topicSelections, requirementSelections) {
+		this.topicSelections = topicSelections || [];
+		this.requirementSelections = requirementSelections || [];
+	}
+
+	copyWithTopic(topic, value) {
+		let topicSels = this.topicSelections.map((el) => el.topic === topic ? el.copyWithValue(value) : el);
+		return new TempEmailCriteria(topicSels, this.requirementSelections);
 	}
 
 	copyWithRequirement(req, value) {
 		let reqSels = this.requirementSelections.map((el) => el.requirement === req ? el.copyWithValue(value) : el);
-		return new TempTopicSelection(this.topics, reqSels);
+		return new TempEmailCriteria(this.topicSelections, reqSels);
 	}
 
 	render() {
-		let ret = this.topics.map((topic) => topic.render()).join(', ');
+		let ret = '';
+		for (let topicSel of this.topicSelections) {
+			ret += '\n' + topicSel.render();
+		}
 		for (let reqSel of this.requirementSelections) {
 			ret += '\n' + reqSel.render();
 		}
 		return ret;
+	}
+
+	static defaultForTopicsAndRequirements(topics, requirements) {
+		return new TempEmailCriteria(
+			topics.map((topic) => TempTopicSelection.defaultForTopic(topic)),
+			reqs.map((req) => TempRequirementSelection.defaultForRequirement(req))
+		)
+	}
+}
+
+export class TempTopicSelection {
+	constructor(topic, value, children) {
+		this.topic = topic;
+		this.value = value;
+		this.children = children || [];
+	}
+
+	copyWithValue(value) {
+		return new TempTopicSelection(this.topic, value, this.children);
+	}
+
+	render(indent=0) {
+		let ret = '\t'.repeat(indent);
+		ret += this.topic.render() + ': ' + this.value;
+		for (let child of this.children) {
+			ret += '\n' + child.render(indent+1);
+		}
+		return ret;
+	}
+
+	static defaultForTopic(topic) {
+		return new TempTopicSelection(topic, false, topic.children.map((child) => TempTopicSelection.defaultForTopic(child)));
 	}
 }
 
@@ -56,4 +97,36 @@ export class TempRequirementSelection {
 	render() {
 		return this.requirement.render() + ": " + this.value;
 	}
+
+	static defaultForRequirement(requirement) {
+		return new TempRequirementSelection(requirement, '');
+	}
 }
+
+let reqs = [new TempRequirement('req1'), new TempRequirement('req2'), new TempRequirement('req3'), new TempRequirement('req4')];
+let topics = [
+	new TempTopic('Topic 1', reqs.slice(0, 3), [
+		new TempTopic('Topic 1-A', reqs.slice(0), [
+			new TempTopic('Topic 1-A-I'),
+			new TempTopic('Topic 1-A-II'),
+			new TempTopic('Topic 1-A-III'),
+		]),
+		new TempTopic('Topic 1-B', reqs.slice(0), [
+			new TempTopic('Topic 1-B-I'),
+			new TempTopic('Topic 1-B-II')
+		]),
+
+	]), 
+	new TempTopic('Topic 2', reqs.slice(3)),
+	new TempTopic('Topic 3', [], [
+		new TempTopic('Topic 3-A-I'),
+		new TempTopic('Topic 3-A-II')
+	]),
+	new TempTopic('Topic 4', [], [
+		new TempTopic('Topic 4-A-I'),
+		new TempTopic('Topic 4-A-II')
+	]),
+
+
+];
+export let defaultEmailCriteria = TempEmailCriteria.defaultForTopicsAndRequirements(topics, reqs);

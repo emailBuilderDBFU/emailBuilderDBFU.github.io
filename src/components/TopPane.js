@@ -11,16 +11,14 @@ export class TopPane extends React.Component {
 				<Row>
 					<Col>
 						<LeftPane
-							availableTopics={this.props.availableTopics}
-							topicSelection={this.props.topicSelection}
-							updateTopicSelection={this.props.updateTopicSelection}
+							emailCriteria={this.props.emailCriteria}
+							updateEmailCriteria={this.props.updateEmailCriteria}
 						/>
 					</Col>
 					<Col>
 						<RightPane
-							availableTopics={this.props.availableTopics}
-							topicSelection={this.props.topicSelection}
-							updateTopicSelection={this.props.updateTopicSelection}
+							emailCriteria={this.props.emailCriteria}
+							updateEmailCriteria={this.props.updateEmailCriteria}
 							generateEmail={this.props.generateEmail}
 							resetEmail={this.props.resetEmail}
 						/>

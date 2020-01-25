@@ -3,25 +3,20 @@ import $ from 'jquery';
 import {Row, Col} from 'react-bootstrap';
 import {TopPane} from './TopPane';
 import {BottomPane} from './BottomPane';
-import {TempTopic, TempRequirement, TempTopicSelection, TempRequirementSelection} from './temp-model';
+import {TempTopic, TempRequirement, TempEmailCriteria, TempTopicSelection, TempRequirementSelection, defaultEmailCriteria} from './temp-model';
 import './RootComponent.css';
 // import './debug.css';
 
 export class RootComponent extends React.Component {
 
-	static reqs = [new TempRequirement('req1'), new TempRequirement('req2'), new TempRequirement('req3'), new TempRequirement('req4')];
 	static defaultProps = {
-		initialTopicSelection: new TempTopicSelection([], RootComponent.reqs.map((req) => new TempRequirementSelection(req, '')))
+		initialEmailCriteria: defaultEmailCriteria
 	}
 
 	constructor(props) {
 		super(props);
 		this.state = {
-			availableTopics: [
-				new TempTopic('Topic 1', RootComponent.reqs.slice(0, 3)),
-				new TempTopic('Topic 2', RootComponent.reqs.slice(3))
-			],
-			topicSelection: this.props.initialTopicSelection,
+			emailCriteria: this.props.initialEmailCriteria,
 			emailText: ''
 		}
 	}
@@ -31,9 +26,8 @@ export class RootComponent extends React.Component {
 			<div className="RootComponent">
 				<Row><Col>
 					<TopPane
-						availableTopics={this.state.availableTopics}
-						topicSelection={this.state.topicSelection}
-						updateTopicSelection={(topics, reqs) => this.updateTopicSelection(topics, reqs)}
+						emailCriteria={this.state.emailCriteria}
+						updateEmailCriteria={(emailCriteria) => this.updateEmailCriteria(emailCriteria)}
 						generateEmail={() => this.generateEmail()}
 						resetEmail={() => this.resetEmail()}
 					/>
@@ -48,13 +42,13 @@ export class RootComponent extends React.Component {
 		)
 	}
 
-	updateTopicSelection(topicSelection) {
-		console.log('Selection updated!')
-		this.setState({ topicSelection });
+	updateEmailCriteria(emailCriteria) {
+		console.log('Selection updated!');
+		this.setState({ emailCriteria });
 	}
 
 	generateEmail() {
-		let emailText = this.state.topicSelection.render();
+		let emailText = this.state.emailCriteria.render();
 		$([document.documentElement, document.body]).animate({
 			scrollTop: $(".BottomPane").offset().top
 		}, 500);
@@ -64,7 +58,7 @@ export class RootComponent extends React.Component {
 	resetEmail() {
 		this.setState({
 			emailText: '',
-			topicSelection: this.props.initialTopicSelection
+			emailCriteria: this.props.initialEmailCriteria
 
 		})
 	}

@@ -4,7 +4,7 @@ import {RequirementSelection} from './RequirementSelection';
 export class Requirements extends React.Component {
 	
 	render() {
-		let reqs = this.props.topicSelection.requirementSelections.map((reqSel) => (
+		let reqSels = this.props.emailCriteria.requirementSelections.map((reqSel) => (
 			<RequirementSelection 
 				key={reqSel.requirement.name}
 				requirement={reqSel.requirement}
@@ -14,13 +14,13 @@ export class Requirements extends React.Component {
 		));
 		return (
 			<div className="Requirements">
-				{reqs}
+				{reqSels}
 			</div>
 		)
 	}
 
 	updateRequirementSelection(req, value) {
-		let selection = this.props.topicSelection.copyWithRequirement(req, value);
-		this.props.updateTopicSelection(selection);
+		let selection = this.props.emailCriteria.copyWithRequirement(req, value);
+		this.props.updateEmailCriteria(selection);
 	}
 }

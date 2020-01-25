@@ -4,6 +4,7 @@ import {Form, Row, Col} from 'react-bootstrap';
 export class RequirementSelection extends React.Component {
 	
 	render() {
+		console.log()
 		return (
 			<div className="RequirementSelection">
 				<Form.Group as={Row} controlId={this.props.requirement.name}>
@@ -11,7 +12,11 @@ export class RequirementSelection extends React.Component {
 						{this.props.requirement.name}
 					</Form.Label>
 					<Col sm="9">
-						<Form.Control type="text" onChange={(ev) => this.valueUpdated(ev)} />
+						<Form.Control 
+							type="text"
+							value={this.props.value}
+							onChange={(ev) => this.valueUpdated(ev)} 
+						/>
 					</Col>
 				</Form.Group>
 			</div>
