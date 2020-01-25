@@ -1,22 +1,24 @@
 import React from 'react';
+import {Form, Row, Col} from 'react-bootstrap';
 
 export class RequirementSelection extends React.Component {
 	
 	render() {
-		let reqs = this.props.availableRequirements.map((req) => (
-			<p key={req.name} onClick={(ev) => this.requirementClicked(req, ev)}>{req.name}</p>
-		));
 		return (
 			<div className="RequirementSelection">
-				{reqs}
+				<Form.Group as={Row} controlId={this.props.requirement.name}>
+					<Form.Label column sm="2">
+						{this.props.requirement.name}
+					</Form.Label>
+					<Col sm="9">
+						<Form.Control type="text" onChange={(ev) => this.valueUpdated(ev)} />
+					</Col>
+				</Form.Group>
 			</div>
 		)
 	}
 
-	requirementClicked(req, ev) {
-		let value = "New Value!";
-		let selection = this.props.topicSelection.copyWithReq(req, value);
-		console.log(selection);
-		this.props.updateTopicSelection(selection);
+	valueUpdated(ev) {
+		this.props.onChange(this.props.requirement, ev.target.value);
 	}
 }

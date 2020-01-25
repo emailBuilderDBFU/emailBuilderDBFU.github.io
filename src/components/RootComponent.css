@@ -7,7 +7,7 @@
 	overflow: scroll;
 }
 
-.TopicSelection {
+.Topics {
 	height: 90vh;
 }
 
@@ -15,7 +15,7 @@
 	height: 90vh;
 }
 
-.RequirementSelection {
+.Requirements {
 	height: 60vh;
 	overflow: scroll;
 }

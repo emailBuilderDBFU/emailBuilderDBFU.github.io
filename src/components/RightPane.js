@@ -1,6 +1,6 @@
 import React from 'react';
 import {Row, Col} from 'react-bootstrap';
-import {RequirementSelection} from './RequirementSelection';
+import {Requirements} from './Requirements';
 import {ButtonInteraction} from './ButtonInteraction';
 
 export class RightPane extends React.Component {
@@ -9,8 +9,7 @@ export class RightPane extends React.Component {
 		return (
 			<div className="RightPane">
 				<Row><Col>
-					<RequirementSelection
-						availableRequirements={[...new Set(this.props.availableTopics.flatMap((topic) => topic.getRequirements()))]}
+					<Requirements
 						topicSelection={this.props.topicSelection}
 						updateTopicSelection={this.props.updateTopicSelection}
 					/>

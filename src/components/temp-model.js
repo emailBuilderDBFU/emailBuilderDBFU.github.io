@@ -29,7 +29,7 @@ export class TempTopicSelection {
 		this.requirementSelections = requirementSelections;
 	}
 
-	copyWithReq(req, value) {
+	copyWithRequirement(req, value) {
 		let reqSels = this.requirementSelections.map((el) => el.requirement === req ? el.copyWithValue(value) : el);
 		return new TempTopicSelection(this.topics, reqSels);
 	}
