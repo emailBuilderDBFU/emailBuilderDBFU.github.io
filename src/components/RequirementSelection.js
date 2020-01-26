@@ -4,7 +4,6 @@ import {Form, Row, Col} from 'react-bootstrap';
 export class RequirementSelection extends React.Component {
 	
 	render() {
-		console.log()
 		return (
 			<div className="RequirementSelection">
 				<Form.Group as={Row} controlId={this.props.requirement.name}>

@@ -43,7 +43,6 @@ export class RootComponent extends React.Component {
 	}
 
 	updateEmailCriteria(emailCriteria) {
-		console.log('Selection updated!');
 		this.setState({ emailCriteria });
 	}
 
