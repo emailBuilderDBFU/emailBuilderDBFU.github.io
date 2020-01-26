@@ -126,7 +126,5 @@ let topics = [
 		new TempTopic('Topic 4-A-I'),
 		new TempTopic('Topic 4-A-II')
 	]),
-
-
 ];
 export let defaultEmailCriteria = TempEmailCriteria.defaultForTopicsAndRequirements(topics, reqs);

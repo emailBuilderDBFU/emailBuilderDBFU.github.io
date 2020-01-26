@@ -21,7 +21,7 @@ export class Topics extends React.Component {
 	}
 
 	updateEmailCriteria(topic, value) {
-		let selection = this.props.emailCriteria.copyWithTopic(topic, value);
-		this.props.updateEmailCriteria(selection);
+		let criteria = this.props.emailCriteria.copyWithTopic(topic, value);
+		this.props.updateEmailCriteria(criteria);
 	}
 }

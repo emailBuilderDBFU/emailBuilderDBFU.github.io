@@ -59,7 +59,6 @@ export class RootComponent extends React.Component {
 		this.setState({
 			emailText: '',
 			emailCriteria: this.props.initialEmailCriteria
-
 		})
 	}
 
