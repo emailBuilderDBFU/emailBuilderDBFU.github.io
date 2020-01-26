@@ -3,7 +3,7 @@ import $ from 'jquery';
 import {Row, Col} from 'react-bootstrap';
 import {TopPane} from './TopPane';
 import {BottomPane} from './BottomPane';
-import {TempTopic, TempRequirement, TempEmailCriteria, TempTopicSelection, TempRequirementSelection, defaultEmailCriteria} from './temp-model';
+import {defaultEmailCriteria} from './temp-model';
 import './RootComponent.css';
 // import './debug.css';
 

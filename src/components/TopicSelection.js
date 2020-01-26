@@ -37,6 +37,8 @@ export class TopicSelection extends React.Component {
 	}
 
 	valueUpdated(ev) {
+		console.log(this.props.topic);
+		console.log(ev.target.checked);
 		this.props.onChange(this.props.topic, ev.target.checked);
 	}
 }

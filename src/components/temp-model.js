@@ -31,7 +31,7 @@ export class TempEmailCriteria {
 	}
 
 	copyWithTopic(topic, value) {
-		let topicSels = this.topicSelections.map((el) => el.topic === topic ? el.copyWithValue(value) : el);
+		let topicSels = this.topicSelections.map((el) => el.copyWithValue(topic, value));
 		return new TempEmailCriteria(topicSels, this.requirementSelections);
 	}
 
@@ -66,8 +66,14 @@ export class TempTopicSelection {
 		this.children = children || [];
 	}
 
-	copyWithValue(value) {
-		return new TempTopicSelection(this.topic, value, this.children);
+	copyWithValue(topic, value) {
+		if (this.topic === topic) {
+			return new TempTopicSelection(this.topic, value, this.children);	
+		} else {
+			let children = this.children.map((el) => el.copyWithValue(topic, value))
+			return new TempTopicSelection(this.topic, this.value, children);
+		}
+		
 	}
 
 	render(indent=0) {
