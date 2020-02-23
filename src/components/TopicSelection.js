@@ -4,13 +4,13 @@ import {Form, Row, Col} from 'react-bootstrap';
 export class TopicSelection extends React.Component {
 	
 	render() {
-		let children = this.props.children.map((topicSel) => (
+		let subTopics = this.props.subTopics.map((topicSel) => (
 			<TopicSelection 
 				key={topicSel.topic.name}
 				topic={topicSel.topic}
-				value={topicSel.value}
-				children={topicSel.children}
-				onChange={(topic, value) => this.props.onChange(topic, value)}
+				isSelected={topicSel.isSelected}
+				subTopics={topicSel.subTopics}
+				onChange={(topic, isSelected) => this.props.onChange(topic, isSelected)}
 			/>
 		));
 		return (
@@ -18,8 +18,8 @@ export class TopicSelection extends React.Component {
 				<Form.Group as={Row} controlId={this.props.topic.name}>
 					<Col xs="2">
 						<Form.Check
-							value={this.props.value} 
-							checked={this.props.value}
+							value={this.props.isSelected}
+							checked={this.props.isSelected}
 							onChange={(ev) => this.valueUpdated(ev)} 
 						/>
 					</Col>
@@ -27,9 +27,9 @@ export class TopicSelection extends React.Component {
 						{this.props.topic.name}
 					</Form.Label>
 				</Form.Group>
-				<Row className="TopicSelectionChildren">
+				<Row className="TopicSelectionSubTopics">
 					<Col xs={{offset: 1, span: 11}}>
-						{children}
+						{subTopics}
 					</Col>
 				</Row>
 			</div>

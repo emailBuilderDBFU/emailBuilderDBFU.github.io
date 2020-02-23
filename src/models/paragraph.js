@@ -1,17 +1,9 @@
 export class Paragraph {
 	
-	constructor(text) {
+	constructor(text, topic, requirementTypes) {
 		this.text = text;
-		this.topic = null;
-		this.requirementTypes = [];
-	}
-
-	setTopic(topic) {
 		this.topic = topic;
-	}
-
-	addRequirementType(requirementType) {
-		this.requirementTypes.push(requirementType);
+		this.requirementTypes = requirementTypes;
 	}
 
 	render(requirementSelections){
@@ -21,5 +13,4 @@ export class Paragraph {
 		}
 		return returnParagraph;
 	}
-
 }

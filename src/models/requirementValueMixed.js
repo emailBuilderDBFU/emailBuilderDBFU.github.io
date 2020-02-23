@@ -2,21 +2,21 @@ import {RequirementSelection} from './requirementSelection.js';
 
 export class RequirementValueMixed extends RequirementSelection {
 	
-	constructor(name) {
-		super(name);
-		this.replacementText = null;
-	}
-
-	setReplacementText(replacementText) {
+	constructor(value, replacementText, emailCriteria) {
+		super(emailCriteria);
+		this.value = value;
 		this.replacementText = replacementText;
 	}
 
 	getReplacementValue(replacementText) {
 		if (this.replacementText == replacementText) {
-			return this.name;
+			return this.value;
 		}
 	}
 
+	getRequirementValues() {
+		return this;
+	}
 }
 
 

@@ -8,9 +8,9 @@ export class Topics extends React.Component {
 			<TopicSelection 
 				key={topicSel.topic.name}
 				topic={topicSel.topic}
-				value={topicSel.value}
-				children={topicSel.children}
-				onChange={(topic, value) => this.updateEmailCriteria(topic, value)}
+				isSelected={topicSel.isSelected}
+				subTopics={topicSel.subTopics}
+				onChange={(topic, isSelected) => this.updateEmailCriteria(topic, isSelected)}
 			/>
 		));
 		return (
@@ -20,8 +20,9 @@ export class Topics extends React.Component {
 		)
 	}
 
-	updateEmailCriteria(topic, value) {
-		let criteria = this.props.emailCriteria.copyWithTopic(topic, value);
+	updateEmailCriteria(topic, isSelected) {
+		let criteria = this.props.emailCriteria.copyWithTopic(topic, isSelected);
+		console.log(criteria);
 		this.props.updateEmailCriteria(criteria);
 	}
 }
