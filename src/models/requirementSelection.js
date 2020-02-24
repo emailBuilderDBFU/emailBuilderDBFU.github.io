@@ -1,8 +1,4 @@
 export class RequirementSelection  {
-	
-	constructor(emailCriteria) {
-		this.emailCriteria = emailCriteria;
-	}
 
 	getReplacementValue(replacementText) {
 		return null;

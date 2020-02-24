@@ -1,3 +1,5 @@
+import {RequirementValueMetadata} from './requirementValueMetadata.js';
+
 export class RequirementGroup {
 	
 	constructor(name, requirementType) {
@@ -12,5 +14,12 @@ export class RequirementGroup {
 				return reqVal.getReplacementValue(replacementText);
 			}
 		}
+	}
+
+	static parse(reqType, reqGroupJSON) {
+		let name = reqGroupJSON.name;
+		let ret = new RequirementGroup(name, reqType);
+		ret.requirementValueMetadatas = reqGroupJSON.requirementValues.map((reqValJSON) => RequirementValueMetadata.parse(ret, reqValJSON));
+		return ret;
 	}
 }

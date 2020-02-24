@@ -103,10 +103,7 @@ let firstTopicSelection = new TopicSelection(dogWalkingTopic, true, [pullingOnLe
 let emailCrit = new EmailCriteria([firstTopicSelection], [nameValue, ageValue, genderValue]);
 
 
-console.log(emailCrit.render());
-
-
-export let defaultEmailCriteria = EmailCriteria.defaultForTopicsAndRequirements([dogWalkingTopic], [nameRqmtType, ageRqmtType, gender]);
+export let defaultEmailCriteria = EmailCriteria.defaultForTopicsAndRequirementTypes([dogWalkingTopic], [nameRqmtType, ageRqmtType, gender]);
 
 
 

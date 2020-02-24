@@ -2,8 +2,8 @@ import {RequirementSelection} from './requirementSelection.js';
 
 export class RequirementGroupSelection extends RequirementSelection {
 	
-	constructor(requirementType, requirementGroup, emailCriteria) {
-		super(emailCriteria);
+	constructor(requirementType, requirementGroup) {
+		super();
 		this.requirementType = requirementType;
 		this.requirementGroup = requirementGroup;
 	}

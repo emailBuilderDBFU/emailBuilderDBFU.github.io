@@ -4,7 +4,8 @@ import {Row, Col} from 'react-bootstrap';
 import {TopPane} from './TopPane';
 import {BottomPane} from './BottomPane';
 // import {defaultEmailCriteria} from './temp-model';
-import {defaultEmailCriteria} from '../models/test';
+// import {defaultEmailCriteria} from '../models/test';
+import {defaultEmailCriteria} from '../metadata/index.js';
 import './RootComponent.css';
 // import './debug.css';
 
@@ -15,6 +16,7 @@ export class RootComponent extends React.Component {
 	}
 
 	constructor(props) {
+		// console.log(defaultEmailCriteria);
 		super(props);
 		this.state = {
 			emailCriteria: this.props.initialEmailCriteria,
