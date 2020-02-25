@@ -16,7 +16,7 @@ export class TopicSelection extends React.Component {
 		return (
 			<div className="TopicSelection">
 				<Form.Group as={Row} controlId={this.props.topic.name}>
-					<Col xs="2">
+					<Col xs="1">
 						<Form.Check
 							value={this.props.isSelected}
 							checked={this.props.isSelected}

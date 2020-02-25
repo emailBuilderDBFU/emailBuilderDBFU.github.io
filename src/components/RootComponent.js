@@ -27,6 +27,9 @@ export class RootComponent extends React.Component {
 	render() {
 		return (
 			<div className="RootComponent">
+				<Row className="header">
+					<Col><h1>Email Builder</h1></Col>
+				</Row>
 				<Row><Col>
 					<TopPane
 						emailCriteria={this.state.emailCriteria}
@@ -35,6 +38,7 @@ export class RootComponent extends React.Component {
 						resetEmail={() => this.resetEmail()}
 					/>
 				</Col></Row>
+				<div className="horizontal-line"></div>
 				<Row><Col>
 					<BottomPane
 						emailText={this.state.emailText}

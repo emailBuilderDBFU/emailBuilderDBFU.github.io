@@ -15,6 +15,7 @@ export class TopPane extends React.Component {
 							updateEmailCriteria={this.props.updateEmailCriteria}
 						/>
 					</Col>
+					<div className="vertical-line"></div>
 					<Col>
 						<RightPane
 							emailCriteria={this.props.emailCriteria}

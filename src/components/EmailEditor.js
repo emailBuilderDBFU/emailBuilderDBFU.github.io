@@ -8,6 +8,7 @@ export class EmailEditor extends React.Component {
 			<div className="EmailEditor">
 				<Form.Control 
 					as="textarea" 
+					id="email-textarea"
 					value={this.props.emailText}
 					onChange={(ev) => this.handleChange(ev)}
 				/>

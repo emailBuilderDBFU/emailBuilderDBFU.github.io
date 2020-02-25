@@ -1,5 +1,6 @@
 import React from 'react';
 import {EmailEditor} from './EmailEditor';
+import {CopyButton} from './CopyButton';
 
 export class BottomPane extends React.Component {
 	
@@ -10,6 +11,7 @@ export class BottomPane extends React.Component {
 					emailText={this.props.emailText}
 					updateEmailText={this.props.updateEmailText}
 				/>
+				<CopyButton />
 			</div>
 		)
 	}

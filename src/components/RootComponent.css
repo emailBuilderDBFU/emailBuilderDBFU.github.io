@@ -1,38 +1,69 @@
-.TopPane {
-	height: 100vh;
+body {
+	overflow-x: hidden;
 }
 
-.LeftPane {
-	height: 90vh;
-	overflow: scroll;
+.header {
+	text-align: center;
+	color: white;
+	background-color: #007bff;
+	height: 60px;
+	margin-bottom: 10px;
 }
 
 .Topics {
-	height: 90vh;
+	height: calc(100vh - 70px); /* 70 = height+margin-bottom of .header */
+	width: 45vw;
+	margin-left: 3vw;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
-.RightPane {
-	height: 90vh;
+.TopicSelection .form-group {
+	margin-bottom: 0px;
+}
+
+.form-group .col-1 {
+	padding-top: 5px;
+	margin-right: -20px;
+}
+
+.vertical-line {
+	margin-top: 10px;
+	height: calc(100vh - 70px - 20px); /* 70 = height+margin-bottom of .header; 20 = top+bottom margin */
+	border-left: 1px solid lightslategrey;
 }
 
 .Requirements {
-	height: 60vh;
-	overflow: scroll;
+	max-height: calc(100vh - 70px - 100px); /* 70 = height+margin-bottom of .header; 100 = height+margin-top of .ButtonInteraction */
+	width: 45vw;
+	margin-left: 2vw;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 .ButtonInteraction {
-	height: 20vh;
-	margin-top: 10vh;
+	margin-top: 40px;
+	height: 60px;
+	width: 45vw;
+	margin-left: 2vw;
 }
 
-.BottomPane {
-	height: 100vh;
+.horizontal-line {
+	margin-left: 10px;
+	width: calc(100vw - 20px); /* 20 = left-right margin */
+	border-top: 1px solid lightslategrey;
 }
 
 .EmailEditor textarea {
-	height: 100vh;
+	margin-top: 20px;
+	height: calc(100vh - 20px - 100px); /* 20 = top-margin; 100 = height+margin-bottom of .CopyButton */
+	margin-left: 20px;
+	width: calc(100vw - 40px); /* 40 = left-margin; */
 }
 
-.form-check {
-	text-align: center;
+.CopyButton {
+	margin-top: 20px;
+	height: 60px;
+	margin-bottom: 20px;
+	width: 100vw;
 }
