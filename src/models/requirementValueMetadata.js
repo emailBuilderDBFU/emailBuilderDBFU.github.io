@@ -8,7 +8,7 @@ export class RequirementValueMetadata extends RequirementValueMixed {
 	}
 
 	static parse(reqGroup, reqValJSON) {
-		let replacementText = reqGroup.requirementType.replacementTexts.find((repText) => repText.textToReplace == reqValJSON.replacementText);
+		let replacementText = reqGroup.requirementType.replacementTexts.find((repText) => repText.textToReplace === reqValJSON.replacementText);
 		let value = reqValJSON.value;
 		return new RequirementValueMetadata(value, reqGroup, replacementText);
 	}

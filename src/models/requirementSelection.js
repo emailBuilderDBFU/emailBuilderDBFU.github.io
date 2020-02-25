@@ -12,4 +12,8 @@ export class RequirementSelection  {
 		//override on sub classes
 		return null;
 	}
+
+	copyWithValue(value){
+		return null;
+	}
 }

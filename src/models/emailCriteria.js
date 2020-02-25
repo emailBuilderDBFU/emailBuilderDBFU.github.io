@@ -25,6 +25,12 @@ export class EmailCriteria  {
 		return new EmailCriteria(topicSels, this.requirementSelections);
 	}
 
+	copyWithRequirement(req, value) {
+		//copy email criteria with new requirement selection, given requirement type and new value
+		let reqSelections = this.requirementSelections.map((reqSel) => reqSel.getRequirementType() === req ? reqSel.copyWithValue(value) : reqSel);
+		return new EmailCriteria(this.topicSelections, reqSelections);
+	}
+
 	static defaultForTopicsAndRequirementTypes(topics, requirementTypes) {
 		return new EmailCriteria(
 			topics.map((topic) => topic.defaultTopicSelection()),

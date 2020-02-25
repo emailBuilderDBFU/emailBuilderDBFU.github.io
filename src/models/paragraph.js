@@ -1,5 +1,3 @@
-import {RequirementType} from './requirementType.js'
-
 export class Paragraph {
 	
 	constructor(text, topic, requirementTypes) {
@@ -18,7 +16,7 @@ export class Paragraph {
 
 	static parse(paragraphsJSON, topic, allRequirementTypes){
 		let text = paragraphsJSON.text;
-		let requirementTypes = paragraphsJSON.requirementTypes.map((reqTypeName) => allRequirementTypes.find((requirementType) => requirementType.name == reqTypeName));
+		let requirementTypes = paragraphsJSON.requirementTypes.map((reqTypeName) => allRequirementTypes.find((requirementType) => requirementType.name === reqTypeName));
 		return new Paragraph(text, topic, requirementTypes);
 	}
 }

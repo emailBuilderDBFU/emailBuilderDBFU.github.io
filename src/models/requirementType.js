@@ -30,7 +30,7 @@ export class RequirementType {
 		let ret = new RequirementType(name);
 		ret.replacementTexts = reqTypeJSON.requirementReplacementTexts.map((repTextJSON) => RequirementReplacementText.parse(ret, repTextJSON));
 		ret.requirementGroups = reqTypeJSON.requirementGroups.map((reqGroupJSON) => RequirementGroup.parse(ret, reqGroupJSON));
-		ret.defaultValue = (ret.requirementGroups.length == 0) ? reqTypeJSON.defaultValue : ret.requirementGroups.find((group) => group.name == reqTypeJSON.defaultValue);
+		ret.defaultValue = (ret.requirementGroups.length === 0) ? reqTypeJSON.defaultValue : ret.requirementGroups.find((group) => group.name === reqTypeJSON.defaultValue);
 		return ret;
 	}
 }

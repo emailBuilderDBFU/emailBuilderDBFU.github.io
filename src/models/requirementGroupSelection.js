@@ -11,4 +11,12 @@ export class RequirementGroupSelection extends RequirementSelection {
 	getRequirementValues() {
 		return this.requirementGroup.requirementValueMetadatas;
 	}
+
+	getRequirementType() {
+		return this.requirementType;
+	}
+
+	copyWithValue(value){
+		return new RequirementGroupSelection(this.requirementType, value);
+	}
 }

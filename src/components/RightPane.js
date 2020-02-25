@@ -8,11 +8,11 @@ export class RightPane extends React.Component {
 	render() {
 		return (
 			<div className="RightPane">
-				<Row><Col>{/*
+				<Row><Col>
 					<Requirements
 						emailCriteria={this.props.emailCriteria}
 						updateEmailCriteria={this.props.updateEmailCriteria}
-					/>*/}
+					/>
 				</Col></Row>
 				<Row><Col>
 					<ButtonInteraction

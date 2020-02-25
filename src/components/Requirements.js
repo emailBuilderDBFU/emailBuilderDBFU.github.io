@@ -1,17 +1,34 @@
 import React from 'react';
-import {RequirementSelection} from './RequirementSelection';
+import {GroupRequirementSelection} from './GroupRequirementSelection';
+import {AuditedRequirementSelection} from './AuditedRequirementSelection';
+import {RequirementGroupSelection} from '../models/requirementGroupSelection';
 
 export class Requirements extends React.Component {
 	
 	render() {
-		let reqSels = this.props.emailCriteria.requirementSelections.map((reqSel) => (
-			<RequirementSelection 
-				key={reqSel.requirement.name}
-				requirement={reqSel.requirement}
-				value={reqSel.value}
-				onChange={(req, value) => this.updateRequirementSelection(req, value)}
-			/>
-		));
+		let reqSels = this.props.emailCriteria.requirementSelections.map((reqSel) => {
+			console.log(reqSel);
+			if (reqSel instanceof RequirementGroupSelection) {
+				return(
+					<GroupRequirementSelection 
+						key={reqSel.getRequirementType().name}
+						requirement={reqSel.getRequirementType()}
+						value={reqSel.requirementGroup}
+						possibleValues={reqSel.requirementType.requirementGroups}
+						onChange={(req, value) => this.updateRequirementSelection(req, value)}
+					/>
+				)
+			}	else {
+				return(
+					<AuditedRequirementSelection 
+						key={reqSel.getRequirementType().name}
+						requirement={reqSel.getRequirementType()}
+						value={reqSel.value}
+						onChange={(req, value) => this.updateRequirementSelection(req, value)}
+					/>
+				)
+			}
+		});
 		return (
 			<div className="Requirements">
 				{reqSels}

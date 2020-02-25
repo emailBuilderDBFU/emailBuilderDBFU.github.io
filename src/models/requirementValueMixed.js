@@ -9,9 +9,13 @@ export class RequirementValueMixed extends RequirementSelection {
 	}
 
 	getReplacementValue(replacementText) {
-		if (this.replacementText == replacementText) {
+		if (this.replacementText === replacementText) {
 			return this.value;
 		}
+	}
+
+	getRequirementType() {
+		return this.replacementText.requirementType;
 	}
 
 	getRequirementValues() {

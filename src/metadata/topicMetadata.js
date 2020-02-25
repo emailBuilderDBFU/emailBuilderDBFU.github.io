@@ -3,7 +3,7 @@ export let topicMetadata = [{
 	"defaultValue": false,
 	"paragraphs": [{
 		"text": "This is how you walk a [age] year old dog. I love [him/her], but [he/she] smells like mildew.",
-		"requirementTypes": ["gender","age"]
+		"requirementTypes": ["age", "gender"]
 	}],
 	"subTopics": [{
 		"name":"Pulling on Leash",

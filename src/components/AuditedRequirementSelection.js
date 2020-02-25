@@ -1,11 +1,11 @@
 import React from 'react';
 import {Form, Row, Col} from 'react-bootstrap';
 
-export class RequirementSelection extends React.Component {
+export class AuditedRequirementSelection extends React.Component {
 	
 	render() {
 		return (
-			<div className="RequirementSelection">
+			<div className="AuditedRequirementSelection">
 				<Form.Group as={Row} controlId={this.props.requirement.name}>
 					<Form.Label column sm="2">
 						{this.props.requirement.name}
