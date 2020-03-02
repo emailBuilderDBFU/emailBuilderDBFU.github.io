@@ -27,7 +27,7 @@ export let topicMetadata = [{
 	"default Value": false,
 	"paragraphs":[{
 		"text": "The key to this is to take it slow. It should be a weeks- or months-long introduction period, not days. We want to give [name] ample time to get comfortable with your cat before they actually get to interact. Also, from the cat’s perspective, it can be really stressful to welcome a new family member into the house, especially a rambunctious dog. Slow and steady is the way to ensure a successful integration into the house. ",
-		"requirementTypes":['gender']
+		"requirementTypes":['gender', 'name']
 	}],
 	"subTopics":[{
 		"name": "Document Overview",
@@ -44,14 +44,6 @@ export let topicMetadata = [{
 	"paragraphs":[{
 		"text": "I'm attaching our go-to document on chewing. It's full of techniques to try to curb this behavior. Depending on how destructive [his/her] chewing is (i.e. ruining entire couches or just lightly munching a shoe) some of the tips may be overkill. Nonetheless, it’s a good resource to start with. The main takeaways of the document are to try to correct [him/her] (using verbal corrections like \"no\" or \"eh eh\") while [he/she]’s in the act of chewing something, not afterwards. Getting the timing of the correction down is important, so [he/she] understands that what [he/she]  is doing in that moment is not appropriate. Dogs won’t understand why they are getting scolded if you don’t catch them in the act. They may still act sheepish, but they really don’t connect the dots that the punishment is due to something that happened earlier in the day. You also want to make sure [he/she] has plenty of other appropriate things to chew on, like toys and bones, to get that chewing urge out in a healthy way. When [he/she] chooses to chew on those, praise [him/her]. This will teach [him/her] that chewing on inappropriate things results in a correction, while chewing on appropriate things results in praise and fun. Also, it’s important to do what you can to set [name] up for success. This means removing items from [his/her] reach that [he/she] might try to chew. If [he/she] only has good choices to choose from, [he/she] will get in the habit of picking the right objects. Look through that document and let me know if you have any questions.",
 		"requirementTypes":['gender', 'name']
-	}],
-	"subTopics":[]
-},	{
-	"name": "Conclusion",
-	"default Value": false,
-	"paragraphs":[{
-		"text": "Please reach out if you’d like clarification about anything that I went over in this email, or if any other questions or concerns pop up. Again, thanks for adopting!",
-		"requirementTypes":[]
 	}],
 	"subTopics":[]
 },	{
@@ -106,7 +98,7 @@ export let topicMetadata = [{
 		"name":"Recent Relapse",
 		"defaultValue": false,
 		"paragraphs": [{
-			"text": "I’m sorry to hear that [name] is having some trouble with house training recently. Typically if an adult dog suddenly regresses in potty training, the first thing we want to rule out is an underlying medical issue. I would recommend talking to your vet about this and see what they think. In case it is not a medical issue, I will attach our document on House Training for adult dogs. You may just have to put in a little extra effort to \”reset\” [name]’s potty training skills. Praise [him/her] every time [he/she] goes potty outdoors, and take [him/her] out frequently. Have you had any big changes in your life lately, like moving to a new home, getting/losing roommates, or changing your work hours? Dogs can handle stress of transitions in different ways, so if there is some large change in [his/her] life, this behavior could be a result of that. Is [he/she] having accidents when you are home, or is it only when you are away? If it is only when you’re away, this could be a sign of separation anxiety. Let me know if this is the case and we can talk through separation anxiety, and the slightly different approach in working through this behavior. Otherwise, check out that document and follow the techniques listed in there. Reach out if you have any questions on this, or if you don’t see improvements after a few weeks of working with [him/her] on it.",
+			"text": "I’m sorry to hear that [name] is having some trouble with house training recently. Typically if an adult dog suddenly regresses in potty training, the first thing we want to rule out is an underlying medical issue. I would recommend talking to your vet about this and see what they think. In case it is not a medical issue, I will attach our document on House Training for adult dogs. Have you had any big changes in your life lately, like moving to a new home, getting/losing roommates, or changing your work hours? Dogs can handle stress of transitions in different ways, so if there is some large change in [his/her] life, this behavior could be a result of that. Is [he/she] having accidents when you are home, or is it only when you are away? If it is only when you’re away, this could be a sign of separation anxiety. Let me know if this is the case and we can talk through separation anxiety, and the slightly different approach in working through this behavior. Otherwise, check out that document and follow the techniques listed in there. You may just have to put in a little extra effort to \”reset\” [name]’s potty training skills. Praise [him/her] every time [he/she] goes potty outdoors, and take [him/her] out frequently. If you catch [him/her] pottying indoors, interrupt [him/her] with a loud clap of your hands and then lead [him/her] outside. You can attach a lightweight leash that is always on [him/her], dragging on the ground, so that when you need to walk [him/her] outside you can just pick up the leash and go. By consistently interrupting [him/her] inside and praising [him/her] for going outside you will teach [him/her] what is appropriate and inappropriate for going potty. Remember to always be consistent in your training. If you cannot keep an eye on [him/her] while home, then put [him/her] in [his/her] crate so that [he/she] doesn't get a chance to go potty when you are not there to guide [him/her] outside. Reach out if you have any questions on this, or if you don’t see improvements after a few weeks of working with [him/her] on it.",
 			"requirementTypes": ['name', 'gender']
 		}],
 		"subTopics": []
@@ -130,7 +122,7 @@ export let topicMetadata = [{
 		"name":"Potty Training",
 		"defaultValue": false,
 		"paragraphs": [{
-			"text": "Potty training puppies takes time, consistency, and above all, patience. It is a process that all owners of young pups have to go through, and it can certainly be frustrating at times! I’m attaching our “Puppy Basics” document, which has a section dedicated specifically to helping work through potty training. Look through that and let me know if you have any questions on how to implement those techniques. The most important takeaways from that document are to set a schedule/routine and take [him/her] out often. Dogs thrive on routines, so getting [him/her] to a point where [he/she] expects to be let out will go a long way to motivate [him/her] to hold [his/her] business. Make sure you praise [him/her] when [he/she] goes outside, and don’t punish [him/her] if [he/she] does potty indoors. If you scold [him/her] for going indoors, [she/he] could start being scared to go potty in front of you at all, even outdoors, which is definitely not what we want. Instead, if/when [she/he] does have an accident indoors, try to catch [him/her] in the act and take [him/her] outside immediately, where you reward [him/her] for finishing up [his/her] business. This way, [she/he] learns that pottying indoors gets interrupted, but pottying outdoors gets rewarded! I want to note that even if you’re doing everything right, it can take a while for puppies to fully understand and master potty training, so don’t worry if [name] has slip ups sometimes. Just continue to follow the guidelines, reward good choices, and interrupt [him/her] when [he/she] potties indoors.",
+			"text": "Potty training puppies takes time, consistency, and above all, patience. It is a process that all owners of young pups have to go through, and it can certainly be frustrating at times! I’m attaching our “Puppy Basics” document, which has a section dedicated specifically to helping work through potty training. Look through that and let me know if you have any questions on how to implement those techniques. The most important takeaways from that document are to set a schedule/routine and take [him/her] out often. Dogs thrive on routines, so getting [him/her] to a point where [he/she] expects to be let out will go a long way to motivate [him/her] to hold [his/her] business. Make sure you praise [him/her] when [he/she] goes outside, and don’t punish [him/her] if [he/she] does potty indoors. If you scold [him/her] for going indoors, [he/she] could start being scared to go potty in front of you at all, even outdoors, which is definitely not what we want. Instead, if/when [he/she] does have an accident indoors, try to catch [him/her] in the act and take [him/her] outside immediately, where you reward [him/her] for finishing up [his/her] business. This way, [he/she] learns that pottying indoors gets interrupted, but pottying outdoors gets rewarded! I want to note that even if you’re doing everything right, it can take a while for puppies to fully understand and master potty training, so don’t worry if [he/she] has slip ups sometimes. Just continue to follow the guidelines, reward good choices, and interrupt [him/her] when [he/she] potties indoors.",
 			"requirementTypes": ["gender", "name"]
 		}],
 		"subTopics": []
@@ -232,6 +224,14 @@ export let topicMetadata = [{
 			"subTopics": []
 		}]
 	}]
+},	{
+	"name": "Conclusion",
+	"default Value": false,
+	"paragraphs":[{
+		"text": "Please reach out if you’d like clarification about anything that I went over in this email, or if any other questions or concerns pop up. Again, thanks for adopting!",
+		"requirementTypes":[]
+	}],
+	"subTopics":[]
 }]
 
 
