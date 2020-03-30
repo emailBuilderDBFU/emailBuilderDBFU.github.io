@@ -66,7 +66,7 @@ export let topicMetadata = [{
 	"name": "Chewing - Adult",
 	"default Value": false,
 	"paragraphs":[{
-		"text": "Thanks for reaching out about the issues with [name]'s chewing behaviors. This behavior is pretty common in dogs, which luckily means that there are plenty of techniques you can use to curb it! To start, it’s important to set [name] up for success as best you can. This means removing items from [his/her] reach that [he/she] might try to chew. If [he/she] only has good choices to choose from, [he/she] will get in the habit of picking the right objects. Along with that, you should make sure [he/she] has plenty of other appropriate things to chew on, like toys and bones, so [he/she] can get that chewing urge out in a healthy way. When [he/she] chooses to chew on those, praise [him/her], play with [him/her], do whatever makes [him/her] happy. This will teach [him/her] that chewing on appropriate things results in praise and fun. Another helpful thing will be to teach \"drop\" or \"leave it,\" so when [he/she] gets something that is inappropriate, you can ask for it back without it turning into a game of chase or tug of war. Also, make sure only to correct [him/her] (using verbal corrections like \"no\" or \"eh eh\") while [he/she]’s in the act of chewing something, not afterwards. Getting the timing of the correction down is important, so [he/she] understands that what [he/she]  is doing in that moment is not appropriate. Dogs won’t understand why they are getting scolded if you don’t catch them in the act. They may still act sheepish, but they really don’t connect the dots that the punishment is due to something that happened earlier in the day, so the behavior won't change. For more tips and details, I'm attaching our go-to document on chewing, which has some additional techniques to try to curb this behavior. Depending on how destructive [his/her] chewing is (i.e. ruining entire couches or just lightly munching a shoe) some of the tips may be overkill. Nonetheless, it’s a good resource to start with. Look through that document and let me know if you have any questions.",
+		"text": "This behavior is pretty common in dogs, which luckily means that there are plenty of techniques you can use to curb it! To start, it’s important to set [name] up for success as best you can. This means removing items from [his/her] reach that [he/she] might try to chew. If [he/she] only has good choices to choose from, [he/she] will get in the habit of picking the right objects. Along with that, you should make sure [he/she] has plenty of other appropriate things to chew on, like toys and bones, so [he/she] can get that chewing urge out in a healthy way. When [he/she] chooses to chew on those, praise [him/her], play with [him/her], do whatever makes [him/her] happy. This will teach [him/her] that chewing on appropriate things results in praise and fun. Another helpful thing will be to teach \"drop\" or \"leave it,\" so when [he/she] gets something that is inappropriate, you can ask for it back without it turning into a game of chase or tug of war. Also, make sure only to correct [him/her] (using verbal corrections like \"no\" or \"eh eh\") while [he/she]’s in the act of chewing something, not afterwards. Getting the timing of the correction down is important, so [he/she] understands that what [he/she]  is doing in that moment is not appropriate. Dogs won’t understand why they are getting scolded if you don’t catch them in the act. They may still act sheepish, but they really don’t connect the dots that the punishment is due to something that happened earlier in the day, so the behavior won't change. For more tips and details, I'm attaching our go-to document on chewing, which has some additional techniques to try to curb this behavior. Depending on how destructive [his/her] chewing is (i.e. ruining entire couches or just lightly munching a shoe) some of the tips may be overkill. Nonetheless, it’s a good resource to start with. Look through that document and let me know if you have any questions.",
 		"requirementTypes":['gender', 'name']
 	}],
 	"subTopics":[]
@@ -74,8 +74,8 @@ export let topicMetadata = [{
 	"name": "Crate Training",
 	"default Value": false,
 	"paragraphs":[{
-		"text": "",
-		"requirementTypes":[]
+		"text": " \"Crate training\" is more than just buying a crate and crating your dog while you're away; it is teaching your dog that their crate is their safe place, their place they can feed safe and happy. If introduced correctly, crating can be a safe way to ensure [name] is not being destructive while you are away, and provide [him/her] with their own personal \“room\“ they can hang out in, unbothered. We recommend feeding [name] in [his/her] crate, so [he/she] associates the crate with food. Toss treats in the crate when your pup isn’t around, so next time [he/she] checks out the crate, treats have magically appeared. Ideally, you’d have the time to slowly acclimate [name] to the crate over days or weeks before having to put [him/her] in there for a longer period of time. However, that is usually not feasible, but there are still steps you can take to ensure that you are doing all you can to avoid regressing on training when you have to crate [him/her]. Never force [him/her] into the crate; always let [him/her] go in on [his/her] own. To do this, you may need to leave a breadcrumb trail of high value treats (chicken, cheese, hot dog, salami, etc.) into the back of the crate. Also, whenever you have to leave [him/her] in the crate, make sure [he/she] has plenty to do to occupy [his/her] time. Put some of [his/her] favorite toys in there and a long lasting treat, like a kong. Check out the crate training document for more details on how to make the crate a positive place for your pup.",
+		"requirementTypes":['gender','name']
 	}],
 	"subTopics":[{
 		"name": "Breaking Out",
@@ -91,9 +91,58 @@ export let topicMetadata = [{
 	"default Value": false,
 	"paragraphs":[{
 		"text": "There is a process to getting [him/her] comfortable with the car that involves breaking down the experience of car riding into little chunks, and then getting [him/her] comfortable with each chunk individually. I'll walk through the process for car riding, but know that this process can be used for anything that [he/she] is scared of. To start, just get [him/her] in the car, with the car (parked and off) in your driveway. Sit in the car with [him/her], give [him/her] treats, pets, and praise. Get [him/her] comfortable with the idea of just being in the car. If [he/she] has a special bone that [he/she] likes, let [him/her] chew it in the car; use special treats like chicken, cheese, or hot dogs while you're in the car. Hang out in there for like 15 minutes, then just come back inside. Repeat this, with the car off, until [he/she] is comfortable getting in and just chilling in the car with you; [he/she] should start looking forward to hanging out in the car because it means special treats and cuddling time. This could take a lot of sessions, so be patient. Let [him/her] set the pace. Once [he/she] is comfortable like that, repeat that process, but turn the car on. Still don't go anywhere, but get [him/her] used to hanging out in the car with it on. Once [he/she] is comfortable with that, we can move on to the next stage. Drive around for a short (<5 minutes) time with [him/her]. If [he/she] seeks comfort from human touch, have someone hanging out in the backseat with [him/her]; make sure again [he/she] has plenty of treats and stuff to entertain [him/her] in the car. Monitor [him/her] for signs of stress; if [he/she] is panting, drooling, or acting panicky, then you may need to backstep a bit and go back to just hanging out with the car on. This process can take some time, and it's important to really pay attention to [his/her] signs that [he/she] is overwhelmed. The idea is to keep [him/her] below [his/her] fear threshold in the car, and give [him/her] lots of tasty treats and love, so [he/she] stops associating cars with stress, and instead associates it with fun and snacks. This is called \"counterconditioning\" [his/her] reaction.",
-		"requirementTypes":[]
+		"requirementTypes":['gender','name']
 	}],
 	"subTopics":[]
+},	{
+	"name": "Door Darting",
+	"default Value": false,
+	"paragraphs":[{
+		"text": "There are a few tricks you can do to curb pushy behavior at the door. To start, I recommend you start practicing a \"door routine\" with [name] every time you take [him/her] outside for walks. A door routine looks like this: every time you’re leaving, [name] sits, you open the door, and [he/she] looks at you and waits for you to release [him/her] and go outside. To do this, [name] first needs to be able to hold a sit for at least 10 seconds. We can’t expect [him/her] to hold a sit at the door, which is a super exciting threshold, if [he/she] can’t even hold one when [he/she] is in a calm environment. I’m going to attach a few videos to this - two going over teaching \”sit\”, and one that goes over door routines in more detail. Another thing you can do to help prevent [name] from bolting out the door is to use an x-pen and create an extra gate so there is a two door system when entering/exiting the house. That way, you can ensure that [he/she] isn’t around your feet when you’re opening the door.",
+		"requirementTypes":['gender','name']
+	}],
+	"subTopics":[]
+},	{
+	"name": "High Energy",
+	"default Value": false,
+	"paragraphs":[{
+		"text": "",
+		"requirementTypes":['gender','name']
+	}],
+	"subTopics":[{
+		"name": "Increase Exercise",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "This suggestion is pretty obvious - increase [his/her] exercise. A tired dog is a happy dog. Beyond just increasing walk times (which you should do, if possible) there are a few ways to make walks more enriching and tiring for [name]. Try taking [him/her] on new routes to expose [him/her] to new sights and smells. Also you could consider buying a doggie backpack for [him/her] to wear on walks. Put some weight in the pockets; this can be done as easily as just putting a water bottle in each side zipper. This jacket and extra weight can make some dogs who have a “working dog” instinct feel like they are doing a job, and it helps to tire out all dogs faster. Confirm with your vet that [name] is healthy enough to walk with weights, and make sure not to put too much weight in the backpack; just about 5% of [his/her] body weight is recommended.",
+			"requirementTypes":['gender','name']
+		}],
+		"subTopics":[]
+	},{
+		"name": "Agility",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "Getting [name] into an agility course could be a great way to expend some energy. These training courses are held at a variety of local Austin training facilities, and will help your pup let loose some energy, while improving focus on you and learning some impulse control.",
+			"requirementTypes":['gender','name']
+		}],
+		"subTopics":[]
+	},
+	{
+		"name": "Mental Enrichmentt",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "\"Mental\" exercise can be an effective way to burn some steam when you simply don’t have the capability to physically wear your dog out. One of the easiest ways to mentally enrich a dog is by using their food. Stop feeding [name] with a regular bowl; instead, make [him/her] \"work\" for [his/her] food at meal times by feeling [him/her] with a \"puzzle\" toy. This adds a little challenge to [his/her] meal, occupies [his/her] focus, and is completely hands-off for you. You can also engage [his/her] innate scavenging instincts by simply scattering small bits of treats around and letting [him/her] sniff them out, or by using a \"snuffle mat.\" Check out the \"Canine Enrichment\" document I’ve attached for more details on puzzle toys, snuffle mats, and other ways to engage your dog mentally.",
+			"requirementTypes":['gender','name']
+		}],
+		"subTopics":[]
+	},{
+		"name": "Training - Basic Obedience",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "Another form of mental enrichment is working on [his/her] basic obedience training. Basic obedience training - sit, down, stay, come, shake - can tire [name] out, while at the same time nailing down some really helpful skills. Another trick that is not as commonly thought of when we talk about basic obedience is teaching eye contact as a rewardable behavior. If your dog is checking in with you (aka make eye contact), then [he/she] is not doing something naughty. This can come in handy in a lot of situations, such as on walks or in public areas. Training in general is a great way to increase [name]’s bond with you as well. Learning tricks requires a dog to be focused, engaged, and attentive; this can drain energy in a positive and productive way.",
+			"requirementTypes":['gender','name']
+		}],
+		"subTopics":[]
+	}]
 },	{
 	"name": "Jumping - Adult",
 	"default Value": false,
@@ -129,7 +178,7 @@ export let topicMetadata = [{
 		"name": "OLR",
 		"default Value": false,
 		"paragraphs":[{
-			"text": "The behavior of pulling, barking, or growling on leash in response to other animals, people, etc is called \"on leash reactivity.\" This behavior is actually really common in dogs, and there are tried and true methods to work through it. While we can’t directly change how [name] feels in response to [his/her] triggers on leash, we can teach [him/her] a more appropriate response. We want to teach \"replacement behaviors\" that [name] will do instead of reacting. Typical replacement behaviors include having your dog sit calmly next to you and giving eye contact (aka \"checking in\") when they see the dog/person/etc that usually elicits their reactivity. Don’t expect [name] to be able to perform these replacement behaviors right away, but with some time and effort on your part, [he/she] will learn that this new behavior is the preferable option. The first step you'll want to do is work on her being able to perform \"sit\" on verbal in a calm, quiet environment (like inside your home). Check out the videos I attached to this emails on working on sitting with distractions and for duration. Once [he/she] can do that consistently, we can start working through [his/her] behavior on leash. When you take [him/her] on walks, I suggest you start bringing treats along. Make sure they are high enough in value to [him/her] that [he/she] will be interested in them even with distractions around (this may mean the treats need to be cheese, chicken, or some other special thing [he/she] doesn't usually get). When you see a person or dog, hopefully before [he/she] sees said person or dog, first try to create some distance - move off to the side of the trail, cross the street, just add some buffer space. Next ask [him/her] to \"sit\" and then reward [him/her] with treats and praise for sitting. Continue to make [him/her] hold [his/her] sit (you can use the \"stay\" command if [he/she] knows it) while the distraction passes by. Any time [he/she] looks at you instead of the dog or person, heavily praise and reward [him/her] with treats. Once they are gone, release [him/her] from holding [his/her] sit and carry on your walk. I’m going to attach another video that goes over teaching that eye contact is a rewardable behavior; this is really helpful because if [he/she] is looking at you for treats, [he/she] is not reacting at the people/dogs. The key to this training technique is consistency and a foundation in the basics. If [he/she] can't hold a sit/stay at home without distractions, there is very little hope [he/she] will be able to hold it while out on walks in the exciting world. So depending on where [he/she] is at in [his/her] obedience training, you may need to start working on this just in your home, then progress to the outdoors.",
+			"text": "The behavior of pulling, barking, or growling on leash in response to other animals, people, etc is called \"on leash reactivity.\" This behavior is actually really common in dogs, and there are tried and true methods to work through it. To start, are you walking [him/her] just on [his/her] normal collar, or are you using any \"gear\" like a harness or Gentle Leader? Sometimes just getting some equipment can work wonders on dogs. We recommend either a Gentle Leader or a front clipping harness like an Easy Walk. If you want to talk in more detail about pros and cons of different equipment for walking, just let me know and we can talk through what is out there. While we can’t directly change how [name] feels in response to [his/her] triggers on leash, we can teach [him/her] a more appropriate response. We want to teach “replacement behaviors” that [name] will do instead of reacting. Typical replacement behaviors include having your dog sit calmly next to you and giving eye contact (aka “checking in”) when they see the dog/person/etc that usually elicits their reactivity. Don’t expect [name] to be able to perform these replacement behaviors right away, but with some time and effort on your part, [he/she] will learn that this new behavior is the preferable option. The first step you'll want to do is work on her being able to perform \"sit\" on verbal in a calm, quiet environment (like inside your home). Check out the videos I attached to this emails on working on sitting with distractions and for duration. Once [he/she] can do that consistently, we can start working through [his/her] behavior on leash. When you take [him/her] on walks, I suggest you start bringing treats along. Make sure they are high enough in value to [him/her] that she will be interested in them even with distractions around (this may mean the treats need to be cheese, chicken, or some other special thing [he/she] doesn't usually get). When you see a person or dog, hopefully before [he/she] sees said person or dog, first try to create some distance - move off to the side of the trail, cross the street, just add some buffer space. Next ask [him/her] to \"sit\" and then reward [him/her] with treats and praise for sitting. Continue to make [him/her] hold [his/her] sit (you can use the \"stay\" command if [he/she] knows it) while the distraction passes by. Any time [he/she] looks at you instead of the dog or person, heavily praise and reward [him/her] with treats. Once they are gone, release [him/her] from holding [his/her] sit and carry on your walk. I’m going to attach another video that goes over teaching that eye contact is a rewardable behavior; this is really helpful because if [he/she] is looking at you for treats, [he/she] is not reacting at the people/dogs. The key to this training technique is consistency and a foundation in the basics. If [he/she] can't hold a sit/stay at home without distractions, there is very little hope [he/she] will be able to hold it while out on walks in the exciting world. So depending on where [he/she] is at in her obedience training, you may need to start working on this just in your home, then progress to the outdoors.",
 			"requirementTypes":['gender', 'name']
 		}],
 		"subTopics":[]
@@ -156,14 +205,6 @@ export let topicMetadata = [{
 		"paragraphs": [{
 			"text": " I’m sorry to hear that [name] is having some trouble with house training recently. Typically if an adult dog suddenly regresses in potty training, the first thing we want to rule out is an underlying medical issue. I would recommend talking to your vet about this and see what they think. In case it is not a medical issue, I will attach our document on House Training for adult dogs. Have you had any big changes in your life lately, like moving to a new home, getting/losing roommates, or changing your work hours? Dogs can handle stress of transitions in different ways, so if there is some large change in [his/her] life, this behavior could be a result of that. Is [he/she] having accidents when you are home, or is it only when you are away? If it is only when you’re away, this could be a sign of separation anxiety. Let me know if this is the case and we can talk through separation anxiety, and the slightly different approach in working through this behavior. Otherwise, check out that document and follow the techniques listed in there. You may just have to put in a little extra effort to \"reset\" [name]’s potty training skills. Praise [him/her] every time [he/she] goes potty outdoors, and take [him/her] out frequently. If you catch [him/her] pottying indoors, interrupt [him/her] with a loud clap of your hands and then lead [him/her] outside. You can attach a lightweight leash that is always on [him/her], dragging on the ground, so that when you need to walk [him/her] outside you can just pick up the leash and go. By consistently interrupting [him/her] inside and praising [him/her] for going outside you will teach [him/her] what is appropriate and inappropriate for going potty. Remember to always be consistent in your training. If you cannot keep an eye on [him/her] while home, then put [him/her] in [his/her] crate so that [he/she] doesn't get a chance to go potty when you are not there to guide [him/her] outside. Reach out if you have any questions on this, or if you don’t see improvements after a few weeks of working with [him/her] on it.",
 			"requirementTypes": ['name', 'gender']
-		}],
-		"subTopics": []
-	}, {
-		"name":"Partially Potty Trained",
-		"defaultValue": false,
-		"paragraphs": [{
-			"text": "",
-			"requirementTypes": []
 		}],
 		"subTopics": []
 	}]
@@ -199,7 +240,7 @@ export let topicMetadata = [{
 		}],
 		"subTopics": []
 	}, {
-		"name":"Chewing",
+		"name":"Chewing (Work in Progess)",
 		"defaultValue": false,
 		"paragraphs": [{
 			"text": "",

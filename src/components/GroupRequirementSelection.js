@@ -4,7 +4,6 @@ import {Form, Row, Col} from 'react-bootstrap';
 export class GroupRequirementSelection extends React.Component {
 	
 	render() {
-		console.log(this.props)
 		let options = this.props.possibleValues.map((reqGroup) => (
 			<Form.Check
 				key={reqGroup.name}
@@ -13,7 +12,7 @@ export class GroupRequirementSelection extends React.Component {
 				name={this.props.requirement.name}
 				id={`${reqGroup.name}`}
 				onChange={(ev) => this.valueUpdated(ev)}
-				defaultChecked={reqGroup === this.props.value}
+				checked={reqGroup === this.props.value}
 			/>))
 		return (
 			<div className="GroupRequirementSelection">

@@ -7,7 +7,6 @@ export class Requirements extends React.Component {
 	
 	render() {
 		let reqSels = this.props.emailCriteria.requirementSelections.map((reqSel) => {
-			console.log(reqSel);
 			if (reqSel instanceof RequirementGroupSelection) {
 				return(
 					<GroupRequirementSelection 
