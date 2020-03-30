@@ -7,7 +7,7 @@ export class AuditedRequirementSelection extends React.Component {
 		return (
 			<div className="AuditedRequirementSelection">
 				<Form.Group as={Row} controlId={this.props.requirement.name}>
-					<Form.Label column sm="2">
+					<Form.Label column sm="3">
 						{this.props.requirement.name}
 					</Form.Label>
 					<Col sm="9">

@@ -1,19 +1,20 @@
-export let requirementTypeMetadata = [{
-	"name":"name",
+export let requirementTypeMetadata = [
+{
+	"name":"Author",
+	"defaultValue": "Kathleen",
+	"requirementGroups":[],
+	"requirementReplacementTexts": [{
+		"text":"author"
+	}]
+},{
+	"name":"Dog Name",
 	"defaultValue": "Benny",
 	"requirementGroups":[],
 	"requirementReplacementTexts": [{
 		"text":"name"
 	}]
-}, {
-	"name":"age",
-	"defaultValue": "6",
-	"requirementGroups":[],
-	"requirementReplacementTexts": [{
-		"text":"age"
-	}]
 },	{
-	"name":"gender",
+	"name":"Dog Gender",
 	"defaultValue": "Female",
 	"requirementGroups":[{
 		"name":"Male",
