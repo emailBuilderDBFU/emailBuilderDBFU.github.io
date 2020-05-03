@@ -1,9 +1,10 @@
 import {requirementTypeMetadata} from './requirementTypeMetadata.js';
-import {topicMetadata} from './topicMetadata.js';
+import {categoryMetadata} from './categoryMetadata.js';
 import {EmailCriteria} from '../models/emailCriteria.js';
 import {RequirementType} from '../models/requirementType.js';
-import {Topic} from '../models/topic.js';
+import {Category} from '../models/category.js';
 
-let requirementTypes = requirementTypeMetadata.map((reqTypeJSON) => RequirementType.parse(reqTypeJSON));
-let topics = topicMetadata.map((topicJSON) => Topic.parse(topicJSON, null, requirementTypes)); 
-export let defaultEmailCriteria = EmailCriteria.defaultForTopicsAndRequirementTypes(topics, requirementTypes);
+export let requirementTypes = requirementTypeMetadata.map((reqTypeJSON) => RequirementType.parse(reqTypeJSON));
+export let categories = categoryMetadata.map((categoryJSON) => Category.parse(categoryJSON, requirementTypes)); 
+export let defaultEmailCriteria = EmailCriteria.defaultForTopicsAndRequirementTypes(categories.flatMap((category) => category.topics), requirementTypes);
+ 

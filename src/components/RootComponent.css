@@ -11,11 +11,20 @@ body {
 }
 
 .Topics {
-	height: calc(100vh - 70px); /* 70 = height+margin-bottom of .header */
+	/*height: calc(100vh - 70px);  70 = height+margin-bottom of .header */
 	width: 45vw;
 	margin-left: 3vw;
-	overflow-y: scroll;
 	overflow-x: hidden;
+}
+
+.Category {
+	font-weight: bold;
+	margin-left: 1vw;
+}
+
+.LeftPane{
+	height: calc(100vh - 70px);  /* 70 = height+margin-bottom of .header */
+	overflow-y: scroll;
 }
 
 .TopicSelection .form-group {
