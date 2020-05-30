@@ -11,19 +11,12 @@ export class TopPane extends React.Component {
 		super(props);
 		this.state = {
 			searchText: '',
-			// isSearchOpen: false
 		};
 	}
 
 	toggleSearchState() {
-		console.log($('#category-search').css('opacity'));
-		let opacity =  $('#category-search').css('opacity') ? 0 : 1;
-		$('#category-search').animate({
-			opacity: opacity
-		}, 500);
-		// this.setState({
-		// 	isSearchOpen: !this.state.isSearchOpen
-		// });
+		$("#category-search").toggle(500);
+		$(".searchButton").toggleClass('opened');
 	}
 	
 	render() {
@@ -32,15 +25,13 @@ export class TopPane extends React.Component {
 		}).map((category) => {
 			return (
 				<Category
+					key={category.name}
 					category={category}
 					emailCriteria={this.props.emailCriteria}
 					updateEmailCriteria={this.props.updateEmailCriteria}
 				/>
 			)
-		})
-
-		// let search = this.state.isSearchOpen ? ('inline-block') : ('none')
-		// let edges = this.state.isSearchOpen ? ('5px 0 0 5px') : ('5px 5px 5px 5px')
+		});
 
 		return (
 			<div>
@@ -74,15 +65,13 @@ export class TopPane extends React.Component {
 									<div 
 										className="searchButton" 
 										onClick={() => this.toggleSearchState()}
-										// style={{"borderRadius":edges}} 
-										>
-											<i className="fa fa-search"></i>
+									>
+										<i className="fa fa-search"></i>
 									</div>
 									<Form.Control 
 										id="category-search"
 										placeholder="enter category"
 										className="searchTerm"
-										// style={{display:search}}
 										value={this.state.searchText}
 										onChange={(ev) => this.handleChange(ev)}
 									/>
