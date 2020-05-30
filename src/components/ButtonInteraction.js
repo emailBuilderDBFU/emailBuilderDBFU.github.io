@@ -8,10 +8,10 @@ export class ButtonInteraction extends React.Component {
 			<div className="ButtonInteraction">
 				<Row>
 					<Col xs={{ offset: 2, span: 2 }}>
-						<Button onClick={() => this.props.generateEmail()} variant="primary">Generate</Button>
+						<Button onClick={() => this.props.generateEmail()} className="GenerateButton">Build It</Button>
 					</Col>
 					<Col xs={{ offset: 4, span: 2 }}>
-						<Button onClick={() => this.props.resetEmail()} variant="danger">Reset</Button>
+						<Button onClick={() => this.props.resetEmail()} className="ResetButton">Reset</Button>
 					</Col>
 				</Row>
 			</div>

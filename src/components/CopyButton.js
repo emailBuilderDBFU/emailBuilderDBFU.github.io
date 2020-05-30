@@ -5,10 +5,10 @@ export class CopyButton extends React.Component {
 	
 	render() {
 		return (
-			<div className="CopyButton">
+			<div className="copy-button-wrapper">
 				<Row>
 					<Col xs={{ offset: 5, span: 2 }}>
-						<Button onClick={() => this.copyEmailText()} variant="success">Copy</Button>
+						<Button onClick={() => this.copyEmailText()} variant="info">Copy</Button>
 					</Col>
 				</Row>
 			</div>

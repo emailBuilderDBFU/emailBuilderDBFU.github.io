@@ -1,39 +1,96 @@
 body {
 	overflow-x: hidden;
+	background-color: #edebd9;
 }
 
-.header {
+/* 
+************************************************
+HEADER STYLING 
+************************************************
+*/
+.Header {
 	text-align: center;
-	color: white;
-	background-color: #007bff;
-	height: 60px;
+	color: #edebd9;
+	background-color: #037272;
+	height: 78px;
+	margin-top:10px;
 	margin-bottom: 10px;
 }
 
-.Topics {
-	/*height: calc(100vh - 70px);  70 = height+margin-bottom of .header */
+.Title {
+	font-family: 'Oswald', sans-serif;
+	margin-top:5px;
+	margin-bottom: -10px;
+}
+
+.Slogan {
+	font-family: 'Sacramento', sans-serif;
+}
+
+/* 
+************************************************
+TOP PANE
+************************************************
+*/
+.card{
+	height: calc(100vh - 70px);  /* 70 = height+margin-bottom of .header */
+	width: 40vw;
+	overflow-y: scroll;
+	border: 1px solid;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	box-shadow: 5px 5px 5px #aaaaaa;
+	background-color: #8fbec1;
+	border-radius: 5px;
+}
+
+.card-wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.requirements {
+	max-height: calc(100vh - 70px - 100px); /* 70 = height+margin-bottom of .header; 100 = height+margin-top of .ButtonInteraction */
+	margin-left: 2vw;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.requirements .col-sm-9{
+	max-width: 50%;
+}
+
+.category {
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 1vw;
+	font-size: inherit;
+	color: black;
+}
+
+.topics {
+	font-family: 'Lato', sans-serif;
 	width: 45vw;
 	margin-left: 3vw;
 	overflow-x: hidden;
 }
 
-.Category {
-	font-weight: bold;
+.right-pane .small-horizontal-line {
 	margin-left: 1vw;
-}
-
-.LeftPane{
-	height: calc(100vh - 70px);  /* 70 = height+margin-bottom of .header */
-	overflow-y: scroll;
-}
-
-.TopicSelection .form-group {
-	margin-bottom: 0px;
+	width: 250px;
+	border-top: 1px solid;
+	color: lightslategrey;
 }
 
 .form-group .col-1 {
 	padding-top: 5px;
 	margin-right: -20px;
+}
+
+.topic-selection .form-group {
+	margin-bottom: 0px;
 }
 
 .vertical-line {
@@ -42,26 +99,127 @@ body {
 	border-left: 1px solid lightslategrey;
 }
 
-.Requirements {
-	max-height: calc(100vh - 70px - 100px); /* 70 = height+margin-bottom of .header; 100 = height+margin-top of .ButtonInteraction */
-	width: 45vw;
-	margin-left: 2vw;
-	overflow-y: scroll;
-	overflow-x: hidden;
+
+/* 
+************************************************
+TITLE SECTION
+************************************************
+*/
+
+.title-and-line-wrapper{
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	background-color: #8fbec1;
+	z-index: 1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
 }
+
+.card-title{
+	display: inline-block;
+	padding-right:10px;
+	margin-bottom: 0px;
+}
+
+.small-horizontal-line {
+	width: 250px;
+	border-top: 1px solid;
+}
+
+.title-and-search-wrapper{
+	display:inline-block;
+}
+
+#category-search {
+	opacity: 0;
+}
+/* 
+************************************************
+SEARCH BAR
+************************************************
+*/
+
+.searchTerm {
+	width:200px;
+	height: 30px;
+	border-radius: 0 5px 5px 0;
+	outline: none;
+	color: grey;
+	display: inline-block;
+}
+
+.searchTerm:focus{
+	color: black;
+	border: 3px solid #80bdff;
+}
+
+.searchButton {
+	width: 35px;
+	height: 30px;
+	background: #00848c;
+	color: #fff;
+	font-size: 20px;
+	display: inline-block;
+}
+
+/* 
+************************************************
+BUTTON STYLING
+************************************************
+*/
 
 .ButtonInteraction {
 	margin-top: 40px;
-	height: 60px;
-	width: 45vw;
-	margin-left: 2vw;
 }
 
-.horizontal-line {
-	margin-left: 10px;
-	width: calc(100vw - 20px); /* 20 = left-right margin */
-	border-top: 1px solid lightslategrey;
+.ResetButton,
+.ResetButton:active,
+.ResetButton:focus,
+.ResetButton:focus-within,
+.ResetButton:visited {
+	background-color: #1c1f4c;
+	color: #edebd9;
+	border-color: #1c1f4c;
 }
+
+.ResetButton:hover {	
+	background-color: #1c1f4c;
+	color: #edebd9;
+	opacity: .7;
+	border-color: #1c1f4c;
+}
+
+.GenerateButton,
+.GenerateButton:active,
+.GenerateButton:focus,
+.GenerateButton:focus-within,
+.GenerateButton:visited {
+	background-color: #00848c;
+	color: #edebd9;
+	width: 6vw;
+	border-color: #00848c;
+}
+
+.GenerateButton:hover {
+	background-color: #0b5054;
+	color: #edebd9;
+	border-color: #00848c;
+}
+
+.copy-button-wrapper {
+	margin-top: 20px;
+	height: 60px;
+	margin-bottom: 20px;
+	width: 100vw;
+}
+
+/* 
+************************************************
+BOTTOM PANE
+************************************************
+*/
 
 .EmailEditor textarea {
 	margin-top: 20px;
@@ -70,9 +228,3 @@ body {
 	width: calc(100vw - 40px); /* 40 = left-margin; */
 }
 
-.CopyButton {
-	margin-top: 20px;
-	height: 60px;
-	margin-bottom: 20px;
-	width: 100vw;
-}

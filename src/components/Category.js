@@ -1,8 +1,22 @@
 import React from 'react';
 import {Topic} from './Topic';
+import { Collapse } from 'react-bootstrap';
 
 export class Category extends React.Component {
+
+	constructor(props){
+		super(props);
+		this.state = {
+			isOpen: false
+		}
+	}
 	
+	toggleState() {
+		this.setState({
+			isOpen: !this.state.isOpen
+		})
+	}
+
 	render() {
 
 		let topics = this.props.category.topics.map((topic) => {
@@ -16,14 +30,19 @@ export class Category extends React.Component {
 			)
 		});
 
+		let carrot = this.state.isOpen ? ("fa fa-angle-down") : ("fa fa-angle-right");
+
 		return (
-			<div >
-				<div className="Category">
-					{this.props.category.name}
+			<div className="right-pane">
+				<div className="category" onClick={() => this.toggleState()} >
+					{this.props.category.name} &nbsp;&nbsp;&nbsp; <i className={carrot}></i>
 				</div>
-				<div className="Topics">
-					{topics}
-				</div>
+				<Collapse in={this.state.isOpen}>
+					<div className="topics">
+						{topics}
+					</div>
+				</Collapse>
+				<hr className="small-horizontal-line"></hr>
 			</div>
 		)
 	}

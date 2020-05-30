@@ -3,7 +3,7 @@ import $ from 'jquery';
 import {Row, Col} from 'react-bootstrap';
 import {TopPane} from './TopPane';
 import {BottomPane} from './BottomPane';
-import {defaultEmailCriteria, categories, requirementTypes} from '../metadata/index.js';
+import {defaultEmailCriteria, categories} from '../metadata/index.js';
 import './RootComponent.css';
 
 export class RootComponent extends React.Component {
@@ -23,11 +23,15 @@ export class RootComponent extends React.Component {
 	render() {
 		return (
 			<div className="RootComponent">
-				<Row className="header">
-					<Col><h1>Email Builder</h1></Col>
-				</Row>
+				<div className="Header">
+					<Row className="Title">
+						<Col><h2>email builder</h2></Col>
+					</Row>
+					<Row className="Slogan">
+						<Col><h3>helping people write emails</h3></Col>
+					</Row>
+				</div>
 				<Row><Col>
-				{/* pass categories and req types as props */}
 					<TopPane
 						categories={categories}
 						emailCriteria={this.state.emailCriteria}

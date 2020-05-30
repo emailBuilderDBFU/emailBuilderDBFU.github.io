@@ -29,7 +29,7 @@ export class Requirements extends React.Component {
 			}
 		});
 		return (
-			<div className="Requirements">
+			<div className="requirements">
 				{reqSels}
 			</div>
 		)
