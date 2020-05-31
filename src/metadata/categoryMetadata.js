@@ -248,6 +248,14 @@ export let categoryMetadata = [{
 }, 	{
 	"name": "Leash Skills",
 	"topics":[{
+		"name": "OLR - Management Tips",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "Try walking at less popular times, like early in the morning or later at night, so you are less likely to see as much dog traffic. All dogs have a \"threshold\" which is just the distance at which they can handle seeing other dogs without reacting. If you can find areas to walk [him/her] where you can keep a reasonable distance, that is an easy way to avoid [his/her] reactions. You can also bring high value treats on your walks, like cheese, chicken, or hotdogs. When you and [name] see other dogs, distract [him/her] with those treats and alter your course to avoid the dogs. Another way to use food to your advantage is to scoop a spoonful of peanut butter, then freeze the spoon. Bring that frozen peanut butter spoon on your walk with you (maybe just in a baggie in your pocket) and when you see dogs, let [name] lick the peanut butter while you walk past. ",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+		}, {
 		"name": "OLR - Short",
 		"default Value": false,
 		"paragraphs":[{
