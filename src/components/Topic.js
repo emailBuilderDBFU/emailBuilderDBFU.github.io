@@ -9,7 +9,7 @@ export class Topic extends React.Component {
 
 		return (
 			<div className="topic-selection">
-				<Form.Group as={Row} controlId={this.props.topic.name}>
+				<Form.Group as={Row} controlId={this.props.topic.key}>
 					<Col xs="1">
 						<Form.Check
 							value={isSelected}

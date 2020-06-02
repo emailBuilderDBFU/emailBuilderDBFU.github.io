@@ -20,9 +20,10 @@ export class Category extends React.Component {
 	render() {
 
 		let topics = this.props.category.topics.map((topic) => {
+			console.log(topic);
 			return (
 				<Topic
-					key={topic.name}
+					key={topic.key}
 					topic={topic}
 					topicSelection={topic.getTopicSelectionFromList(this.props.emailCriteria.topicSelections)}
 					onChange={(topic, value) => this.updateTopicSelection(topic, value)}
