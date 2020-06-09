@@ -20,7 +20,6 @@ export class Category extends React.Component {
 	render() {
 
 		let topics = this.props.category.topics.map((topic) => {
-			console.log(topic);
 			return (
 				<Topic
 					key={topic.key}
