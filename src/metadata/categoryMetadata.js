@@ -116,27 +116,6 @@ export let categoryMetadata = [{
 		"subTopics":[]
 	}]
 }, {
-	"name": "COVID Topics",
-	"topics":[{
-		"name": "No History - From Outside Shelter",
-		"key":"9",
-		"default Value": false,
-		"paragraphs":[{
-			"text": "We don’t have much background on [name]. [He/She] was originally at an animal shelter in a different part of Texas where they are currently struggling to avoid euthanizing healthy dogs like [name] due to COVID-19. Thanks to the amazing fosters in Austin who have stepped up, APA has been able to take dogs from shelters like the one that [name] came from to avoid unnecessary killing. The downside of this is that we don't know a whole heck of a lot about these dogs' pasts; we only know what we've experienced with them at APA.\n",
-			"requirementTypes":["Dog Name","Dog Gender"]
-		}],
-		"subTopics":[]
-	}, {
-		"name": "Flight Risk BC",
-		"key":"10",
-		"default Value": false,
-		"paragraphs":[{
-			"text": "[name] came to APA a little bit shy, so out of an abundance of caution, we marked [him/her] as a \"flight risk.\" This basically means we thought [he/she] might be more likely to try to make a break for it, if given the opportunity. That could mean [he/she] might dart out the door if it's left open, [he/she] could get spooked on a walk and pull the leash out of your hands, or [he/she] could even try to find ways to escape the backyard like climbing the fence. Now like I said, we don't actually have information on [name] to suggest [he/she] would do any of those behaviors specifically; we just listed [him/her] as such so you would be hyper vigilant as [he/she] settled into your home. This \"flight risk\" potential is the only behavior that resulted in [him/her] being a Behavior Consult, and like I said, it's largely precautionary. You should have received a document that goes over \"flight risk\" behavior when you got [him/her]. This is the only thing that an adopter would be consulted on. Have you seen any skittish behavior, on leash or in the home? Or have you seen any tendencies to try to bolt (even if it is not out of fear - such as trying to push past you if the front door is open)? If we haven't seen any \"flighty\" behaviors, we can remove that attribute and the Behavior Consult requirement. It's better to be more cautionary, so if you're unsure or [he/she] is showing a little shyness, we can just keep the attribute.\n",
-			"requirementTypes":["Dog Name","Dog Gender"]
-		}],
-		"subTopics":[]
-	}]
-}, {
 	"name": "Crate Training",
 	"topics":[{
 		"name": "Introduction to Crating",
@@ -179,6 +158,30 @@ export let categoryMetadata = [{
 		"subTopics":[]
 	}]
 },	{
+	"name": "Dog Body Language",
+	"topics":[{
+		"name": "Warning Sign Escalation",
+		"key":"59",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "It’s important to talk about dog communication, their subtle signals, and what those signals mean. Dogs communicate a lot differently than humans do. Their signals are a lot more subtle and a lot of their communications are done through body language. Dogs’ signals will usually escalate if they feel they’re not being heard. This means that if a dog is giving us signals but feels like those signals aren't being respected (maybe we don’t know what to look for and are just missing them), then they will intensify and change these signals to try and communicate their needs, dislikes, discomforts, etc. more clearly. \n\nDogs will typically start signaling that they are unhappy or uncomfortable by stiffening up their body, and/or giving what we call side-eye or \"whale-eye\" (when a dog is staring at a person or a dog but is not doing it head on, they are staring at them from the corner of their eye). If we ignore those signs and continue doing whatever it is that is making them uncomfortable, then they may resort to snarling or baring teeth. Again, if the dog feels like those signals aren't being respected they may escalate to growling. The growling usually will start as a low, quiet, rumbling growl. If that doesn't work then the dog may intensify their growls in volume and intensity. They may also choose to bark at this point to try and communicate even more clearly. If this growling and barking doesn't communicate the dog's needs clearly then they may at that point resort to pursuing the perceived threat a few feet while showing teeth, air snapping, or even biting. \n\nIt's important that dog owners have a clear understanding of what dog signals are, what they mean, and how they escalate. Even though we think of a lot of these signals as “bad” or threatening, we have to make sure we are respecting the signals a dog is giving us. If we ignore, disregard, or punish a signal, the dog will feel as though they have to resort to the next signal, which is even more intense than the previous one. If a dog gets to the point where they think biting is the only fool-proof signal, they will be less likely to give us those initial signals before going straight to biting, which is obviously not what we want or need. \n",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}]
+}, {
+	"name": "Dog/Dog Interactions",
+	"topics":[{
+		"name": "Aversives",
+		"key":"60",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "I recommend keeping interruption tools readily available in case a disagreement does arise in the home between the dogs. These aversive tools would include a spray bottle, shake can (pennies in a metal tin or can), and Pet Corrector. The spray bottle is our lowest level of intervention. It can be used to interrupt or slow down play. For example, if the dogs are playing and you notice that things are getting a bit too amped, or one dog is starting to get a little too mouthy, or maybe one dog is getting too humpy and not listening to the other dogs signals, you can use your spray bottle to tell that specific dog to cut it out. Dogs usually don’t like getting sprayed with water, so it will break their focus without affecting the other dog. If you notice that the dog is not getting the hint with the spray bottle, it might be time to separate them for some cool down time. A shake can is typically a step up when it comes to interruptions because it makes a loud noise which can affect both dogs. You would use a shake can to interrupt or startle the dogs enough so that you can step in and separate. Pet Corrector is then a step up from the shake can and should only to be used during an emergency between the dogs and if you already tried spray bottle and shake can with no success. Pet Corrector is just compressed air so it is never harmful, but it makes a loud noise and is quite startling to dogs. The best approach to managing their interactions will be to be proactive about their playtimes and always monitor them while playing. I also encourage you to use drag leashes (lightweight leashes attached to their collars, just dragging on the ground) with your pups so that you can easily separate them if you need to.\n ",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}]
+}, {
 	"name": "Door Darting",
 	"topics":[{
 		"name": "Door Darting",
@@ -313,6 +316,15 @@ export let categoryMetadata = [{
 		}],
 		"subTopics":[]
 		},{
+		"name": "Jumping on Humans",
+		"key":"61",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "I'm going to attach a few videos and a document that can help you train [name] to control [his/her] excitement and meet people in an appropriate way. The \"Teaching Your Dog Not to Jump\" video offers an exercise you can do with [him/her] during structured training times. It basically lets [name] practice how to respond appropriately (by not jumping) when being approached by a person. The handout will be helpful for more \"in the moment\" events. The basic principle for both situations is the same: [name] receives NO attention when [he/she] jumps (not even negative attention), and is rewarded when [he/she] doesn't jump. So when a new person appears and [he/she] jumps on them, you will ask them to turn away from [him/her] and stay away until [he/she] has all four feet on the ground, at which point you will let the new person reward [him/her] with praise and pets! When doing this in the home, I also recommend keeping a \"drag leash\" on [him/her] when [he/she] is meeting new people. A drag leash is just any normal, preferably lightweight, leash that is clipped to [his/her] collar, but you are not holding, so it just drags behind her as she walks. That way, whenever [he/she] gets jumpy, you have a point of contact to get [him/her] under control. So, if [he/she] jumps up toward the new person [he/she] is meeting, you can pick up the drag leash and steer [him/her] away while they turn away and deny [him/her] attention (what [he/she] wants). [He/She]'ll start to learn that if [he/she] keeps [his/her] cool, [he/she]'ll get to meet new people, but if [he/she] doesn't, [he/she]'ll get denied the attention.\n\nIf after a couple of weeks, [he/she] doesn't seem to have progressed at all, then you can move on to step two of the document, teaching an incompatible behavior -- sitting. It will be important to catch and reward even small moments of [name] doing the right thing, so [he/she] is able to learn what you want from [him/her]. I've attached our video for teaching sit with distraction in case you get to step two.\n",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+		},{
 		"name": "Jumping On Furniture",
 		"key":"24",
 		"default Value": false,
@@ -428,7 +440,7 @@ export let categoryMetadata = [{
 		"key":"31",
 		"default Value": false,
 		"paragraphs":[{
-			"text": "A regression in potty training can happen in adult dogs for a variety of reasons. The first thing you want to rule out is any medical issues that she may be having, causing her to go to the bathroom in the house. If that is not the case then there are some different things you can try depending on what the root cause seems to be. First, I would be sure to clean all areas of your home that Butter's has gone to the bathroom in with an enzyme cleaner. Dogs are scent oriented so even if people can't smell things, dogs still can and it can encourage them to mark or potty in that spot again, and the enzyme cleaner helps remove those smells. \n\nNext, make sure you praise and reward her (with treats she really likes) every time she goes potty outdoors, and take her out frequently. For the time being, attach a lightweight leash to her collar that is always on her, dragging on the ground, so that when you need to walk her outside you can just pick up the leash and go. If you catch her pottying indoors, interrupt her with a loud clap of your hands and then lead her outside. By consistently interrupting her inside and praising and rewarding her for going outside you will teach her what is appropriate and inappropriate for going potty. Remember to always be consistent in your training. If you cannot keep an eye on her while home, then put her in her crate so that she doesn't get a chance to go potty when you are not there to guide her outside. I have attached our house-training adult dogs, crate training and canine enrichment documents to help you with potty and crate training. I know it is a lot of work to take her out every time, but with consistent reinforcement she should catch on quickly and get into a good potty routine.\n",
+			"text": "A regression in potty training can happen in adult dogs for a variety of reasons. The first thing you want to rule out is any medical issues that she may be having, causing her to go to the bathroom in the house. If that is not the case then there are some different things you can try depending on what the root cause seems to be. First, I would be sure to clean all areas of your home that [name]'s has gone to the bathroom in with an enzyme cleaner. Dogs are scent oriented so even if people can't smell things, dogs still can and it can encourage them to mark or potty in that spot again, and the enzyme cleaner helps remove those smells. \n\nNext, make sure you praise and reward her (with treats she really likes) every time she goes potty outdoors, and take her out frequently. For the time being, attach a lightweight leash to her collar that is always on her, dragging on the ground, so that when you need to walk her outside you can just pick up the leash and go. If you catch her pottying indoors, interrupt her with a loud clap of your hands and then lead her outside. By consistently interrupting her inside and praising and rewarding her for going outside you will teach her what is appropriate and inappropriate for going potty. Remember to always be consistent in your training. If you cannot keep an eye on her while home, then put her in her crate so that she doesn't get a chance to go potty when you are not there to guide her outside. I have attached our house-training adult dogs, crate training and canine enrichment documents to help you with potty and crate training. I know it is a lot of work to take her out every time, but with consistent reinforcement she should catch on quickly and get into a good potty routine.\n",
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
@@ -476,7 +488,7 @@ export let categoryMetadata = [{
 		"key":"55",
 		"default Value": false,
 		"paragraphs":[{
-			"text": " If you are having a hard time walking away and ignoring [him/her] because [he/she] is pursuing and nipping at your heels, I recommend using a small light-weight leash that you keep attached to her collar at all times. We call it a “drag leash” because most of the time it just drags on the ground behind [name] when [he/she] is hanging out around the house. When [he/she] starts nipping at your heels, pick up that drag leash and gently pull [him/her] away from you. Using the drag leash you can give [him/her] a short \"time-out\" (30 seconds or so) either just holding [him/her] away from your body while [he/she] calms down, or using a gated off play area to put [him/her] in. As soon as [he/she] has moments of calm behavior, gently praise and reward [him/her] with treats or play. The idea here is that we take away attention when [he/she] is being mouthy, and in addition to that we remove the option to continue the behavior as well. \n",
+			"text": " If you are having a hard time walking away and ignoring [him/her] because [he/she] is pursuing and nipping at your heels, I recommend using a small light-weight leash that you keep attached to [his/her] collar at all times. We call it a “drag leash” because most of the time it just drags on the ground behind [name] when [he/she] is hanging out around the house. When [he/she] starts nipping at your heels, pick up that drag leash and gently pull [him/her] away from you. Using the drag leash you can give [him/her] a short \"time-out\" (30 seconds or so) either just holding [him/her] away from your body while [he/she] calms down, or using a gated off play area to put [him/her] in. As soon as [he/she] has moments of calm behavior, gently praise and reward [him/her] with treats or play. The idea here is that we take away attention when [he/she] is being mouthy, and in addition to that we remove the option to continue the behavior as well. \n",
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
@@ -491,6 +503,27 @@ export let categoryMetadata = [{
 		"subTopics":[]
 	}]
 }, {
+	"name": "Resource Guarding",
+	"topics":[{
+		"name": "General Definition",
+		"key":"62",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "Resource guarding is when a dog becomes protective of an item and doesn't want for someone else to come close to it or take it. There are several variables to resource guarding behavior. One variable is who the dog will guard items from. Some dogs will guard items from other dogs but they are fine with sharing things with people. Other dogs will guard items from people but are ok sharing them with other dogs. Lastly, some dogs will guard items from both dogs and people.  \n\nAnother variable to resource guarding is what the dog will guard. Often times people think about resource guarding related to food, which is a common one but some dogs will guard other things. Other common examples of things a dog might guard are chew bones, toys, dog beds, or even abstract things like space and attention from a favorite person. Some dogs will only guard one or two specific things but other times dogs might be more generalized in the things they guard which means they guard multiple different things.  \n\nOne final variable to resource guarding is how the dog guards. There are various things a dog might do to indicate guarding behavior. They could get more stiff and still in their body and kind of hover over the item, maybe stop eating or chewing momentarily. Other signs are showing teeth, growling, barking, snapping or biting. In some cases a dog might actually leave the item to charge towards the approaching person/ animal while growling, barking or snapping to drive them away. Some dogs will only show signs of guarding if the person/ animal is in really close proximity to them with the item, such as trying to touch them or take the item. Other dogs will show signs of guarding from more of a distance like if someone just passes by a few feet away or more. \n\nIt is really helpful to narrow down these variables, for your particular dog, so that we know how to proceed with addressing the behavior. \n",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}, {
+		"name": "Training/Management Approaches",
+		"key":"63",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "When it comes to resource guarding behavior, there are really just two options for dealing with it, management or training. Management is an option that many people choose if their dog is only guarding 1-2 specific things. For example, if your dog is guarding a chew bone or rawhide, then you can manage the behavior by simply not giving the dog this item. You avoid the issue and any possible negative impacts by simply not allowing the dog to have it. \n\nIf a dog is guarding something from a human then there are training exercises we can set up to help teach the dog that guarding is not necessary. This training protocol is detailed and broken into very small baby steps that may take weeks or even months to work through but is intended to help the dog learn that guarding is not needed. This training protocol is really only useful if the dog is guarding things from humans. If your dog is guarding items from other animals then training becomes a more difficult and less realistic option.  \n\nWhen it comes to dog's guarding from other dogs there is really no training that we can do to try and communicate to the dog who is guarding that the dog doesn't pose a threat. In order to be able to change the emotional response that a dog is having to potentially having to share food, toys, affection or attention we need to be able to control at least one of the variables involved. Which means that we need to be able to instruct one of the dogs involved on when to freeze, when to walk away, where to move, etc. Our only option when we are working with a dog that guards from other dogs is management. \n",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}]
+},	{
 	"name": "Return Requests",
 	"topics":[{
 		"name":"Generic DBFU Reminder",
@@ -551,6 +584,18 @@ export let categoryMetadata = [{
 		"subTopics":[]
 	}]
 },	{
+	"name": "Storm Anxiety",
+	"topics":[{
+		"name": "General Advice",
+		"key":"58",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "My first suggestion is to work with [name] on crate training. When a dog is introduced to the crate properly, crating can help reduce anxiety because they see their crate as a safe place. Dogs naturally like to \"den\", so a crate can be just that for them. I've attached our crate training document that walks through how to acclimate [him/her] to the crate step by step and make it a place [he/she] wants to hang out. I'd also recommend giving [him/her] something to keep [his/her] mind occupied while in the crate, so I've attached our Canine Enrichment document with ideas for how to keep [him/her] busy and tire out [his/her] brain. \n\nNext, you may consider trying a thundershirt. It can help reduce storm anxiety in many dogs. If you get [him/her] one, I would recommend occasionally putting it on [him/her] on days when it isn't storming, so [he/she] doesn't start equating that a thundershirt=a scary thing is about to happen. Additionally, I would suggest try playing different types of white noise during the storm, such as getting a loud fan running, playing a radio, or just running the tv. Getting [him/her] plenty of exercise if you know the forecast calls for a storm is another way to help preemptively avoid anxiety. You may also try restricting [him/her] to internal rooms like a closet or bathroom during the storm. It's just not a behavior you're probably ever going to get rid of, so finding the right combinations of management is your best bet.\n\nFinally, you may also want to speak to your vet about options for medication or calming supplements to use during storms. Lots of dogs with storm anxiety have anti-anxiety medications that are administered just for thunderstorms, and they can help quite a bit. In addition, our APA adopter’s alumni group is a great place to crowdsource personal experiences on coping with storm anxiety.  https://www.facebook.com/groups/AustinPetsAliveAdopters/.",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}]
+},	{
 	"name": "Transition Issues",
 	"topics":[{
 		"name": "Not Eating",
@@ -587,7 +632,7 @@ export let categoryMetadata = [{
 
 
 /*TEMPLATE
-LAST KEY WAS 57
+LAST KEY WAS 63
 {
 	"name": "",
 	"topics":[{
