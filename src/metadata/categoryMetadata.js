@@ -62,9 +62,9 @@ export let categoryMetadata = [{
 		"subTopics":[]
 	}]
 }, {
-	"name": "Cat-Dog Introductions",
+	"name": "Cat-Dog Interactions",
 	"topics":[{
-		"name": "Generic Response",
+		"name": "Generic Cat/Dog Intro",
 		"key":"4",
 		"default Value": false,
 		"paragraphs":[{
@@ -73,11 +73,74 @@ export let categoryMetadata = [{
 		}],
 		"subTopics":[]
 	}, {
-		"name": "Document Overview",
+		"name": "Cat/Dog Intro Document Overview",
 		"key":"5",
 		"default Value": false,
 		"paragraphs":[{
 			"text": "I'm going to attach our cat-dog introduction document on this email for your reference. I’ll briefly talk through the general points presented in the document, but for more detail, check it out. Basically, the first week we don’t want to try to introduce them at all. Transitions are stressful for dogs, so giving [name] a little time to settle in and adjust to [his/her] new environment before introducing them would allow [him/her] to be a little calmer, which can be helpful. During this time, you could also start working on some basic obedience (specifically \"sit\") which will be helpful in this process. Once [name] has settled in, you can do the first real stage of the introductions. You’ll have your dog on leash, and have the cat in the room, preferably contained in a large dog crate or something along those lines, so they can’t get too close to the dog if they want to. While they’re \"interacting\" like this (in the same room, but not close to each other or actually touching), work on rewarding [name] for ignoring the cat and paying attention to you. We basically want to desensitize [him/her] to their presence, so the cat isn’t exciting or something to be worked up about. Continue these exercises of them just existing in the same space, slowly decreasing the space between the two, and look for [name] consistently ignoring or showing calm behavior around the cat. After a week or two of this, move to the next stage, which is letting the cats roam free while [name] is still on leash. Continue to look for appropriate behaviors, and work on letting them get closer. Eventually you’ll transition to letting go of the leash. Keep the leash on [name], but let it drag on the ground. If [he/she] tries to chase the cat, you can step on the leash and halt [him/her] from running. Always supervise them together, and make sure that the cat has lots of \"escape routes\" that the dog cannot follow - baby gates between rooms, cat trees, counters etc. If the cat tries to communicate to [name] to back off (hissing, swatting, etc), make sure [he/she] listens to the cat. If [he/she] continues to try to play/pester the cat when the cat is telling [him/her] to back off, you should step in and back your cat up. Again, check out the document for more detail, and don’t hesitate to reach out if you have any other questions or want to talk through this in more detail.\n",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	},	{
+		"name": "Chasing Cat pt 1 - Context Questions",
+		"key":"64",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "I'd like to know a little more about [his/her] cat chasing behavior.  From your observations, does the chasing seem to be playful and curious interest in the cats? Is it friendly, similar to how a dog could chase another dog during playtime? Are there ever moments when [he/she] leaves the cat alone while they are in the same vicinity? Or, does [he/she] seem stalker-y and hyper focused on the cat as though they were prey? \n",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}, {
+		"name": "Chasing Cat pt 2 - Intro",
+		"key":"65",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "At this point, what we'll want to do is teach [name] what is appropriate and inappropriate in regards to interactions with the cat. There are various ways that we can go about communicating these boundaries with [him/her]. We want to be very black and white with [name]. This means, as much as possible, not letting [him/her] practice [his/her] chasing behavior. \n",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}, {
+		"name": "Chasing Cat pt 3 - Verbal Redirection",
+		"key":"66",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "Verbal Redirection: Attach a leash to [name]’s collar and let it drag on the ground anytime [he/she] is interacting with the cat (for now). This leash will be your lifeline to [name] in case [he/she] ever decides to not respond to you calling [him/her] and you need to reach [him/her].  To reach [him/her] you can step on the leash to stop [him/her] in [his/her] tracks or you can grab the leash to pull [name] away. If [name] approaches the cat to play or appears that [he/she] is going to try to chase, and the cat shows that [he/she] is not interested, try to get [name] over to you by calling [him/her] name calmly and cheerfully, slapping your leg, waving a toy, anything to redirect [his/her] attention. If [he/she] is able to be redirected verbally, give [him/her] tons of praise and treats and petting. Once [name] comes over to you, make sure you have something for [him/her] to do, like a puzzle toy or an activity.  It’s important to remember that [name] is probably trying to solicit play from or chase the cat because [he/she] has extra energy and sees the cat as an outlet for that energy. Once we redirect [name], it will be extremely beneficial to help [him/her] expend that energy in an appropriate way. Depending on how busy you are in the moment, this could be a great opportunity to practice some commands or play an indoor game. I have added a document that goes over various games and exercises you can do with [name] to help [him/her] burn that energy in a productive and appropriate way. The document will also go over some options for puzzle toys, which are a great alternative if you need to entertain [name] but can’t actively engage with her in that moment. Puzzle toys are interactive for dogs and typically require your dog to figure out how to get a treat or kibble out of the toy. Because of the motivation to get the treats inside, puzzle toys can keep your dog self-entertained for longer than regular toys while using up some mental energy.\n",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}, {
+		"name": "Chasing Cat pt 4 - Physical Removal",
+		"key":"67",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "Physical Removal: If [name] is not able to be redirected verbally, calmly walk over to [him/her], pick up the drag leash and walk [him/her] away from the cat. Once you have physically removed [name] from the cat, distract [him/her] by having something for [him/her] to do (either a command, or some activity). The goal is to direct [name] to healthier outlets for [his/her] energy instead of chasing the cat.\n",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}, {
+		"name": "Chasing Cat pt 5 - Training to Not Chase",
+		"key":"68",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "Tie Down Training: We recommend using a tie down exercise to help [name] learn to stay calm around the cat. I’ve attached a document that will walk you through how to get the tie down set up, and I will detail how to use that set up to help teach [name] stay calm and not fixate on the cat. If you notice [name] getting hyper and over-stimulated by the cat, calmly walk over to [him/her] and grab the drag leash to bring [him/her] to the tie down set up. Once [he/she] is tied down, you will still be rewarding [name] for any calm behavior (sitting/lying down/relaxing) and ignoring [him/her] if [he/she] barks or acts crazy. If [name] is fixated on the cats while [he/she] is tied down, it will be extremely beneficial to reward [him/her] anytime [he/she] looks away from the cats without prompting from you. Every time you reward [him/her] for looking away from the cats in this situation, you are helping [name] realize that good things happen when [he/she] isn't fixated on the cats.\n",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}, {
+		"name": "Chasing Cat pt 6 - Teaching her Recall",
+		"key":"69",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "Teaching Recall: Having a strong recall (\“come\” command) will help tremendously in these situations so that you will be more successful when trying to redirect [name] by calling [him/her]. I have attached 2 videos that will take you through the introductory and intermediate levels of recall. The most important aspect of recall is the follow through - while training, make sure to have a leash or a long leash attached to [name]. We do not want to give [name] the opportunity to ignore you. It will also be important to practice recall in all circumstances and not just when you are calling [name] away from the cat. It might even be best to save the recall command you use (come, here etc) for only training sessions until it becomes more reliable. This means relying on using [name]’s name, or lap patting, or whistling sounds to get [name] to you when you are trying to call [him/her] away from the cat (until her recall is more reliable). We do not want her to associate the recall command with only getting to lose out on chasing for now.  \n",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}, {
+		"name": "Chasing Cat pt 7 - Exercise",
+		"key":"70",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "Increase Exercise: An important part of this training will be to make sure that [name] has the opportunity to burn [his/her] energy in healthy ways. Mental stimulation through training, interactive toys, indoor/outdoor games, and long walks will all be helpful to reduce the intensity of some of [his/her] behaviors. We always say \”a tired dog is a good dog!\”. \n",
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
@@ -122,7 +185,7 @@ export let categoryMetadata = [{
 		"key":"11",
 		"default Value": false,
 		"paragraphs":[{
-			"text": " \"Crate training\" is more than just buying a crate and crating your dog while you're away; it is teaching your dog that their crate is their safe place, their place they can feed safe and happy. If introduced correctly, crating can be a safe way to ensure [name] is not being destructive while you are away, and provide [him/her] with their own personal \"room\" they can hang out in, unbothered. We recommend feeding [name] in [his/her] crate, so [he/she] associates the crate with food. Toss treats in the crate when your pup isn’t around, so next time [he/she] checks out the crate, treats have magically appeared. Ideally, you’d have the time to slowly acclimate [name] to the crate over days or weeks before having to put [him/her] in there for a longer period of time. However, that is usually not feasible, but there are still steps you can take to ensure that you are doing all you can to avoid regressing on training when you have to crate [him/her]. Never force [him/her] into the crate; always let [him/her] go in on [his/her] own. To do this, you may need to leave a breadcrumb trail of high value treats (chicken, cheese, hot dog, salami, etc.) into the back of the crate. Also, whenever you have to leave [him/her] in the crate, make sure [he/she] has plenty to do to occupy [his/her] time. Put some of [his/her] favorite toys in there and a long lasting treat, like a kong. Check out the crate training document for more details on how to make the crate a positive place for your pup.\n",
+			"text": " \"Crate training\" is more than just buying a crate and crating your dog while you're away; it is teaching your dog that their crate is their safe place, their place they can feel safe and happy. If introduced correctly, crating can be a safe way to ensure [name] is not being destructive while you are away, and provide [him/her] with their own personal \"room\" they can hang out in, unbothered. We recommend feeding [name] in [his/her] crate, so [he/she] associates the crate with food. Toss treats in the crate when your pup isn’t around, so next time [he/she] checks out the crate, treats have magically appeared. Ideally, you’d have the time to slowly acclimate [name] to the crate over days or weeks before having to put [him/her] in there for a longer period of time. However, that is usually not feasible, but there are still steps you can take to ensure that you are doing all you can to avoid regressing on training when you have to crate [him/her]. Never force [him/her] into the crate; always let [him/her] go in on [his/her] own. To do this, you may need to leave a breadcrumb trail of high value treats (chicken, cheese, hot dog, salami, etc.) into the back of the crate. Also, whenever you have to leave [him/her] in the crate, make sure [he/she] has plenty to do to occupy [his/her] time. Put some of [his/her] favorite toys in there and a long lasting treat, like a kong. Check out the crate training document for more details on how to make the crate a positive place for your pup.\n",
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
@@ -132,6 +195,18 @@ export let categoryMetadata = [{
 		"default Value": false,
 		"paragraphs":[{
 			"text": "I'm sorry to hear you're having so much trouble with [name] and [his/her] crate. To start, I'd love to get a little more information on [name] in general. Is [he/she] showing anxiety when you leave [him/her] alone, or is it just centered around being in the crate? Have you tried any strategies to get [him/her] more comfortable in the crate? I have a couple resources for you to look at that will help us get [him/her] more comfortable in the crate, being alone in general, and help prevent [him/her] from busting of the crate in the first place. Check out these documents and see if there are any techniques in there that you can use. A tip that can be really helpful is to try to occupy [his/her] attention with something positive while [he/she] is in the crate. If you're not already, feed [him/her] in his crate, and make feeding a bit more of a game for [him/her]. Check out the \"Canine Enrichment\" document I'm attaching for some easy ways to make [him/her] work a little harder on [his/her] food while [he/she] is in the crate. This is beneficial because it channels [his/her] focus into doing something healthy and productive, as opposed to focusing on the fact that [he/she] is stuck in the crate. Also, I would recommend securing the joints of the crate with zip ties. Sometimes dogs bend the metal of the crate enough to be able to escape; using zip ties will make this very difficult to do. If the crate is not showing signs of bending like that, [he/she] may have just figured out how to undo the latch from the inside (if so [he/she] is a smart cookie!). Check out the tutorial on how to \"spy\" on [him/her] via Skype. If you can set that up, you can monitor [him/her] from another room or out of the house and see what [he/she] gets up to. Once we have a clear idea of how [he/she] is breaking out, we can work on ways to prevent it better.\n",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}]
+},	{
+	"name": "Demand Behaviors",
+	"topics":[{
+		"name": "Pawing for Attention",
+		"key":"",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "To curb this behavior you'll have to completely ignore it --no correction, no negative attention, simply ignoring. That may mean getting up and walking away for a few moments. You can walk away from [him/her] and if [he/she] follows you and doesn't paw on you, make sure to capture this moment by rewarding [him/her] with treats or attention. If you are petting [him/her] and [he/she] starts to paw on you to continue, then remove all attention and start over again. You can also try teaching an incompatible behavior like sit or down where [he/she] is expected to have [his/her] paws on the ground and not on you. When [he/she] starts to paw at you, ask [him/her] for a sit.  When [he/she] does it you can then praise and reward [him/her]. \n",
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
@@ -501,6 +576,15 @@ export let categoryMetadata = [{
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
+	}, {
+		"name": "Socialization",
+		"key":"71",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "Thank you for asking about socialization for [name]. [name] is still very young and it is common for young puppies to be overwhelmed by new experiences. It is important to introduce [him/her] to these new experiences slowly and allow [him/her] time to learn that the world isn't that scary. I've linked a document below that covers some general information about how to best socialize puppies.\n\nSome things that can help make meeting people more successful is to meet them in an environment familiar to [name]. Ask the new person to sit down and ignore [him/her] initially. Then, have the person toss treats away from themselves and toward [him/her], still without looking at or acknowledging [his/her] presence. They can slowly start tossing the treats closer and closer to themselves as [he/she] gets more comfortable. It probably won't take [him/her] too long to decide that the treat-producing people are friends and not to be feared. Children, on the other hand, can be much scarier than adults to dogs. Their movements are louder, less predictable, more erratic, and they aren't as good at recognizing how/where to gently pet dogs. I'd start with introducing [him/her] to older children for now; old enough to understand the treat tossing/ignoring introduction process. Once [he/she] builds up some confidence with older kids, you can start introducing [him/her] to younger children. Always keep a close eye on [his/her] body language around kids and remove [him/her] from the situation if [he/she] becomes nervous or uncomfortable. \n\nJust a disclaimer: puppies at this age are very malleable still, so any good interactions will go a long way, but any bad interactions can set them back, too. So don't feel the need to expose [him/her] to every single dog, person, and kid possible just so she gets experience with them. Pick and choose dogs and people that you know are friendly and comfortable with dogs.\n",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
 	}]
 }, {
 	"name": "Resource Guarding",
@@ -578,7 +662,7 @@ export let categoryMetadata = [{
 		"key":"41",
 		"default Value": false,
 		"paragraphs":[{
-			"text": "I am going to provide you a few resources to look through to start working on this behavior with [name]. One is our general guideline on working through separation anxiety, another is a document on crate training, and the last is a document on \"Canine Enrichment,\" aka ways to keep your dog occupied while you aren't home. Read through all these and let me know if you have any questions on the content. These documents will go into more detail than I will in this email, but I will quickly touch on some points that may help. In terms of separation anxiety, there are a few things you can try right away to ease your pup's mind a bit. Playing white noise while you're gone can be helpful for dogs who get anxious hearing outside noises. Other dogs find comfort in cuddling with a shirt or other item of clothing that smells like you. Some dogs just need something to distract them, like a long-lasting treat such as a Kong stuffed with treats/kibble/peanut butter. The \"Canine Enrichment\" document will provide you with some creative solutions to distract dogs with food. We also encourage you to crate train your dog. \"Crate training\" is more than just buying a crate and crating your dog while you're away; this is teaching your dog that their crate is their safe place, their place they can feed safe and happy. If introduced correctly, crating can be a safe way to ensure [name] is not being destructive while you are away, and even provide some comfort to [him/her]. Some dogs really take to the crate and like to snooze in there in their free time because it is their \"room.\" Check out the crate training document for more details on how to make the crate a positive place for your pup. We recommend feeding [name] in [his/her] crate, so [he/she] associates the crate with food. If possible, arrange your departures to be right as you put down [his/her] food, so [he/she] can focus on food instead of being stressed about your departure. Also, try to make your arrivals as low-key as possible. Ignore [name] for the first few minutes you get home. We want to teach [him/her] it is not exciting that you arrive home. Once [he/she] settles a bit, then you can calmly acknowledge [him/her]. Slowly breaking down the excitement/anxiety of your departures and arrivals is crucial to diminishing separation anxiety.\n",
+			"text": "I am going to provide you a few resources to look through to start working on this behavior with [name]. One is our general guideline on working through separation anxiety, another is a document on crate training, and the last is a document on \"Canine Enrichment,\" aka ways to keep your dog occupied while you aren't home. Read through all these and let me know if you have any questions on the content. These documents will go into more detail than I will in this email, but I will quickly touch on some points that may help. In terms of separation anxiety, there are a few things you can try right away to ease your pup's mind a bit. Playing white noise while you're gone can be helpful for dogs who get anxious hearing outside noises. Other dogs find comfort in cuddling with a shirt or other item of clothing that smells like you. Some dogs just need something to distract them, like a long-lasting treat such as a Kong stuffed with treats/kibble/peanut butter. The \"Canine Enrichment\" document will provide you with some creative solutions to distract dogs with food. We also encourage you to crate train your dog. \"Crate training\" is more than just buying a crate and crating your dog while you're away; this is teaching your dog that their crate is their safe place, their place they can feel safe and happy. If introduced correctly, crating can be a safe way to ensure [name] is not being destructive while you are away, and even provide some comfort to [him/her]. Some dogs really take to the crate and like to snooze in there in their free time because it is their \"room.\" Check out the crate training document for more details on how to make the crate a positive place for your pup. We recommend feeding [name] in [his/her] crate, so [he/she] associates the crate with food. If possible, arrange your departures to be right as you put down [his/her] food, so [he/she] can focus on food instead of being stressed about your departure. Also, try to make your arrivals as low-key as possible. Ignore [name] for the first few minutes you get home. We want to teach [him/her] it is not exciting that you arrive home. Once [he/she] settles a bit, then you can calmly acknowledge [him/her]. Slowly breaking down the excitement/anxiety of your departures and arrivals is crucial to diminishing separation anxiety.\n",
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
@@ -620,7 +704,7 @@ export let categoryMetadata = [{
 
 
 /*TEMPLATE
-LAST KEY WAS 63
+LAST KEY WAS 71
 {
 	"name": "",
 	"topics":[{
