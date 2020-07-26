@@ -104,7 +104,7 @@ export let categoryMetadata = [{
 		"key":"66",
 		"default Value": false,
 		"paragraphs":[{
-			"text": "Verbal Redirection: Attach a leash to [name]’s collar and let it drag on the ground anytime [he/she] is interacting with the cat (for now). This leash will be your lifeline to [name] in case [he/she] ever decides to not respond to you calling [him/her] and you need to reach [him/her].  To reach [him/her] you can step on the leash to stop [him/her] in [his/her] tracks or you can grab the leash to pull [name] away. If [name] approaches the cat to play or appears that [he/she] is going to try to chase, and the cat shows that [he/she] is not interested, try to get [name] over to you by calling [him/her] name calmly and cheerfully, slapping your leg, waving a toy, anything to redirect [his/her] attention. If [he/she] is able to be redirected verbally, give [him/her] tons of praise and treats and petting. Once [name] comes over to you, make sure you have something for [him/her] to do, like a puzzle toy or an activity.  It’s important to remember that [name] is probably trying to solicit play from or chase the cat because [he/she] has extra energy and sees the cat as an outlet for that energy. Once we redirect [name], it will be extremely beneficial to help [him/her] expend that energy in an appropriate way. Depending on how busy you are in the moment, this could be a great opportunity to practice some commands or play an indoor game. I have added a document that goes over various games and exercises you can do with [name] to help [him/her] burn that energy in a productive and appropriate way. The document will also go over some options for puzzle toys, which are a great alternative if you need to entertain [name] but can’t actively engage with her in that moment. Puzzle toys are interactive for dogs and typically require your dog to figure out how to get a treat or kibble out of the toy. Because of the motivation to get the treats inside, puzzle toys can keep your dog self-entertained for longer than regular toys while using up some mental energy.\n",
+			"text": "Verbal Redirection: Attach a leash to [name]’s collar and let it drag on the ground anytime [he/she] is interacting with the cat (for now). This leash will be your lifeline to [name] in case [he/she] ever decides to not respond to you calling [him/her] and you need to reach [him/her].  To reach [him/her] you can step on the leash to stop [him/her] in [his/her] tracks or you can grab the leash to pull [name] away. If [name] approaches the cat to play or appears that [he/she] is going to try to chase, and the cat shows that [he/she] is not interested, try to get [name] over to you by calling [him/her] name calmly and cheerfully, slapping your leg, waving a toy, anything to redirect [his/her] attention. If [he/she] is able to be redirected verbally, give [him/her] tons of praise and treats and petting. Once [name] comes over to you, make sure you have something for [him/her] to do, like a puzzle toy or an activity.  It’s important to remember that [name] is probably trying to solicit play from or chase the cat because [he/she] has extra energy and sees the cat as an outlet for that energy. Once we redirect [name], it will be extremely beneficial to help [him/her] expend that energy in an appropriate way. Depending on how busy you are in the moment, this could be a great opportunity to practice some commands or play an indoor game. I have added a document that goes over various games and exercises you can do with [name] to help [him/her] burn that energy in a productive and appropriate way. The document will also go over some options for puzzle toys, which are a great alternative if you need to entertain [name] but can’t actively engage with [him/her] in that moment. Puzzle toys are interactive for dogs and typically require your dog to figure out how to get a treat or kibble out of the toy. Because of the motivation to get the treats inside, puzzle toys can keep your dog self-entertained for longer than regular toys while using up some mental energy.\n",
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
@@ -127,7 +127,7 @@ export let categoryMetadata = [{
 		}],
 		"subTopics":[]
 	}, {
-		"name": "Chasing Cat pt 6 - Teaching her Recall",
+		"name": "Chasing Cat pt 6 - Teaching Recall",
 		"key":"69",
 		"default Value": false,
 		"paragraphs":[{
@@ -203,7 +203,7 @@ export let categoryMetadata = [{
 	"name": "Demand Behaviors",
 	"topics":[{
 		"name": "Pawing for Attention",
-		"key":"",
+		"key":"72",
 		"default Value": false,
 		"paragraphs":[{
 			"text": "To curb this behavior you'll have to completely ignore it --no correction, no negative attention, simply ignoring. That may mean getting up and walking away for a few moments. You can walk away from [him/her] and if [he/she] follows you and doesn't paw on you, make sure to capture this moment by rewarding [him/her] with treats or attention. If you are petting [him/her] and [he/she] starts to paw on you to continue, then remove all attention and start over again. You can also try teaching an incompatible behavior like sit or down where [he/she] is expected to have [his/her] paws on the ground and not on you. When [he/she] starts to paw at you, ask [him/her] for a sit.  When [he/she] does it you can then praise and reward [him/her]. \n",
@@ -704,7 +704,7 @@ export let categoryMetadata = [{
 
 
 /*TEMPLATE
-LAST KEY WAS 71
+LAST KEY WAS 72
 {
 	"name": "",
 	"topics":[{

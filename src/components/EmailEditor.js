@@ -1,8 +1,8 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import {Form} from 'react-bootstrap';
 
 export class EmailEditor extends React.Component {
-	
 	render() {
 		return (
 			<div className="EmailEditor">
