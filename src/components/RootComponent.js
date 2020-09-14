@@ -14,9 +14,10 @@ export class RootComponent extends React.Component {
 
 	constructor(props) {
 		super(props);
+		this._bottomPane = React.createRef();
 		this.state = {
 			emailCriteria: this.props.initialEmailCriteria,
-			emailText: ''
+			// emailText: ''
 		}
 	}
 	
@@ -43,8 +44,8 @@ export class RootComponent extends React.Component {
 				<div className="horizontal-line"></div>
 				<Row><Col>
 					<BottomPane
-						emailText={this.state.emailText}
-						updateEmailText={(text) => this.updateEmailText(text)}
+						ref={this._bottomPane}
+						copyEmailText={(text) => this.copyEmailText(text)}
 					/>
 				</Col></Row>
 			</div>
@@ -60,19 +61,33 @@ export class RootComponent extends React.Component {
 		$([document.documentElement, document.body]).animate({
 			scrollTop: $(".BottomPane").offset().top
 		}, 500);
-		this.setState({ emailText });
+		// this.setState({ emailText });
+		this._bottomPane.current.updateRichText(emailText);
 	}
 
 	resetEmail() {
 		this.setState({
-			emailText: '',
 			emailCriteria: this.props.initialEmailCriteria
-		})
+		});
+		this._bottomPane.current.updateRichText('');
 	}
 
-	updateEmailText(text) {
-		this.setState({
-			emailText: text
-		})
+	copyEmailText(text) {
+		// copy(text, {format: 'text/html'});
+		const textAreaSelector = '.DraftEditor-root *[data-contents="true"]';
+		if (document.selection) { // IE
+	        let range = document.body.createTextRange();
+	        range.moveToElementText(document.querySelector(textAreaSelector));
+	        range.select();
+	    } else if (window.getSelection) {
+	        let range = document.createRange();
+	        range.selectNode(document.querySelector(textAreaSelector));
+	        window.getSelection().removeAllRanges();
+	        window.getSelection().addRange(range);
+	    }
+	    setTimeout(() => document.execCommand('copy'), 500);
 	}
 }
+
+
+

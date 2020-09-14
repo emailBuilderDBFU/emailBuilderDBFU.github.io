@@ -8,7 +8,6 @@ export class EmailCriteria  {
 	render() {
 		let ret = '';
 		let requirementValues = this.requirementSelections.flatMap((requirementSelection) => {
-			console.log(requirementSelection);
 			return requirementSelection.getRequirementValues()
 		});
 		for (let topicSelection of this.topicSelections) {

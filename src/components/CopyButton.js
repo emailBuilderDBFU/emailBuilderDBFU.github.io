@@ -6,17 +6,14 @@ export class CopyButton extends React.Component {
 	render() {
 		return (
 			<div className="copy-button-wrapper">
-				<Row>
-					<Col xs={{ offset: 5, span: 2 }}>
-						<Button onClick={() => this.copyEmailText()} variant="info">Copy</Button>
-					</Col>
-				</Row>
+				<Button onClick={() => this.props.copyEmailText()} variant="info">Copy</Button>
 			</div>
 		)
 	}
 
-	copyEmailText() {
-		document.getElementById('email-textarea').select();
-		document.execCommand('copy');
-	}	
+	// copyEmailText() {
+
+	// 	// document.getElementById('email-textarea').select();
+	// 	// document.execCommand('copy');
+	// }	
 }

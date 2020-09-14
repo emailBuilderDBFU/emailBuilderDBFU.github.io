@@ -5,7 +5,7 @@ export let categoryMetadata = [{
 		"key":"1",
 		"default Value": true,
 		"paragraphs":[{
-			"text": "My name is [author] and I’m with the Dog Behavior Department at Austin Pets Alive.",
+			"text": "My name is [author] and I’m with the Dog Behavior Department here at Austin Pets Alive.",
 			"requirementTypes":["Dog Name", "Author"]
 		}],
 		"subTopics":[]
@@ -26,7 +26,7 @@ export let categoryMetadata = [{
 		"key":"49",
 		"default Value": false,
 		"paragraphs":[{
-			"text": "There are a few techniques you can use to stop [name] from digging in the backyard. You'll need to use a process of monitoring, providing feedback, interrupting, and redirecting him. I've linked our document below about common backyard issues and how to address them, so please read through that as it walks through this process in detail. There are dogs who have a such a strong instinct to dig that rather than trying to teach them to never dig, it is often faster and easier to teach them to only dig in a certain spot. Some people have had success in just getting a kiddie pool and filling it full of dirt/sand for digging.\n",
+			"text": "<p>There are a few techniques you can use to stop [name] from digging in the backyard. You'll need to use a process of monitoring, providing feedback, interrupting, and redirecting [him/her]. For more detail on this, please check out <a href=\"https://docs.google.com/document/d/1C7J83xvg2Gu1h4lv4HXSynQUScT73g9cLh-fxX3zX0s/edit?usp=sharing\">this</a> document - it talks through common backyard issues and steps to address and curb them. There are also some dogs who have such a strong instinct to dig that rather than trying to teach them to not dig at all, it is often faster and easier to teach them to only dig in a certain spot. People have had success in getting a kiddie pool and filling it full of dirt/sand for digging, so their dogs have a healthy, appropriate outlet for their digging instinct. </p>",
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
@@ -68,7 +68,7 @@ export let categoryMetadata = [{
 		"key":"4",
 		"default Value": false,
 		"paragraphs":[{
-			"text": "The key to this is to take it slow. It should be a weeks- or months-long introduction period, not days. We want to give [name] ample time to get comfortable with your cat before they actually get to interact. Also, from the cat’s perspective, it can be really stressful to welcome a new family member into the house, especially a rambunctious dog. Slow and steady is the way to ensure a successful integration into the house. \n",
+			"text": "<p> <a href=\"https://docs.google.com/document/d/1LWNjy-U70R11wIpoGJ6KpJ8uN3TEEvguKQ2bC14-2xw/edit?usp=sharing\">This</a> is our document that talks through how to properly introduce newly adopted dogs to cats. I’ll briefly talk through the general points presented in the document, but for more detail, check it out. Basically, the first week we don’t want to try to introduce them at all. Transitions are stressful for dogs, so giving [name] a little time to settle in and adjust to [his/her] new environment before introducing them would allow [him/her] to be a little calmer, which can be helpful. During this time, you could also start working on some basic obedience (specifically \“sit\”) which will be helpful in this process. Once [name] has settled in, you can do the first real stage of the introductions. You’ll have your dog on leash, and have the cat in the room, preferably contained in a large dog crate or something along those lines, so they can’t get too close to the dog if they want to. While they’re \“interacting\” like this (in the same room, but not close to each other or actually touching), work on rewarding [name] for ignoring the cat and paying attention to you. We basically want to desensitize [him/her] to their presence, so the cat isn’t exciting or something to be worked up about. Continue these exercises of them just existing in the same space, slowly decreasing the space between the two, and look for [name] consistently ignoring or showing calm behavior around the cat. After a week or two of this, move to the next stage, which is letting the cats roam free while [name] is still on leash. Continue to look for appropriate behaviors, and work on letting them get closer. Eventually you’ll transition to letting go of the leash. Keep the leash on [name], but let it drag on the ground. If [he/she] tries to chase the cat, you can step on the leash and halt [him/her] from running. Always supervise them together, and make sure that the cat has lots of \“escape routes\” that the dog cannot follow - baby gates between rooms, cat trees, counters etc. If the cat tries to communicate to [name] to back off (hissing, swatting, etc), make sure [he/she] listens to the cat. If [he/she] continues to try to play/pester the cat when the cat is telling [him/her] to back off, you should step in and back your cat up. Again, check out the document for more detail, and don’t hesitate to reach out if you have any other questions or want to talk through this in more detail. </p>",
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
@@ -131,7 +131,7 @@ export let categoryMetadata = [{
 		"key":"69",
 		"default Value": false,
 		"paragraphs":[{
-			"text": "Teaching Recall: Having a strong recall (\“come\” command) will help tremendously in these situations so that you will be more successful when trying to redirect [name] by calling [him/her]. I have attached 2 videos that will take you through the introductory and intermediate levels of recall. The most important aspect of recall is the follow through - while training, make sure to have a leash or a long leash attached to [name]. We do not want to give [name] the opportunity to ignore you. It will also be important to practice recall in all circumstances and not just when you are calling [name] away from the cat. It might even be best to save the recall command you use (come, here etc) for only training sessions until it becomes more reliable. This means relying on using [name]’s name, or lap patting, or whistling sounds to get [name] to you when you are trying to call [him/her] away from the cat (until her recall is more reliable). We do not want her to associate the recall command with only getting to lose out on chasing for now.  \n",
+			"text": "Teaching Recall: Having a strong recall (\"come\" command) will help tremendously in these situations so that you will be more successful when trying to redirect [name] by calling [him/her]. I have attached 2 videos that will take you through the introductory and intermediate levels of recall. The most important aspect of recall is the follow through - while training, make sure to have a leash or a long leash attached to [name]. We do not want to give [name] the opportunity to ignore you. It will also be important to practice recall in all circumstances and not just when you are calling [name] away from the cat. It might even be best to save the recall command you use (come, here etc) for only training sessions until it becomes more reliable. This means relying on using [name]’s name, or lap patting, or whistling sounds to get [name] to you when you are trying to call [him/her] away from the cat (until her recall is more reliable). We do not want her to associate the recall command with only getting to lose out on chasing for now.  \n",
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
@@ -380,6 +380,27 @@ export let categoryMetadata = [{
 		"subTopics":[]
 	}]
 }, {
+	"name": "Indoor Barking",
+	"topics":[{
+		"name": "Unspecified Barking",
+		"key":"",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "The first suggestion is to try playing a low-level but constant white noise around the house - this could be leaving the TV on, having a radio or some music playing, or literally just playing a \"white noise\" sound (there are a ton on youtube on 10 hour loops). This way, [name] won't be as skittish with outside noises, as [he/she] won't be able to hear sudden changes in sound as well. Also, have you had any luck just ignoring [him/her]? Oftentimes, dogs bark indoors to get your attention, so sometimes you can simply acknowledge that like 'hey, thanks bud, got it.' Then ignore [him/her]. When we as humans start talking to them or vocally telling them to cut it out, the dog may think 'oh good! they're barking too!' So if we acknowledge and ignore, they might decide that it's not worth barking about. The other thing you can try is a squirt bottle with water in it. When [name] starts barking, you can try the acknowledge/ignore method. If [he/she] doesn't stop, you can try using the squirt bottle. You always want to pair the squirt of water with a negative verbal marker. We like to use 'eh-eh' or 'enough' since they aren't words dogs hear very often. Use this word, then give a squirt of water over his rump or at his toes. Over time, [he/she] will associate that word with the squirt of water. Eventually, you will be able to phase out the squirt bottle - [name] will understand 'eh-eh' means [he/she] needs to stop whatever [he/she]’s doing. I'm also sending you our document on barking indoors for more information to help figure out why [he/she]'s barking and how to curb it.\n",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+		},{
+		"name": "Demand Barking",
+		"key":"",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "[name] has learned that when [he/she] wants your attention, barking and staring at you will get you to react. Even if you don't react positively, any reaction is giving him attention. A lot of dogs will hear you talk in a loud voice (when you try to yell and say “no”) and think “Yay, they are barking too!” which is obviously not what we want. Because of this, we advise you to completely ignore [him/her] when [he/she] does bark at you. You should reward [him/her] for quiet behavior, even if it's just for a few moments. Basically, we want to teach [him/her] that noisy, rude behavior does not get [him/her] any attention at all, but quiet, polite behavior does. Another thing you can do if you're feeling uncomfortable with [him/her] barking at you is teach [him/her] \"place.\" This command means [he/she] has to go to a designated spot, like [his/her] bed or crate. That way, if [he/she] is barking at you, you can say \"place!\" and [he/she] will move away from you and go to [his/her] bed. At that point, [he/she] did something positive, so you can reward [him/her]. Also, focusing on obedience is a good way to switch gears from [him/her] just focusing on demanding attention to focusing on something positive and productive. Check out this video that goes over teaching place for more details.\n",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}]
+},	{
 	"name": "JAM",
 	"topics":[{
 		"name": "Mouthy",
