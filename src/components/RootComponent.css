@@ -240,14 +240,14 @@ BOTTOM PANE
 	margin: auto;
 	height: calc(100vh - 20px - 100px); /* 20 = top-margin; 100 = height+margin-bottom of .CopyButton */
 	width: calc(80vw); /* 40 = left-margin; */
-	font-family: 'Open Sans', sans-serif !important;
-	font-size: 14px;
+	font-family: sans-serif !important;
+	font-size: 14px !important;
 	border-radius: 5px;
 }
 
 .rte-editor {
     font-size: 14px;
-    color: black;
+    color: black !important;
     height: calc(90vh - 20px - 100px);
     overflow-y: scroll;
 }
