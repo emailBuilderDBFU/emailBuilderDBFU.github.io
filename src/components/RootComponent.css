@@ -245,7 +245,7 @@ BOTTOM PANE
 }
 
 .rte-editor {
-    font-size: 14px !important;
+    font-size: 13px !important;
     color: black !important;
     height: calc(90vh - 20px - 100px);
     overflow-y: scroll;
