@@ -687,8 +687,38 @@ export let categoryMetadata = [{
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
+	},{
+		"name": "Step by Step in Crate",
+		"key":"74",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "<p>As long as [name] is comfortable in the crate while you are in the room with [him/her], you can start working with [him/her] on being happy while alone in the crate. Here is a step by step walkthrough of how to break this down, starting from just getting [him/her] used to you leaving without panicking. </p><ul><li>Begin by walking over to your door and opening it. Shut the door, and calmly walk back to [name] and reward [him/her] with a high value treat. Repeat this until [he/she] is displaying relaxed body language. <em>--Do this a couple of times and then just let [him/her] out, don't push too far too soon. You will want to repeat this whole routine a couple of times in different sessions before moving onto the next step.</em> </li><li>Next, as a continuation of the step above, step outside of the open door momentarily, and then step back inside and shut the door. Calmly walk back over to [name] and reward [him/her] with a high value treat. Repeat this until [he/she] is displaying relaxed body language throughout the exercise.<em>-- Same thing-- make sure you do this several times to ensure complete comfort with this step before moving to the next.</em></li><li>Finally, step outside, close the door behind you, and then immediately return inside. Calmly walk back over to your dog and reward [him/her] with a high value treat. Repeat this until [name] is displaying relaxed body language the whole time. </li><li>Once he is fine with you being on the other side of the door for several seconds, begin working on increasing the duration of time. This step involves giving [name] a verbal cue (i.e. “I’ll be back”), leaving (for only a few seconds to a minute), and then returning. Your return must be low-key; either ignore [name] or greet [him] quietly and calmly. If [he/she] continues to show no signs of distress, repeat the exercise and gradually increase the length of time you’re gone.</li><li>Practice as many absences as possible that last less than 10 minutes. You can do many departures within one session if [name] is relaxed sufficiently between departures. You should also scatter practice departures and short-duration absences throughout the day.</li></ul><p><strong>Note:</strong> Proceed very gradually from step to step, repeating each step until your dog shows no signs of distress. The number of repetitions will vary depending on the severity of the anxiety. If at any time in this process your actions produce an anxiety response in your dog, you’ve gone too fast. Return to an earlier step in the process and practice the step until [name] shows no distress response, then proceed to the next step.</p>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
 	}]
 },	{
+	"name": "Staff Topics",
+	"topics":[{
+		"name": "Dog/Dog Incident Questions",
+		"key":"75",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "<ul><li>First & last name of the other dog's owner?</li><li>Email for the other dog's owner?</li><li>Phone number for the other dog's owner?</li><li>Date of incident?</li><li>Where did the altercation occur?</li><li>Approximate size of the other dog?</li><li>If the other dog was bitten, on what body part(s)?</li><li>Did the bite(s) break skin?</li><li>Did the bite(s) result in (1) small nicks in skin, scrapes or slight bleeding, but no punctures; (2) shallow punctures; or (3) deep punctures?</li><li>How many times did the dog bite in total during this incident?</li><li>Did the other dog require professional medical care?</li><li>Can you email pictures of the bite?</li><li>Please list any witnesses to the incident, including any contact information that you have for them. </li><li>Were the dogs on or off leash?</li><li>Had the dogs met prior to the incident? How were they introduced?</li><li>Were the dogs playing before the incident?</li><li>Were there any food, toys, dog beds, etc. nearby when the altercation began?</li><li>Was either dog on furniture?</li><li>Was either dog receiving attention from a person?</li><li>Please provide a brief and objective description of the incident, including what happened leading up to the altercation as well as after (e.g. was there a growl or other warning signs, was either animal injured, did someone else need to help, did the animal run away after, etc.) and how the incident was resolved.</li><li>Did your dog attempt to re-access the other dog once separated?</li><li>Were any people bitten in the process of separating the dogs? If so, by which dog?</li><li>Are there any other pertinent details about the incident not addressed in the questions above that should be considered?</li></ul>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}, {
+		"name": "Human Bite Incident Questions",
+		"key":"76",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "<p>I'd like to gather some more details about the incident so we can get a better idea of [name]'s behavior here. Could you answer the following questions please?</p><ul><li>First & last name of the person who was bit.</li><li>Was the person who was bit a minor (under 18)? If so, what is the first & last name of their parent/guardian.</li><li>Email for the person who was bit or their parent/guardian.</li><li>Phone number for the person who was bit or their parent/guardian.</li><li>Date of bite incident.</li><li>Time of bite incident.</li><li>Where did the bite incident occur?</li><li>On what body part(s) was the person bitten?</li><li>Did the bite(s) break skin?</li><li>Did the bite(s) result in (1) small nicks in skin, scrapes or slight bleeding, but no punctures; (2) shallow punctures; or (3) deep punctures?</li><li>How many times did the dog bite in total during this incident?</li><li>Was the bite washed for 5 minutes with warm soapy water or an antiseptic?</li><li>Is the person who was bit seeking professional medical care?</li><li>Can you email pictures of the bite?</li><li>Please list any witnesses to the bite incident, including any contact information that you have for them.</li><li>Please provide a brief and objective description of the incident, including what happened leading up to the bite as well as after the bite (e.g. was there a growl or other warning signs, was the animal injured, did someone else need to help, did the animal run away after, etc.)</li><li>Are there any other pertinent details about the incident not addressed in the questions above that should be considered?</li></ul>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}]
+},{
 	"name": "Storm Anxiety",
 	"topics":[{
 		"name": "General Advice",
