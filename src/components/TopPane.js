@@ -37,7 +37,7 @@ export class TopPane extends React.Component {
 			<div>
 				<Row>
 					<Col className="card-wrapper">
-						<div className="card">
+						<div className="card-box">
 							<div className="title-and-line-wrapper">
 								<h4 className="card-title">information</h4>
 								<hr className="small-horizontal-line"></hr>
@@ -58,7 +58,7 @@ export class TopPane extends React.Component {
 					</Col>
 					<div className="vertical-line"></div>
 					<Col className="card-wrapper">
-						<div className="card">
+						<div className="card-box">
 							<div className="title-and-line-wrapper">
 								<div className="title-and-search-wrapper">
 									<h4 className="card-title">categories</h4>
