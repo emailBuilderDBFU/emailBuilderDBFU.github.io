@@ -8,6 +8,7 @@ import {
 	Route,
 	Link
 } from "react-router-dom";
+// import Sidebar from '../components/Sidebar';
 
 function Home() {
   return <h2>Home</h2>;
@@ -23,7 +24,7 @@ function Users() {
 
 class App extends React.Component {
 	render() {
-		return (
+		return (	
 			<Router>
 				<div>
 					{/* A <Switch> looks through its children <Route>s and
@@ -40,7 +41,7 @@ class App extends React.Component {
 						</Route>
 					</Switch>
 				</div>
-			</Router>			
+			</Router>
 		);
 	}
 

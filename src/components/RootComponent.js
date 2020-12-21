@@ -5,6 +5,7 @@ import {TopPane} from './TopPane';
 import {BottomPane} from './BottomPane';
 import {defaultEmailCriteria, categories} from '../metadata/index.js';
 import './RootComponent.css';
+import Sidebar from '../components/Sidebar';
 
 export class RootComponent extends React.Component {
 

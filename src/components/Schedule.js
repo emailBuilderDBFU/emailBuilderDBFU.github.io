@@ -1,6 +1,7 @@
 import React from 'react';
 import './RootComponent.css';
 import {Row, Col, Container, Table, Card} from 'react-bootstrap';
+import Sidebar from '../components/Sidebar';
 
 
 export class Schedule extends React.Component {
@@ -8,11 +9,9 @@ export class Schedule extends React.Component {
 		return(
 			<div>
 				<div className="Header">
-					<Row className="Title">
-						<Col><h2>schedule</h2></Col>
-					</Row>
+					<Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+					<h2 className="SchedTitle">schedule</h2>
 				</div>
-
 				<div class="Sched">
 					<Card>
 						<Table striped bordered class="table table-bordered">
@@ -40,7 +39,7 @@ export class Schedule extends React.Component {
 									</td>
 									<td>Jenna</td>
 									<td>Shannon</td>
-									<td>Mike</td>
+									<td>Mike (Training)</td>
 								</tr>
 
 								<tr>
@@ -118,7 +117,6 @@ export class Schedule extends React.Component {
 						</Table>
 					</Card>
 				</div>
-
 			</div>
 		)
 	}
