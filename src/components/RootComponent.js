@@ -18,7 +18,6 @@ export class RootComponent extends React.Component {
 		this._bottomPane = React.createRef();
 		this.state = {
 			emailCriteria: this.props.initialEmailCriteria,
-			// emailText: ''
 		}
 	}
 	
@@ -26,6 +25,7 @@ export class RootComponent extends React.Component {
 		return (
 			<div className="RootComponent">
 				<div className="Header">
+					<Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
 					<Row className="Title">
 						<Col><h2>email builder</h2></Col>
 					</Row>
@@ -62,7 +62,6 @@ export class RootComponent extends React.Component {
 		$([document.documentElement, document.body]).animate({
 			scrollTop: $(".BottomPane").offset().top
 		}, 500);
-		// this.setState({ emailText });
 		this._bottomPane.current.updateRichText(emailText);
 	}
 
@@ -74,7 +73,6 @@ export class RootComponent extends React.Component {
 	}
 
 	copyEmailText(text) {
-		// copy(text, {format: 'text/html'});
 		const textAreaSelector = '.DraftEditor-root *[data-contents="true"]';
 		if (document.selection) { // IE
 	        let range = document.body.createTextRange();

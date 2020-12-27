@@ -30,14 +30,11 @@ export class Schedule extends React.Component {
 							<tbody>
 								<tr>
 									<td>Tier 1 Volunteer</td>
-									<td>Amanda</td>
-									<td>Jenna</td>
+									<td></td>
+									<td></td>
 									<td>Shannon</td>
-									<td>
-										<Row className ="Sched-Cell">Amanda</Row> 
-										<Row className ="Sched-Cell">Stephanie (Training)</Row>
-									</td>
-									<td>Jenna</td>
+									<td>Stephanie (Training)</td>
+									<td></td>
 									<td>Shannon</td>
 									<td>Mike (Training)</td>
 								</tr>
@@ -49,10 +46,10 @@ export class Schedule extends React.Component {
 										<Row className ="Sched-Cell">Amanda (Training)</Row>
 									</td>
 									<td>
-										<Row className ="Sched-Cell">Laura</Row> 
+										<Row className ="Sched-Cell">Laura M</Row> 
 										<Row className ="Sched-Cell">Jenna (Training)</Row>
 									</td>
-									<td>Laura</td>
+									<td>Laura M</td>
 									<td>
 										<Row className ="Sched-Cell">Lisa</Row> 
 										<Row className ="Sched-Cell">Amanda (Training)</Row>
@@ -91,11 +88,11 @@ export class Schedule extends React.Component {
 									<td>Staff</td>
 									<td>
 										<Row className ="Sched-Cell">Amy</Row> 
-										<Row className ="Sched-Cell">Laura P (Training)</Row>
+										<Row className ="Sched-Cell">Laura P</Row>
 									</td>
 									<td>
 										<Row className ="Sched-Cell">Amy</Row> 
-										<Row className ="Sched-Cell">Laura P (Training)</Row>
+										<Row className ="Sched-Cell">Laura P </Row>
 									</td>
 									<td>
 										<Row className ="Sched-Cell">Amy</Row> 
@@ -110,7 +107,7 @@ export class Schedule extends React.Component {
 									<td>
 										<Row className ="Sched-Cell">Amy</Row> 
 										<Row className ="Sched-Cell">Zan</Row>
-										<Row className ="Sched-Cell">Laura P (Training)</Row>
+										<Row className ="Sched-Cell">Laura P</Row>
 									</td>
 								</tr>
 							</tbody>
