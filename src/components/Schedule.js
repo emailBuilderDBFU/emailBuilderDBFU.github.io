@@ -47,7 +47,7 @@ export class Schedule extends React.Component {
 									</td>
 									<td>
 										<Row className ="Sched-Cell">Laura M</Row> 
-										<Row className ="Sched-Cell">Jenna (Training)</Row>
+										<Row className ="Sched-Cell"></Row>
 									</td>
 									<td>
 										<Row className ="Sched-Cell">Laura M</Row> 
@@ -59,7 +59,7 @@ export class Schedule extends React.Component {
 									</td>
 									<td>
 										<Row className ="Sched-Cell">Kristin</Row> 
-										<Row className ="Sched-Cell">Jenna (Training)</Row>
+										<Row className ="Sched-Cell"></Row>
 									</td>
 									<td>
 										<Row className ="Sched-Cell">Megan</Row> 
