@@ -62,6 +62,18 @@ export let categoryMetadata = [{
 		"subTopics":[]
 	}]
 }, {
+	"name": "Blind/Deaf Dogs",
+	"topics":[{
+		"name": "Blind and Deaf Dog",
+		"key":"77",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "<p>For learning new spaces:</p><ul><li>Get down on your hands and knees, at your dog’s level, and look for things that could harm [him/her]. As you know, sharp table edges, etc. can be hazards for dogs who aren’t expecting them.</li><li>Scatter kibble throughout the new space. A dog will search for the kibble but since they are using their nose and are moving slowly, they learn the space with less running into objects!</li><li>Use scented oils to spray things that your dog could bump into. (Be careful about the amount you use, as [his/her] sense of smell is much stronger than a human - you don’t need to be able to smell it for [him/her] to smell it!)</li><li>Textures seem to help some blind dogs. (Example: At the doorway, when [he/she] feels the doormat, [he/she] knows that [he/she] is close to the door.) Feed [name] in the same place and try having rugs under the water bowls. When [he/she] feels the texture change, [he/she] will know where the water bowl is.</li><li>Keep your furniture/household items in the same places as [he/she] adjusts to your home, so [he/she] can get confident in the layout of [his/her] new home.</li></ul><p>Other tips:</p><ul><li>Take [him/her] for walks where you expect there to be a variety of smells to stimulate [him/her] and wear out [his/her] brain.</li><li>Teach [name] a cue that represents praise - basically a non-verbal, non-visual way to say \"good dog!\". To do this, pick a spot on [his/her] body, like the side of [his/her] neck. Touch that spot then give [him/her] a treat. Repeat that process randomly throughout the day. Touch spot, give treat. Repeat. With enough repetition, [name] will associate getting touched on that spot with treats. At that point, you can mix in giving some affection along with or instead of the treats. Eventually, getting touched at that one specific spot will just have a generally positive association and make your pup happy, just like saying \"good dog\" might make a dog who can hear get happy/excited</li><li>Teach your dog what you want her to do, rather than trying to figure out how to teach [him/her] \"no.\" One recommendation is to tether your dog to you for a few weeks, so that [he/she] has no choice but to hang out with you. You can interrupt any wrong behavior immediately, and reward good behaviors quickly too.</li><li>Teach your dog to find you (this is much like teaching a dog to \"come\"). Take a shirt or other item that you have slept in (so that it really smells like you), and drag it in front of your dog until [he/she] reaches you, then give [him/her] a treat! After [he/she] gets good at that, tie a string to it, and drag it to you, with [him/her] following, then give [him/her] a treat!. (This may also help with potty training...if [he/she] learns to come to you when [he/she] needs to go out.)</li></ul><p>Toy Ideas</p><li>Look for scented toys - some stuffed toys come with scents, and there are tennis balls that have a mint or peanut butter scent. You can also scent your own, by soaking them in chicken broth, etc.</li><li>Look for toys with different textures (different kinds of stuffing - some toys have \"krinkly\" filling rather than polyfill - and different outer layers, fur, fleece, sheepskin, terrycloth, etc.)</li><li>Use kongs that can be stuffed with food and treats.</li><ul><p>Links:</p><ul><li><a href=\"https://blog.companionanimalsolutions.com/training-dogs-who-are-blind-and-deaf/comment-page-1/\">This blog post has good information about training Blind and Deaf dogs</a></li><li><a href=\"https://www.facebook.com/groups/824575710912390\">This Facebook group for owners of Blind and Deaf dogs</a> and has over 2,700 members and may be a good place to crowdsource ideas</li><li><a href=\"https://www.facebook.com/groups/426048914603665\">This Facebook group focuses on Blind and Deaf dog training</a></li><ul>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}]
+}, {
 	"name": "Cat-Dog Interactions",
 	"topics":[{
 		"name": "Generic Cat/Dog Intro",
@@ -571,6 +583,15 @@ export let categoryMetadata = [{
 		}],
 		"subTopics": []
 	}, {
+		"name":"JAM with kids",
+		"key":"78",
+		"defaultValue": false,
+		"paragraphs": [{
+			"text": "<p>Training is a little more difficult when kids are involved because training out this behavior involves consistent, controlled reactions. To help, I recommend that your puppy wears a drag leash. A drag leash is just any normal, preferably lightweight, leash that you clip to [his/her] collar but don’t hold; let it drag behind [him/her]. That way, if [he/she] starts to jump on your child, you can grab the end of the leash, with no other reaction, and lead [him/her] to a separate area from the kids for a few minutes apart. So the result is that jumping=abrupt end to attention, gentle playing=continuing fun.</p>",
+			"requirementTypes": ["Dog Name","Dog Gender"]
+		}],
+		"subTopics": []
+	},{
 		"name":"Jumpy",
 		"key":"34",
 		"defaultValue": false,
@@ -755,7 +776,7 @@ export let categoryMetadata = [{
 
 
 /*TEMPLATE
-LAST KEY WAS 76
+LAST KEY WAS 77
 {
 	"name": "",
 	"topics":[{
