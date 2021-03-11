@@ -2,25 +2,13 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { RootComponent} from '../components/RootComponent';
 import { Schedule} from '../components/Schedule';
+import { Checklist} from '../components/Checklist';
 import {
 	BrowserRouter as Router,
 	Switch,
 	Route,
 	Link
 } from "react-router-dom";
-// import Sidebar from '../components/Sidebar';
-
-function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
-}
 
 class App extends React.Component {
 	render() {
@@ -33,8 +21,8 @@ class App extends React.Component {
 						<Route path="/schedule">
 							<Schedule />
 						</Route>
-						<Route path="/users">
-							<Users />
+						<Route path="/checklist">
+							<Checklist />
 						</Route>
 						<Route path="/">
 							<RootComponent />

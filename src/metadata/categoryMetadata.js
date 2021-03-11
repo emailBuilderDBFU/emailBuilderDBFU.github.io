@@ -30,6 +30,16 @@ export let categoryMetadata = [{
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
+	},
+	{
+		"name": "Barking",
+		"key":"79",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "<p>To curb barking in the backyard, you will need to actively manage [his/her] behavior out there for a while so [he/she] doesn't get to practice this habit. You'll need to use a process of monitoring, providing feedback, interrupting, and redirecting [him/her]. For more detail on this, please check out <a href=\"https://docs.google.com/document/d/1C7J83xvg2Gu1h4lv4HXSynQUScT73g9cLh-fxX3zX0s/edit?usp=sharing\">this document</a> on problematic backyard behaviors - it talks through common backyard issues and steps to address and curb them.</p>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
 	}]
 }, {
 	"name": "Basic Obedience Requests",
