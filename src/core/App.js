@@ -21,9 +21,6 @@ class App extends React.Component {
 						<Route path="/schedule">
 							<Schedule />
 						</Route>
-						<Route path="/checklist">
-							<Checklist />
-						</Route>
 						<Route path="/">
 							<RootComponent />
 						</Route>

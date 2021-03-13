@@ -11,9 +11,6 @@ export default props => {
 			<a className="menu-item" href="/schedule">
 				Schedule
 			</a>
-			<a className="menu-item" href="/checklist">
-				Checklist
-			</a>
 		</Menu>
 	);
 };
