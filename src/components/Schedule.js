@@ -43,7 +43,7 @@ export class Schedule extends React.Component {
 									<td>Tier 2 Volunteer</td>
 									<td>
 										<Row className ="Sched-Cell">Megan</Row> 
-										<Row className ="Sched-Cell">Amanda (Training)</Row>
+										<Row className ="Sched-Cell">Amanda</Row>
 									</td>
 									<td>
 										<Row className ="Sched-Cell">Laura M</Row> 
@@ -51,11 +51,11 @@ export class Schedule extends React.Component {
 									</td>
 									<td>
 										<Row className ="Sched-Cell">Laura M</Row> 
-										<Row className ="Sched-Cell">Shannon (Training)</Row>
+										<Row className ="Sched-Cell">Shannon</Row>
 									</td>
 									<td>
 										<Row className ="Sched-Cell">Lisa</Row> 
-										<Row className ="Sched-Cell">Amanda (Training)</Row>
+										<Row className ="Sched-Cell">Amanda</Row>
 									</td>
 									<td>
 										<Row className ="Sched-Cell">Kristin</Row> 
@@ -65,7 +65,7 @@ export class Schedule extends React.Component {
 									</td>
 									<td>
 										<Row className ="Sched-Cell">Lisa</Row> 
-										<Row className ="Sched-Cell">Shannon (Training)</Row>
+										<Row className ="Sched-Cell">Shannon</Row>
 									</td>
 								</tr>
 
