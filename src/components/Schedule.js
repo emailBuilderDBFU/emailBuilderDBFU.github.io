@@ -87,23 +87,19 @@ export class Schedule extends React.Component {
 										<Row className ="Sched-Cell">Laura P</Row>
 									</td>
 									<td>
-										<Row className ="Sched-Cell">Ally</Row>
 										<Row className ="Sched-Cell">Amy</Row> 
 										<Row className ="Sched-Cell">Laura P</Row>
 									</td>
 									<td>
-										<Row className ="Sched-Cell">Ally</Row>
 										<Row className ="Sched-Cell">Amy</Row> 
 										<Row className ="Sched-Cell">Laura P</Row>
 										<Row className ="Sched-Cell">Zan</Row>
 									</td>
 									<td>
-										<Row className ="Sched-Cell">Ally</Row>
 										<Row className ="Sched-Cell">Laura P</Row>
 										<Row className ="Sched-Cell">Zan</Row>
 									</td>
 									<td>
-										<Row className ="Sched-Cell">Ally</Row>
 										<Row className ="Sched-Cell">Zan</Row>
 									</td>
 									<td>
