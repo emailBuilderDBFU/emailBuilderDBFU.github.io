@@ -508,6 +508,15 @@ export let categoryMetadata = [{
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
+	},{
+		"name": "Moving Forward when Dog Puts on Brakes",
+		"key":"82",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "<p>To get your pup moving again when [he/she] is putting on the breaks, hold the leash in your right hand and position yourself so [name] is on your left side and the leash goes across your hips. Take 3-4 confident steps forward with the leash across your waist the whole time. Having the leash across your hips allows your body to do the work of pulling [him/her] onward, instead of your arms, and taking several steps in a row almost always results in the dog giving in to the direction you're going. If you try this and after a few steps [he/she] is flailing/bucking on the leash, then this is not the time to be using this technique - this technique is for dogs who are being stubborn just to be stubborn, not for dogs who are scared or nervous of going forward.</p>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
 	}]
 },  {
 	"name": "Nail Trimming",
@@ -768,6 +777,18 @@ export let categoryMetadata = [{
 		"subTopics":[]
 	}]
 },{
+	"name": "Taking Medicine",
+	"topics":[{
+		"name": "Tips for picky eaters",
+		"key":"81",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "<p>There are a lot of ways to try to entice a dog into taking their medicine. You can try hiding the pill in a variety of foods to see if there is one [he/she] can’t resist: sliced cheese (think kraft singles type), cream cheese, peanut butter, yogurt, ice cream, <a href=\"https://www.chewy.com/greenies-pill-pockets-canine-chicken/dp/29793\">Pill Pockets</a>, butter (actual butter, not peanut butter), cheese wiz, scrambled eggs. See if [he/she] likes one a lot more than the others, and use that one. Give [him/her] a few pieces of whatever treat you're going to use, then sneak the treat that has the medication wrapped in it, then give [him/her] more regular treats. For example, with sliced cheese, give [him/her] a little piece of a slice, then another little piece, then a piece that has the meds wrapped in it, followed quickly by another plain little piece. This way [he/she] is just focused on eating more bits of cheese and isn't suspicious you're trying to sneak something by [him/her]. If that doesn't work, you can try grinding up the pill and mixing it in with yogurt/peanut butter/cream cheese/wet food/etc. Sometimes dogs get too smart about being able to find the pills once they eat a treat, but don't mind it if it's ground up and mixed with something tasty. An important note is that you should <strong>not</strong> break or grind up medicine that is specifically “extended release”, because it is meant to dissolve slowly once consumed. If you’re unsure if you can grind up a pill, check in with your vet before doing so. </p>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}]
+},{
 	"name": "Storm Anxiety",
 	"topics":[{
 		"name": "General Advice",
@@ -804,7 +825,7 @@ export let categoryMetadata = [{
 
 
 /*TEMPLATE
-LAST KEY WAS 80
+LAST KEY WAS 82
 {
 	"name": "",
 	"topics":[{
