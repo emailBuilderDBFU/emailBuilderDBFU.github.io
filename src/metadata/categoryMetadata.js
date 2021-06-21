@@ -201,6 +201,18 @@ export let categoryMetadata = [{
 		"subTopics":[]
 	}]
 }, {
+	"name": "Consent Petting",
+	"topics":[{
+		"name": "Generic Response",
+		"key":"83",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "<p>When interacting with your pup, you should practice \"consent petting.\" This is a simple exercise that you can do every time you're petting [him/her]. First, wait until [name] is actively approaching you and seems relaxed. Then pet [him/her] for 3-4 seconds before lifting your hand off of [him/her] and pausing. Gauge [his/her] reaction there - if [he/she] nudges your hand, wags [his/her] tail, licks your hand, or moves towards you, then you can go back to petting. If [he/she] moves away, freezes, or otherwise doesn't ask for you to continue petting [him/her], then just put your hand in your lap and let [him/her] move away. Doing this every so often while petting [him/her] enables [him/her] to decide if [he/she] wants to continue the love fest or get a little space. This reduces the chances of [him/her] having a bad experience when getting petted (which could build into being fearful of getting petted at all if [he/she] is continually uncomfortable while being handled). See <a href=\"https://youtu.be/-hsOlJwMwps\">this video</a> for more info and examples of body language. </p>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}]
+},{
 	"name": "Crate Training",
 	"topics":[{
 		"name": "Introduction to Crating",
@@ -756,6 +768,18 @@ export let categoryMetadata = [{
 		"subTopics":[]
 	}]
 },	{
+	"name": "Socialization",
+	"topics":[{
+		"name": "Basics - for Social Dogs/No Dog Notes",
+		"key":"84",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "<p> There are a few things to consider when starting to socialize [name]. To start, we want to focus on setting [him/her] up for success and creating positive experiences. To do this, I'd be picky on who you let [name] play with, especially in the beginning when you are getting to know [his/her] socialization skills and play style. Avoid dog parks and instead focus on either one on one playdates with other dogs you know are social, or look into structured doggie playgroups at facilities like Taurus Academy or Zoom Room. I recommend against dog parks because anyone can bring any dog there, and there isn't a lot of (or any) regulation. This frequently results in unfriendly or under-socialized dogs going to the dog park with well-intentioned owners hoping to let them \"play\" but ultimately those dogs can pick unnecessary fights and interact inappropriately with other dogs. </p><p>If you have family/friends with dogs that you know generally do well with other dogs, those could be great dogs to introduce [name] to. For those introductions, check out <a href=\"https://docs.google.com/document/d/1PpSFqwhkL3AgudpKLfgmwtsoU1x4EC0LwBz0dBNL5vs/edit?usp=sharing\">this document</a> for some steps to facilitate dog meetings. The document is geared towards introducing dogs that are going to live together, but it has some good tips for introducing dogs in general as well. To start, take the dogs on a tandem walk. This means they're on leash walking near each other, but aren't directly interacting. This way they can get used to each other's scents and observe each other from a distance, while the focus isn't directly on each other but instead on the smells and adventures of the walk. Once you've done a walk, you can introduce them to each other in a yard. Generally, introductions in bigger, open areas are less stressful for dogs - they have more room to move around and communicate using body language. Avoid introductions inside homes, because not only are those tight quarters, but one dog could feel protective of their space in the home, creating unnecessary tension. Look through the later parts of the document for more details on the off-leash part of the introduction.</p>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}]
+},{
 	"name": "Staff Topics",
 	"topics":[{
 		"name": "Dog/Dog Incident Questions",
@@ -776,19 +800,7 @@ export let categoryMetadata = [{
 		}],
 		"subTopics":[]
 	}]
-},{
-	"name": "Taking Medicine",
-	"topics":[{
-		"name": "Tips for picky eaters",
-		"key":"81",
-		"default Value": false,
-		"paragraphs":[{
-			"text": "<p>There are a lot of ways to try to entice a dog into taking their medicine. You can try hiding the pill in a variety of foods to see if there is one [he/she] can’t resist: sliced cheese (think kraft singles type), cream cheese, peanut butter, yogurt, ice cream, <a href=\"https://www.chewy.com/greenies-pill-pockets-canine-chicken/dp/29793\">Pill Pockets</a>, butter (actual butter, not peanut butter), cheese wiz, scrambled eggs. See if [he/she] likes one a lot more than the others, and use that one. Give [him/her] a few pieces of whatever treat you're going to use, then sneak the treat that has the medication wrapped in it, then give [him/her] more regular treats. For example, with sliced cheese, give [him/her] a little piece of a slice, then another little piece, then a piece that has the meds wrapped in it, followed quickly by another plain little piece. This way [he/she] is just focused on eating more bits of cheese and isn't suspicious you're trying to sneak something by [him/her]. If that doesn't work, you can try grinding up the pill and mixing it in with yogurt/peanut butter/cream cheese/wet food/etc. Sometimes dogs get too smart about being able to find the pills once they eat a treat, but don't mind it if it's ground up and mixed with something tasty. An important note is that you should <strong>not</strong> break or grind up medicine that is specifically “extended release”, because it is meant to dissolve slowly once consumed. If you’re unsure if you can grind up a pill, check in with your vet before doing so. </p>",
-			"requirementTypes":["Dog Name","Dog Gender"]
-		}],
-		"subTopics":[]
-	}]
-},{
+}, {
 	"name": "Storm Anxiety",
 	"topics":[{
 		"name": "General Advice",
@@ -796,6 +808,18 @@ export let categoryMetadata = [{
 		"default Value": false,
 		"paragraphs":[{
 			"text": "<p>My first suggestion is to work with [name] on crate training. Crating a dog, when introduced to the crate properly, can help reduce anxiety because they see their crate as a safe place. Dogs naturally like to \"den\", so a crate can be just that for them. Check out this <a href=\"https://docs.google.com/document/d/1FaJu2e8JHi0nifJ1vF_vu2rpNOw7bLeU_j8BcMLHdKg/edit?usp=sharing\">document on crate training</a> that walks through how to acclimate [him/her] to the crate step by step and make it a place [he/she] wants to hang out. I'd also recommend giving [him/her] something to keep [his/her] mind occupied while in the crate - you can check out this <a href=\"https://docs.google.com/document/d/1-3gSGddM75Cn3jVYjik3nEHqqWYd6pRTSgf1YLa4WA0/edit?usp=sharing\">document on canine enrichment</a> with ideas for how to keep [him/her] busy and tire out [his/her] brain. </p><p>Next, you may consider trying a <a href=\"https://thundershirt.com/\">Thundershirt</a>. It helps reduce storm anxiety in many dogs. If you get [him/her] one, I would recommend occasionally putting it on [him/her] on days when it isn't storming, so [he/she] doesn't start thinking that a wearing a thundershirt always means a scary thing is about to happen. Additionally, I would suggest try playing different types of white noise during the storm, such as getting a loud fan running, playing a radio, or just running the tv. Getting [him/her] plenty of exercise if you know a storm is predicted to come is another way to help preemptively avoid anxiety. You may also try restricting [him/her] to internal rooms like a closet or bathroom during the storm. It's just not a behavior you're probably ever going to get rid of, so finding the right combinations of management is your best bet.</p><p>Finally, you may also want to speak to your vet about options for medication or calming supplements to use during storms. Lots of dogs with storm anxiety have anti-anxiety medications that are administered just for thunderstorms, and they can help quite a bit. In addition, our <a href=\"https://www.facebook.com/groups/AustinPetsAliveAdopters/\">APA adopters alumni group</a> is a great place to crowdsource personal experiences on coping with storm anxiety.  </p>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}]
+},	{
+	"name": "Taking Medicine",
+	"topics":[{
+		"name": "Tips for picky eaters",
+		"key":"81",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "<p>There are a lot of ways to try to entice a dog into taking their medicine. You can try hiding the pill in a variety of foods to see if there is one [he/she] can’t resist: sliced cheese (think kraft singles type), cream cheese, peanut butter, yogurt, ice cream, <a href=\"https://www.chewy.com/greenies-pill-pockets-canine-chicken/dp/29793\">Pill Pockets</a>, butter (actual butter, not peanut butter), cheese wiz, scrambled eggs. See if [he/she] likes one a lot more than the others, and use that one. Give [him/her] a few pieces of whatever treat you're going to use, then sneak the treat that has the medication wrapped in it, then give [him/her] more regular treats. For example, with sliced cheese, give [him/her] a little piece of a slice, then another little piece, then a piece that has the meds wrapped in it, followed quickly by another plain little piece. This way [he/she] is just focused on eating more bits of cheese and isn't suspicious you're trying to sneak something by [him/her]. If that doesn't work, you can try grinding up the pill and mixing it in with yogurt/peanut butter/cream cheese/wet food/etc. Sometimes dogs get too smart about being able to find the pills once they eat a treat, but don't mind it if it's ground up and mixed with something tasty. An important note is that you should <strong>not</strong> break or grind up medicine that is specifically “extended release”, because it is meant to dissolve slowly once consumed. If you’re unsure if you can grind up a pill, check in with your vet before doing so. </p>",
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
@@ -825,7 +849,7 @@ export let categoryMetadata = [{
 
 
 /*TEMPLATE
-LAST KEY WAS 82
+LAST KEY WAS 84
 {
 	"name": "",
 	"topics":[{
