@@ -30,7 +30,7 @@ export class Schedule extends React.Component {
 							<tbody>
 								<tr>
 									<td>Tier 1 Volunteer</td>
-									<td>Sohpia (Training)</td>
+									<td>Sophia (Training)</td>
 									<td></td>
 									<td></td>
 									<td>Amanda D</td>
@@ -83,6 +83,13 @@ export class Schedule extends React.Component {
 										<Row className ="Sched-Cell">Angela</Row></td>
 									<td>Kathleen</td>
 									<td>Jess</td>
+								</tr>
+
+								<tr>
+									<td>Shy/Fearful Dog Volunteer</td>
+									<td colSpan="7">
+										Sarah (floats as needed)
+									</td>
 								</tr>
 
 								<tr>
