@@ -30,10 +30,10 @@ export class Schedule extends React.Component {
 							<tbody>
 								<tr>
 									<td>Tier 1 Volunteer</td>
+									<td>Sohpia (Training)</td>
 									<td></td>
 									<td></td>
-									<td></td>
-									<td>Amanda D (Training)</td>
+									<td>Amanda D</td>
 									<td></td>
 									<td></td>
 									<td>Mike</td>
