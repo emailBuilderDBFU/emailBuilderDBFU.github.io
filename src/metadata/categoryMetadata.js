@@ -166,6 +166,15 @@ export let categoryMetadata = [{
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
+	}, {
+		"name": "Tips to Help Cat Adapt",
+		"key":"87",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "<p>Here are some tips from our Cat Behavior team counterparts to help reduce your cat's stress during this transition period:</p><p>Cats are by nature solitary hunters who live in an established territory. The stability of their home environment is critical to their emotional and physical well-being. Unlike many dogs, they don't have a built-in social system that helps them to peacefully share territory and they will often need to learn it when new animals are introduced to their home. It's important to introduce change slowly and gradually if possible.</p><p>Ways to help cats with anxiety about environmental changes:</p><ul><li>Make sure the cat has a secure territory or separate space to escape to where they feel safe. For example, set up a sanctuary room, a quiet place with hiding places and high resting spaces to let the kitty feel in control of their territory, separate from new animals.</li><li>Allow the cat to approach and explore new things at their own pace. There is no hard and fast schedule for introducing a cat to environmental changes--some cats adapt faster and others take more time.</li><li>Use calming aids like Feliway, Rescue Remedy, or Jackson Galaxy's calming aids. (Different types work for different cats so there can be some trial and error finding one that works. Typically Feliway can take 1-3 weeks to work fully, whereas Rescue Remedy works faster but has to be given daily in the cat's water.)</li><li>Give treats, petting and reassurance often. Don't scold or punish the cat and avoid using a spray bottle—cats don't learn from negative reinforcement and it will often cause them further stress.</li><li>Schedule playtimes every day. Playing is a de-stressing activity and will take the cat's mind off things that are making them anxious, and help them relax and feel confident in their space. When cats are chasing, pouncing and catching an object, they feel like successful hunters. You can learn more about play therapy <a href=\"https://www.jacksongalaxy.com/blog/resolutions-for-a-healthy-cat-play-therapy/\">here</a>.</li><li>Cats like predictability. Keeping to a schedule helps them feel secure in knowing what to expect.</li>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
 	}]
 },	{
 	"name": "Check In Response",
@@ -870,7 +879,7 @@ export let categoryMetadata = [{
 
 
 /*TEMPLATE
-LAST KEY WAS 86
+LAST KEY WAS 87
 {
 	"name": "",
 	"topics":[{
