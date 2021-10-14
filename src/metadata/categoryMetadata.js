@@ -324,6 +324,18 @@ export let categoryMetadata = [{
 		"subTopics":[]
 	}]
 }, {
+	"name": "Eye Contact",
+	"topics":[{
+		"name": "Charging a Marker",
+		"key":"88",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "<p>Our <a href=\"https://youtu.be/jLwDl5mQvJM\">Marker Training for Eye Contact</a> video talks about using a \"marker\" such as a clicker or a word to communicate with a dog that they’re going to get something good (i.e. reward), just like <a href=\"https://en.wikipedia.org/wiki/Classical_conditioning\">Pavlov's bell</a>. Since dogs can connect sounds to \"consequences\" (including rewards) even several seconds after the sound, markers allow us to give immediate feedback without having to rush to grab a treat or hold a treat at the ready. You can \"charge\" the marker (build Pavlovian association) organically through training, which is explained in the video. We can also charge it outside of training through simple conditioning. Take your dog somewhere quiet indoors with a bag of quick-to-consume treats that the dog really, really likes. (Usually the soft & stinky kind are the most enticing, but each dog has their preferences.) All you have to do is hand/toss a treat and say the marker when [he/she] takes it/picks it up. No training expectations, just equating the sound/word with the reward for a minute or two here and there throughout the day. You can test recognition of the marker by saying it without the treat. If your dog perks up, starts looking around, and/or looks at you, then the dog is picking up on the association. (Toss a treat either way.) Once recognition is consistent on a few different occasions without any warm-up treats, you’re good to go! Remember, the marker gives us time to pull the treat out and offer it to the dog without rushing. This gives us breathing room to act and communicate with our dogs more effectively and more calmly.</p>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}]
+},	{
 	"name": "Generalized Anxiety",
 	"topics":[{
 		"name": "Accepting Pacing Behavior",
@@ -879,7 +891,7 @@ export let categoryMetadata = [{
 
 
 /*TEMPLATE
-LAST KEY WAS 87
+LAST KEY WAS 88
 {
 	"name": "",
 	"topics":[{
