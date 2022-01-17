@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import RichTextEditor from 'react-rte';
+import parse from "html-react-parser";
 
 export class EmailEditorNew extends Component {
 	state = {
@@ -8,12 +9,14 @@ export class EmailEditorNew extends Component {
 
 	render () {
 		return (
-			<RichTextEditor
-				className="text-editor"
-				editorClassName="rte-editor"
-				value={this.state.value}
-				onChange={(value) => this.onChange(value)}
-			/>
+			<div>
+				<RichTextEditor
+					className="text-editor"
+					editorClassName="rte-editor"
+					value={this.state.value}
+					onChange={(value) => this.onChange(value)}
+				/>
+			</div>
 		);
 	}
 

@@ -1,4 +1,62 @@
 export let categoryMetadata = [{
+	"name": "**Foster Class Offerings",
+	"topics":[{
+		"name": "Basic Obedience",
+		"key":"89",
+		"default Value": true,
+		"paragraphs":[{
+			"text": "<p> For in-person help on basic obedience skills (sit, down, come, etc), we offer a 6-week course available to our fosters. You can find more information about it <a href=\"https://sites.google.com/austinpetsalive.org/foster-dog-training-program/home\">here</a>, along with the other training courses that are available (all for free) to our fosters! </p>",
+			"requirementTypes":["Dog Name", "Author"]
+		}],
+		"subTopics": []
+	},
+	{
+		"name": "Generic",
+		"key":"90",
+		"default Value": true,
+		"paragraphs":[{
+			"text": "<p>We offer a variety of free training classes for our fosters which you can find information about <a href=\"https://sites.google.com/austinpetsalive.org/foster-dog-training-program/home\">here</a>. We encourage you to check them out, and sign up for a class if you're experiencing behaviors with your foster that align with the class! </p>",
+			"requirementTypes":["Dog Name", "Author"]
+		}],
+		"subTopics": []
+	},{
+		"name": "JAM",
+		"key":"91",
+		"default Value": true,
+		"paragraphs":[{
+			"text": "<p>We offer a free course for our fosters covering jumpy/mouthy behaviors. If you’re interested, check out <a href=\"https://sites.google.com/austinpetsalive.org/foster-dog-training-program/home\">this link</a> for more information! The jumpy/mouthy class is under the “Naughty Behaviors” option.</p>",
+			"requirementTypes":["Dog Name", "Author"]
+		}],
+		"subTopics": []
+	},{
+		"name": "Puppy Class",
+		"key":"92",
+		"default Value": true,
+		"paragraphs":[{
+			"text": "<p>We offer a puppy class for our fosters that helps enable you to set your foster puppy up for success before they find their forever home. More info on this free course can be found <a href=\"https://sites.google.com/austinpetsalive.org/foster-dog-training-program/home\">here</a>, along with information on our other foster courses. </p>",
+			"requirementTypes":["Dog Name", "Author"]
+		}],
+		"subTopics": []
+	},{
+		"name": "Resource Guarding",
+		"key":"93",
+		"default Value": true,
+		"paragraphs":[{
+			"text": "<p>There is a free course we offer for our fosters that covers resource guarding in more depth that may be helpful to check out. You can find more information about this course and our other foster training courses <a href=\"https://sites.google.com/austinpetsalive.org/foster-dog-training-program/home\">here</a>.</p>",
+			"requirementTypes":["Dog Name", "Author"]
+		}], 
+		"subTopics": []
+	},{
+		"name": "Transitional Stress",
+		"key":"94",
+		"default Value": true,
+		"paragraphs":[{
+			"text": "<p>If you’d like information on how to help foster dogs transition more smoothly into your home, consider taking our free foster class on Transitional Stress. You can find out about this course (and our other courses for fosters) <a href=\"https://sites.google.com/austinpetsalive.org/foster-dog-training-program/home\">here</a>. </p>",
+			"requirementTypes":["Dog Name", "Author"]
+		}],
+		"subTopics":[]
+	}]
+},{
 	"name": "Introduction",
 	"topics":[{
 		"name": "Author Intro",
@@ -86,6 +144,15 @@ export let categoryMetadata = [{
 }, {
 	"name": "Cat-Dog Interactions",
 	"topics":[{
+		"name": "Eating Litter Box Snacks",
+		"key":"97",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "</p>As gross as it is, cat poop is a particularly tasty treat for dogs. The best way to keep [name] from sneaking into these stinky snack boxes is making sure [he/she] can't access them. This can be accomplished by blocking off the cat litter room/area with a baby gate that has a built-in cat door, facing a covered litter box toward the wall with enough room for the cat to easily get in and out but not the dog's head, switch to a top-entry box, and/or using a cat litter cabinet. I recommend asking your vet on how to help your cat adjust to a new box (or cabinet) as some cats need a short transition period while they figure it out. Of course, be mindful of your cat's behavior and mood when changing anything in the environment, as these changes can initially be stressful for some cats. If you need any tips on reducing a cat's stress around a dog in the home, let us know!</p>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}, {
 		"name": "Generic Cat/Dog Intro",
 		"key":"4",
 		"default Value": false,
@@ -519,7 +586,7 @@ export let categoryMetadata = [{
 		"key":"27",
 		"default Value": false,
 		"paragraphs":[{
-			"text": "<p>The behavior of pulling, barking, or growling on leash in response to other animals, people, etc is called \"on leash reactivity.\" It's actually really common in dogs, and there are tried and true methods to work through it. This is a <a href=\"https://docs.google.com/document/d/1HGmNkh-M9x3wt73nwmny0fGGjg3hSxma-zzKOpNBNXI/edit?usp=sharing\">document on leash reactivity</a> that goes over the basics on how to curb [his/her] rude behavior, but I'll touch on some points in this email too.</p><p>The goal of on leash reactivity training is to teach [name] a more appropriate response when [he/she] sees dogs on leash. We want to teach “replacement behaviors” that [name] will do instead of reacting. This is basically teaching [him/her] impulse control - to think before [he/she] gives in to [his/her] desire to react. A typical replacement behavior is [name] sitting by your side and \"checking in\" with you, aka looking at your face/giving you eye contact. The first step you'll want to do is work on [him/her] being able to perform \"sit\" on verbal in a calm, quiet environment (like inside your home). Check out the links in the document for how we teach sit and eye contact to get started. </p><p>Once [he/she] can do that consistently, we can start working through [his/her] behavior on leash. Like I said above, when you take [him/her] on walks, bring some high value treats along. When you see a person or dog, hopefully before [he/she] sees said person or dog, first try to create some distance - move off to the side of the trail, cross the street, just add some buffer space. Next ask [him/her] to \"sit\" and then reward [him/her] with treats and praise for sitting. Continue to make [him/her] hold [his/her] sit (you can use the \"stay\" command if [he/she] knows it or follow the techniques described in the APA sit videos) while the distraction passes by. Any time [he/she] looks at you instead of the dog or person, heavily praise and reward [him/her] with treats. Once they are gone, release [him/her] from holding [his/her] sit and carry on your walk.</p><p>The key to this training technique is consistency and a foundation in the basics. If [he/she] can't hold a sit/stay at home without distractions, there is very little hope [he/she] will be able to hold it while out on walks in the exciting world. So depending on where [he/she] is at in [his/her] obedience training, you may need to start working on this just in your home, then progress to the outdoors. Read through that document and start giving these techniques a go. Let me know if you have any questions on how to implement this. </p>",
+			"text": "<p>The behavior of pulling, barking, or growling on leash in response to other animals, people, etc is called \"on leash reactivity.\" It's actually really common in dogs, and there are tried and true methods to work through it. This is a <a href=\"https://docs.google.com/document/d/1HGmNkh-M9x3wt73nwmny0fGGjg3hSxma-zzKOpNBNXI/edit?usp=sharing\">document on leash reactivity</a> that goes over the basics on how to curb [his/her] rude behavior, but I'll touch on some points in this email too.</p><p>The goal of on leash reactivity training is to teach [name] a more appropriate response when [he/she] sees dogs on leash. We want to teach “replacement behaviors” that [name] will do instead of reacting. This is basically teaching [him/her] impulse control - to think before [he/she] gives in to [his/her] desire to react. A typical replacement behavior is [name] sitting by your side and \"checking in\" with you, aka looking at your face/giving you eye contact. The first step you'll want to do is work on [him/her] being able to perform \"sit\" on verbal in a calm, quiet environment (like inside your home). Check out the links in the document for how we teach sit and eye contact to get started. </p><p>Once [he/she] can do that consistently, we can start working through [his/her] behavior on leash. When you take [him/her] on walks, be sure to bring some high value treats along. When you see a person or dog, hopefully before [he/she] sees said person or dog, first try to create some distance - move off to the side of the trail, cross the street, just add some buffer space. Next ask [him/her] to \"sit\" and then reward [him/her] with treats and praise for sitting. Continue to make [him/her] hold [his/her] sit (you can use the \"stay\" command if [he/she] knows it or follow the techniques described in the APA sit videos) while the distraction passes by. Any time [he/she] looks at you instead of the dog or person, heavily praise and reward [him/her] with treats. Once they are gone, release [him/her] from holding [his/her] sit and carry on your walk.</p><p>The key to this training technique is consistency and a foundation in the basics. If [he/she] can't hold a sit/stay at home without distractions, there is very little hope [he/she] will be able to hold it while out on walks in the exciting world. So depending on where [he/she] is at in [his/her] obedience training, you may need to start working on this just in your home, then progress to the outdoors. Read through that document and start giving these techniques a go. Let me know if you have any questions on how to implement this. </p>",
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
@@ -649,6 +716,15 @@ export let categoryMetadata = [{
 		"default Value": false,
 		"paragraphs":[{
 			"text": "<p>Typically if an adult dog suddenly regresses in potty training, the first thing we want to rule out is an underlying medical issue. I would recommend talking to your vet about this and see what they think. Have you had any big changes in your life lately, like moving to a new home, getting/losing roommates, or changing your work hours? Dogs can handle stress of transitions in different ways, so if there is some large change in [his/her] life, this behavior could be a result of that. Is [he/she] having accidents when you are home, or is it only when you are away? If it is only when you’re away, this could be a sign of separation anxiety. Let me know if this is the case and we can talk through separation anxiety, and the slightly different approach in working through this behavior. Otherwise, check out our <a href=\"https://docs.google.com/document/d/1XBXnvgKw4sQOktYx93bHkgrzMjIFX3-UBEg6-_3STZw/edit?usp=sharing\">document on house training</a> for adult dogs and follow the techniques listed in there. You may just have to put in a little extra effort to \"reset\" [name]’s potty training skills. Praise [him/her] every time [he/she] goes potty outdoors, and take [him/her] out frequently. If you catch [him/her] pottying indoors, interrupt [him/her] with a loud clap of your hands and then lead [him/her] outside. You can attach a lightweight leash that is always on [him/her], dragging on the ground, so that when you need to walk [him/her] outside you can just pick up the leash and go. By consistently interrupting [him/her] inside and praising [him/her] for going outside you will teach [him/her] what is appropriate and inappropriate for going potty. Remember to always be consistent in your training. If you cannot keep an eye on [him/her] while home, then put [him/her] in [his/her] crate so that [he/she] doesn't get a chance to go potty when you are not there to guide [him/her] outside. Reach out if you have any questions on this, or if you don’t see improvements after a few weeks of working with [him/her] on it.</p>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	},{
+		"name": "Teach to Ring Bell",
+		"key":"95",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "<p> Check out this article for information on how to teach a dog to ring a bell to indicate they need to go potty. <a hrer=\"https://www.rover.com/blog/bell-training-dogs-really-works-heres/\">This article</a> gives a pretty good breakdowns of the steps you'd want to take to do this with [name]. This starts with teaching [him/her] to \"touch\" a bell, and I am attaching a document <a href=\"https://docs.google.com/document/d/1Bm_rfCxotc2PuQzA2ZK__1LN9UBdti3zCWp-yOEzI-E/edit?usp=sharing\">here</a> that breaks down the process of teaching this skill. Once [he/she] knows how to do this, you can work towards getting [him/her] to ring the bell before going out, as outlined in the articles. Eventually, [name] would learn that ringing the bell means [he/she] can go outside to potty, which would give you an audible cue to take [him/her] outside. As with any type of training, this will require a little bit of patience, but it can definitely be helpful in the long run. We're also here to troubleshoot this process with you along the way as needed.</p>",
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
@@ -867,6 +943,18 @@ export let categoryMetadata = [{
 		"subTopics":[]
 	}]
 },	{
+	"name": "Tandem Walks",
+	"topics":[{
+		"name": "To Introduce to People",
+		"key":"96",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "<p>The goal of a tandem walk is for [name] to see the new person without that person doing anything \"threatening\" in [his/her] mind (which can be as innocuous as saying \"hello\" for some dogs) and avoiding reactivity from [name]. The new person should not be engaging with [name] in any way at any point during a tandem walk (not looking at, reaching for, talking to, crouching down, etc.).</p><ol><li> Give [name] a chance to potty, preferably before allowing [him/her] visual access to the new person if possible.</li><li>Ideally start with the new person on the opposite side of the street, leaving plenty of distance as you, [name], and the new person walk in the same direction. Have [name] on the opposite side of you as the new person (you're in the middle).</li><li>If [name] appears comfortable (not reacting, not staring/fixating on the person, not super skittish, etc.) you will slowly move closer to the new person. You can also reinforce calmer behavior and more relaxed behavior with praise and/or treats from you if [name] views these things as positive in the moment. Some dogs are too stressed to take treats or care about praise, even if they love these rewards in the home.</li><li>If [name] is barking, lunging, growling, or showing lots of interest in the new person, move farther apart until [name] is calmer and maintain this distance for a longer period of time before trying to move closer again. If [name] becomes reactive during a tandem walk, OR if [he/she] has a history of biting people when on leash, you should maintain enough distance so that [he/she] cannot access the new person on leash for the duration of the walk unless otherwise discussed with one of our trainers.</li><li>If there is no reactivity on the walk, and [name] chooses to sniff the person as you get closer, it is important to only allow [him/her] to do so when the leash is loose. Leash pressure can cause frustration and lead to increased stress. The leash should be long enough so that there is no tension, but short enough so that if we needed to quickly move the dog away, it would only take one or two steps back to do so.</li><li>If [name] appears to look increasingly uncomfortable while sniffing the person (freezes, tenses up, tail tucks, ears pin back against the head, etc.) calmly call [him/her] away without leash pressure. We want to avoid adding frustration and tipping the situation. You can also drop some treats and lure [him/her] away from the person this way if [he/she] is not responsive to a calm voice.</li><li>If the tandem walk is successful (no reactivity, relaxing in close proximity, etc.), head home. Depending on [name]'s level of stress around the new individual, it may take more than one tandem walk to reach this point, and this process may not be linear. A dog may become more uncomfortable the longer they walk a certain distance from a new person despite initially appearing comfortable, or something else in the environment may increase their stress level and cause them to be less tolerant of the stranger's proximity. </li></ol><p>Remember to watch [name]'s body language throughout each walk. [He/She] should remain calm and relaxed, and enjoy the walk. [He/She] will \"tell\" us whether or not [he/she] is through [his/her] body language. </p>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+	}]
+},	{
 	"name": "Transition Issues",
 	"topics":[{
 		"name": "Not Eating",
@@ -891,7 +979,7 @@ export let categoryMetadata = [{
 
 
 /*TEMPLATE
-LAST KEY WAS 88
+LAST KEY WAS 97
 {
 	"name": "",
 	"topics":[{
