@@ -320,11 +320,3 @@ SCHDEULE
 .table-bordered {
     border: 1px solid #8fbec1;
 }
-
-/*****
-TEST
-*********/
-.test-text-box{
-	background-color: white;
-	font-family:sans-serif;
-}
