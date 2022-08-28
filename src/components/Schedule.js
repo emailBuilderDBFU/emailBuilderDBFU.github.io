@@ -30,11 +30,11 @@ export class Schedule extends React.Component {
 							<tbody>
 								<tr>
 									<td>Tier 1 Volunteer</td>
-									<td>Sophia (Training)</td>
-									<td></td>
-									<td></td>
+									<td>Sophia</td>
+									<td>Amanda D *</td>
+									<td>Amanda D *</td>
 									<td>Amanda D</td>
-									<td></td>
+									<td>Amanda D *</td>
 									<td></td>
 									<td>Mike</td>
 								</tr>
@@ -45,8 +45,7 @@ export class Schedule extends React.Component {
 										<Row className ="Sched-Cell">Kristin</Row> 
 									</td>
 									<td>
-										<Row className ="Sched-Cell">Laura M</Row> 
-										<Row className ="Sched-Cell">Stephanie (Training)</Row>
+										<Row className ="Sched-Cell">Stephanie</Row>
 									</td>
 									<td>
 										<Row className ="Sched-Cell">Laura M</Row> 
@@ -56,6 +55,7 @@ export class Schedule extends React.Component {
 										<Row className ="Sched-Cell">Amanda S</Row>
 									</td>
 									<td>
+										<Row className ="Sched-Cell">Laura M</Row> 
 										<Row className ="Sched-Cell">Lisa</Row> 
 									</td>
 									<td>
@@ -73,15 +73,16 @@ export class Schedule extends React.Component {
 										<Row className ="Sched-Cell">Jess</Row> 
 										<Row className ="Sched-Cell">Megan</Row>
 									</td>
-									<td>Jess</td>
+									<td>
+										<Row className ="Sched-Cell">Jess</Row> 
+									</td>
 									<td>
 										<Row className ="Sched-Cell">Kathleen</Row> 
 										<Row className ="Sched-Cell">Amanda S</Row>
 									</td>
 									<td>Kathleen</td>
-									<td><Row className ="Sched-Cell">Kathleen</Row> 
-										<Row className ="Sched-Cell">Angela</Row></td>
-									<td>Kathleen</td>
+									<td>Jess</td>
+									<td>Jess</td>
 									<td>Jess</td>
 								</tr>
 
@@ -95,38 +96,48 @@ export class Schedule extends React.Component {
 								<tr>
 									<td>Staff</td>
 									<td>
-										<Row className ="Sched-Cell">Amy</Row> 
+										<Row className ="Sched-Cell">Indra</Row> 
 										<Row className ="Sched-Cell">Laura P</Row>
 										<Row className ="Sched-Cell">Kaitlan</Row> 
+										<Row className ="Sched-Cell">Zan</Row> 
 									</td>
 									<td>
-										<Row className ="Sched-Cell">Amy</Row> 
+										<Row className ="Sched-Cell">Indra</Row> 
 										<Row className ="Sched-Cell">Laura P</Row>
 										<Row className ="Sched-Cell">Kaitlan</Row>
+										<Row className ="Sched-Cell">Shonagh</Row>
+										<Row className ="Sched-Cell">Zan</Row>  
 									</td>
 									<td>
-										<Row className ="Sched-Cell">Amy</Row> 
+										<Row className ="Sched-Cell">Indra</Row> 
 										<Row className ="Sched-Cell">Laura P</Row>
+										<Row className ="Sched-Cell">Shonagh</Row> 
+										<Row className ="Sched-Cell">Tara *</Row> 
 										<Row className ="Sched-Cell">Zan</Row>
-										<Row className ="Sched-Cell">Kaitlan</Row>
 									</td>
 									<td>
+										<Row className ="Sched-Cell">Carrie</Row> 
+										<Row className ="Sched-Cell">Indra</Row> 
 										<Row className ="Sched-Cell">Laura P</Row>
+										<Row className ="Sched-Cell">Shonagh</Row>
 										<Row className ="Sched-Cell">Zan</Row>
+									</td>
+									<td>
+										<Row className ="Sched-Cell">Carrie *</Row>
 										<Row className ="Sched-Cell">Kaitlan</Row>
-									</td>
-									<td>
-										<Row className ="Sched-Cell">Zan</Row>
-										<Row className ="Sched-Cell">Kaitlan</Row>
-									</td>
-									<td>
-										<Row className ="Sched-Cell">Amy</Row> 
+										<Row className ="Sched-Cell">Shonagh</Row> 
 										<Row className ="Sched-Cell">Zan</Row>
 									</td>
 									<td>
-										<Row className ="Sched-Cell">Amy</Row> 
+										<Row className ="Sched-Cell">Carrie *</Row> 
 										<Row className ="Sched-Cell">Laura P</Row>
-										<Row className ="Sched-Cell">Zan</Row>
+										<Row className ="Sched-Cell">Kaitlin</Row> 
+									</td>
+									<td>
+										<Row className ="Sched-Cell">Indra</Row> 
+										<Row className ="Sched-Cell">Kaitlin</Row>
+										<Row className ="Sched-Cell">Shonagh</Row> 
+										<Row className ="Sched-Cell">Tara *</Row>
 									</td>
 								</tr>
 							</tbody>
