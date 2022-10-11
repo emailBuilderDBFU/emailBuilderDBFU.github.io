@@ -29,15 +29,6 @@ export let categoryMetadata = [{
 		}],
 		"subTopics": []
 	},{
-		"name": "Puppy Class",
-		"key":"92",
-		"default Value": true,
-		"paragraphs":[{
-			"text": "<p>We offer a puppy class for our fosters that helps enable you to set your foster puppy up for success before they find their forever home. More info on this free course can be found <a href=\"https://sites.google.com/austinpetsalive.org/foster-dog-training-program/home\">here</a>, along with information on our other foster courses. </p>",
-			"requirementTypes":["Dog Name", "Author"]
-		}],
-		"subTopics": []
-	},{
 		"name": "Resource Guarding",
 		"key":"93",
 		"default Value": true,
@@ -100,7 +91,7 @@ export let categoryMetadata = [{
 		"subTopics":[]
 	}]
 }, {
-	"name": "Basic Obedience Requests",
+	"name": "Basic Obedience Requests from Adopters",
 	"topics":[{
 		"name": "Requesting BO Class (Adopted Dogs)",
 		"key":"3",
@@ -445,7 +436,7 @@ export let categoryMetadata = [{
 		"key":"18",
 		"default Value": false,
 		"paragraphs":[{
-			"text": "<p>\"Mental\" exercise can be an effective way to burn some steam and channel [name]’s focus into something productive as well. One of the easiest ways to mentally enrich a dog is by using their food. You could stop feeding [him/her] with a regular bowl and instead, make [him/her] \"work\" for [his/her] food at meal times by feeling [him/her] with a \"puzzle\" toy, or even just scattering [his/her] kibble on the ground to sniff out. This adds a little challenge to [his/her] meal, occupies [his/her] focus, and is completely hands-off for you. Check out <a href=\"https://docs.google.com/document/d/1-3gSGddM75Cn3jVYjik3nEHqqWYd6pRTSgf1YLa4WA0/edit?usp=sharing\">this</a> document on “canine enrichment” for more details on puzzle toys, snuffle mats, and other ways to engage [name] mentally.</p>",
+			"text": "<p>\"Mental\" exercise can be an effective way to burn some steam and channel [name]’s focus into something productive as well. One of the easiest ways to mentally enrich a dog is by using their food. You could stop feeding [him/her] with a regular bowl and instead, make [him/her] \"work\" for [his/her] food at meal times by feeding [him/her] with a \"puzzle\" toy, or even just scattering [his/her] kibble on the ground to sniff out. This adds a little challenge to [his/her] meal, occupies [his/her] focus, and is completely hands-off for you. Check out <a href=\"https://docs.google.com/document/d/1-3gSGddM75Cn3jVYjik3nEHqqWYd6pRTSgf1YLa4WA0/edit?usp=sharing\">this</a> document on “canine enrichment” for more details on puzzle toys, snuffle mats, and other ways to engage [name] mentally.</p>",
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
@@ -884,7 +875,16 @@ export let categoryMetadata = [{
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
-	}]
+	},{
+		"name": "Intervention Options",
+		"key":"97",
+		"default Value": false,
+		"paragraphs":[{
+			"text": "<p> I want to touch on intervention options in addition to training. I would not rely on any of these by themselves, as they will not specifically target the emotional response [he/she] is having when being left alone, but they can help in conjunction with training. It's also important to note that the efficacy of each can vary from dog to dog. They are not all effective for every dog, so it can take some trial and error.</p><p><ul><li>Calming chews</li><li>CBD oil</li><li>Purina Calming Care</li><li>Adaptil spray/diffuser</li><li>ThunderShirt - One caveat when it comes to the ThunderShirt is to not put it on [him/her] only when you are leaving and crate training. We want to avoid unintentionally building an association between it and the things that are causing [name] anxiety. There have been cases where using it only when leaving has ultimately canceled out any initial calming effect, and in some cases it starts to cause anxiety because the dog anticipates the crate/being separated. This isn't necessarily a highly common issue, but dogs in general are very good at picking up on patterns (which is why a big part of separation anxiety training is about breaking up patterns).</li></ul><p>As with separation anxiety training itself, other types of intervention are not always long term (though they are in some cases). Sometimes it's a matter of getting a dog's anxiety levels down sufficiently so that training is an effective tool. If a dog is quickly and frequently hitting 100+ on the anxiety scale, it's hard to shimmy in there before the dog becomes so overwhelmed they can't really process what we're trying to communicate through training (like someone telling us \"just calm down\" when we're in distress). Non-training intervention can help dial things down, maybe not low, but at least inside a threshold where the dog isn't panicking and is more responsive to training.</p>",
+			"requirementTypes":["Dog Name","Dog Gender"]
+		}],
+		"subTopics":[]
+}]
 },	{
 	"name": "Socialization",
 	"topics":[{
@@ -961,7 +961,7 @@ export let categoryMetadata = [{
 		"key":"42",
 		"default Value": false,
 		"paragraphs":[{
-			"text": "<p>It is common for dogs to not eat when they're in a new environment. The stress of getting used to a new home and schedule often leads to a reduced appetite. Adult dogs can go a couple days without food with no long-term negative effects, so try not to stress too much. Keep offering [him/her] food at [his/her] meal times. If you're worried and want [him/her] to start eating sooner, you can mix something especially yummy, like plain yogurt, canned dog food or low-sodium, onion free broth, in with [his/her] kibble to entice [him/her] to eat. As [he/she] starts to feel more comfortable in your home [his/her] appetite should return. Check out our <a href=\"https://docs.google.com/document/d/1Og2V9uOGp9RvX121atHt4-K8B2cuXd5tR0LYd6DgNao/edit?usp=sharing\">document on transitions</a> for some more information on common behaviors dogs show while adjusting to a new home. </p>",
+			"text": "<p>It is common for dogs to not eat when they're in a new environment. The stress of getting used to a new home and schedule often leads to a reduced appetite. Adult dogs can go a couple days without food with no long-term negative effects, so try not to stress too much. Keep offering [him/her] food at [his/her] meal times. If you're worried and want [him/her] to start eating sooner, you can mix something especially yummy, like plain yogurt, canned dog food or low-sodium, onion free broth, in with [his/her] kibble to entice [him/her] to eat. As [he/she] starts to feel more comfortable in your home [his/her] appetite should return. Check out our <a href=\"https://docs.google.com/document/d/19zSdoKDTMCHynqNlzE3qIZ4-YM81nNiR5btuiQ-9OQc/edit?usp=sharing\">document on transitions</a> for some more information on common behaviors dogs show while adjusting to a new home. </p>",
 			"requirementTypes":["Dog Name","Dog Gender"]
 		}],
 		"subTopics":[]
