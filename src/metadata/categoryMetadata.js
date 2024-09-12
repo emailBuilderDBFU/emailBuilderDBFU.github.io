@@ -1,5 +1,5 @@
 export let categoryMetadata = [{
-	"name": "**Foster Class Offerings",
+	"name": "*Foster Class Offerings",
 	"topics":[{
 		"name": "Basic Obedience",
 		"key":"89",
