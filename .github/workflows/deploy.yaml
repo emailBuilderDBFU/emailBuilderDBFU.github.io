@@ -17,4 +17,8 @@ jobs:
       with:
         node-version: 18.17
     - run: npm install
+    - run: git config --global user.email "ktmcguire@sandiego.edu"
+    - run: git config --global user.name "Kathleen McGuire"
     - run: export NODE_OPTIONS=--openssl-legacy-provider && export CI=false && npm run deploy
+
+  
