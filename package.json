@@ -2,6 +2,7 @@
   "name": "email-builder",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://emailbuilderdbfu.github.io/",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "copy-to-clipboard": "^3.3.1",
