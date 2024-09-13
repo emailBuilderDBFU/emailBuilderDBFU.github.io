@@ -1,5 +1,5 @@
 export let categoryMetadata = [{
-	"name": "**Foster Class Offerings",
+	"name": "*Foster Class Offerings",
 	"topics":[{
 		"name": "Basic Obedience",
 		"key":"89",
@@ -9,8 +9,7 @@ export let categoryMetadata = [{
 			"requirementTypes":["Dog Name", "Author"]
 		}],
 		"subTopics": []
-	},
-	{
+	},{
 		"name": "Generic",
 		"key":"90",
 		"default Value": true,
